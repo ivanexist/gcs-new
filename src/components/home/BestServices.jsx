@@ -30,17 +30,17 @@ export default function BestServices() {
                 />
               </div>
               <div>
-                <p className="font-semibold my-4 text-blue-600">
+                <p className="font-semibold my-4 text-xl text-blue-600">
                   Street Construction
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <p className="text-gray-500 text-justify">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Culpa, quia officiis facere ullam laborum error veritatis
                   illum. Cumque, voluptas consequuntur!
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="flex flex-col">
               <div className="flex justify-center items-center">
@@ -51,17 +51,17 @@ export default function BestServices() {
                 />
               </div>
               <div>
-                <p className="font-semibold my-4 text-blue-600">
+                <p className="font-semibold text-xl my-4 text-blue-600">
                   House Constructions
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <p className="text-gray-500 text-justify">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Culpa, quia officiis facere ullam laborum error veritatis
                   illum. Cumque, voluptas consequuntur!
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="flex flex-col">
               <div className="flex justify-center items-center">
@@ -72,17 +72,17 @@ export default function BestServices() {
                 />
               </div>
               <div>
-                <p className="font-semibold my-4 text-blue-600">
+                <p className="font-semibold my-4 text-xl text-blue-600">
                   Pipe Installation
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <p className="text-gray-500 text-justify">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Culpa, quia officiis facere ullam laborum error veritatis
                   illum. Cumque, voluptas consequuntur!
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="flex justify-center items-center my-12 ">

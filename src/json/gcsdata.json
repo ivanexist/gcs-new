@@ -36,7 +36,7 @@
       "service_image": "Pembangunan-Jalan/Proses-2-jalan.jpeg",
       "description": [
         {
-          "description_overview": "PT Gemilang Cipta Sentosa specializes in constructing and repairing streets to ensure safe, durable, and well-designed roadways, including asphalt and concrete paving.",
+          "description_overview": "Pembangunan jalan melibatkan berbagai tahapan yang melibatkan perencanaan, pengukuran, pemadatan, serta pengaspalan, hingga penyelesaian akhir jalan yang aman dan berfungsi dengan baik",
           "description_service_consultant": "Our team of street construction consultants provides expertise in planning, design, and project management. We work closely with clients to assess project requirements, budget, and timelines, ensuring that every street construction project aligns with safety standards, environmental considerations, and optimal usage. Our consultants are dedicated to delivering sustainable solutions for smooth and resilient roadways.",
           "description_our_services_includes": [{}],
           "description_contact_us": "contact us"
@@ -46,10 +46,10 @@
     {
       "service_id": 2,
       "service_name": "House Construction",
-      "service_image": "Rumneg-T45-Lantamal-V/Side-1.jpg",
+      "service_image": "Rumneg-T45-Lantamal-V/Side-1.JPG",
       "description": [
         {
-          "description_overview": "The company provides comprehensive house construction services, covering everything from planning and design to building and finishing, creating high-quality, lasting residential spaces.",
+          "description_overview": "Pembangunan perumahan mencakup kegiatan yang bertujuan untuk membangun perumahan yang layak huni.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -62,7 +62,7 @@
       "service_image": "Pipa-Pelindo-Energi-Logistik/Side-3.jpg",
       "description": [
         {
-          "description_overview": "Skilled in pipe installation for both residential and commercial needs, PT Gemilang Cipta Sentosa offers efficient and reliable services for water supply, drainage, and sewage systems.",
+          "description_overview": "Pemasangan dan pemeliharaan sistem perpipaan di berbagai jenis bangunan atau infrastruktur.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -75,7 +75,7 @@
       "service_image": "Gedung-Barak-Kowal-Lantamal-VI/Side-2.jpeg",
       "description": [
         {
-          "description_overview": "This includes construction of commercial and industrial buildings, with a focus on structural integrity, safety, and adherence to client specifications and project timelines.",
+          "description_overview": "Pembangunan yang melibatkan berbagai aspek yang melibatkan banyak pihak, seperti arsitek, insinyur sipil, mandor, pekerja lapangan.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -88,7 +88,7 @@
       "service_image": "Shelter-Filling-Station/Proses-2.jpeg",
       "description": [
         {
-          "description_overview": "With expertise in steel framework, the company handles steel construction projects, which are ideal for durable and high-load structures such as warehouses and multi-story buildings.",
+          "description_overview": "Pekerjaan konstruksi baja melibatkan berbagai aktivitas yang terkait dengan fabrikasi, dan pemasangan struktur baja untuk berbagai jenis bangunan dan infrastruktur.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -101,7 +101,7 @@
       "service_image": "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-3.jpg",
       "description": [
         {
-          "description_overview": "PT Gemilang Cipta Sentosa also designs and installs drainage systems to manage water flow, prevent flooding, and enhance the durability of roadways and other infrastructure.",
+          "description_overview": "Pekerjaan ini sangat penting dalam memastikan keberlanjutan lingkungan dan infrastruktur kota atau wilayah, karena drainase yang baik akan membantu mengurangi dampak bencana alam, seperti banjir, serta menjaga kesehatan lingkungan.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"

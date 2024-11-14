@@ -5,7 +5,7 @@ const AboutContent = () => (
         <div className="w-full mb-10 lg:w-1/2 lg:mb-0 mx-4">
           <div>
             <h1 className="text-3xl font-sans flex justify-center items-center font-bold text-blue-600 md:text-4xl uppercase mb-8">
-              Who we are ?
+              SEJARAH PERUSAHAAN
             </h1>
           </div>
           <p className="my-4 text-base leading-7 text-gray-500 text-justify">
@@ -61,7 +61,7 @@ const AboutContent = () => (
         </div>
         <div className="flex flex-col p-2 text-justify">
           <div className="font-semibold text-2xl my-4  text-blue-600 uppercase flex justify-center items-center">
-            Our Mission
+            MISI
           </div>
           <div className="text-gray-500">
             <ul className="list-disc">
@@ -90,7 +90,7 @@ const AboutContent = () => (
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-8 uppercase ">
+      <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-8 uppercase">
         <p className="border-b-2 pb-4 border-b-atlantis-500">Sertifikat</p>
       </div>
       <div className="flex justify-center items-center my-8 mb-16">
@@ -148,7 +148,7 @@ const AboutContent = () => (
       <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase ">
         <p className="border-b-2 pb-4 border-b-atlantis-500">Our Clients</p>
       </div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0">
+      <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0 bg-white">
         <div className="flex flex-col m-4">
           <div>
             <img

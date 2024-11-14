@@ -24,51 +24,51 @@ const WelcomeToGCS = () => {
           quisquam molestiae ratione animi autem minus distinctio explicabo vero
           mollitia eaque laborum.
         </p> */}
-        <div className="mx-16 my-4 text-gray-600">
-          <ul className="flex flex-col justify-start items-start list-none">
-            <li className="my-2 text-lg text-blue-600">
+        <div className="mx-16 pl-16 my-4 text-gray-600">
+          <ul className="flex flex-col justify-center items-start list-none">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Glory</i>
               </b>{" "}
               - <span className="text-atlantis-500">Bagus</span>
             </li>
-            <li className="my-2 text-lg text-blue-600">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Excellent</i>
               </b>{" "}
               - <span className="text-atlantis-500">Sempurna</span>
             </li>
-            <li className="my-2 text-lg text-blue-600">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Modest</i>
               </b>{" "}
               - <span className="text-atlantis-500">Sederhana</span>
             </li>
-            <li className="my-2 text-lg text-blue-600">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Innovative</i>
               </b>{" "}
               - <span className="text-atlantis-500">Inovasi</span>
             </li>
-            <li className="my-2 text-lg text-blue-600">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Loyal</i>
               </b>{" "}
               - <span className="text-atlantis-500">Setia</span>
             </li>
-            <li className="my-2 text-lg text-blue-600">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Accurate</i>
               </b>{" "}
               - <span className="text-atlantis-500">Tepat</span>
             </li>
-            <li className="my-2 text-lg text-blue-600">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Networking</i>
               </b>{" "}
               - <span className="text-atlantis-500">Membangun Hubungan</span>
             </li>
-            <li className="my-2 text-lg text-blue-600">
+            <li className="my-2 text-xl text-blue-600">
               <b>
                 <i>Growth</i>
               </b>{" "}

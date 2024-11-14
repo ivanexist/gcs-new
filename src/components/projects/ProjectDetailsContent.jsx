@@ -110,7 +110,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                         {formatTextWithBreaks(selectedProject.description)}
                       </span>
                     </p>
-                    <p className="py-2 text-gray-600  text-justify">
+                    {/* <p className="py-2 text-gray-600  text-justify">
                       From November 2013 to April 2014, EllisDon was awarded an
                       additional Lump Sum contract for $5 million. This
                       additional scope of work included a lab fit- up on the
@@ -126,7 +126,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                       repellat laboriosam optio! Quidem quasi iure recusandae
                       laboriosam quod voluptas omnis provident architecto? Natus
                       deleniti ratione consectetur nulla cupiditate.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div className="col-span-1 my-4">

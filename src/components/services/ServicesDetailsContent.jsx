@@ -54,16 +54,14 @@ const ServicesDetailsContent = () => {
                     {getServiceName(selectedService.service_id)}
                   </h1>
                   <p className="my-4 text-gray-500">
-                    We work to develop and understand project expectations and
-                    then manage those needs with a customized, qualified design
-                    team. Innovation should happen throughout a project
+                    {selectedService.description[0].description_overview}
                   </p>
                 </div>
                 <div>
                   <img
-                    src="../../../public/images/Rumneg-T45-Lantamal-V/Proses.jpeg"
+                    src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedService.service_image}`}
                     alt=""
-                    className="h-full w-full"
+                    className="h-80 w-[1032px]"
                   />
                 </div>
               </div>

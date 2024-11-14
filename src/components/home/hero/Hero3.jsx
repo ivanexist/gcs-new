@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Hero3 = () => (
-  <section className=" bg-[linear-gradient(to_right,rgba(255,255,255,0.3),rgba(255,255,255,0.7)),url(../../../../public/images/Gedung-Flat-T45-Marinir/Side-1.jpg)] bg-cover bg-center bg-no-repeat sm:h-[40rem] lg:h-[40rem]">
+  <section className=" bg-[linear-gradient(to_right,rgba(255,255,255,0.3),rgba(255,255,255,0.7)),url(https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Gedung-Flat-T45-Marinir/Side-1.jpg)] bg-cover bg-center bg-no-repeat sm:h-[40rem] lg:h-[40rem]">
     {/* <img
       src="../../../../public/images/Gedung-Flat-T45-Marinir/Side-1.jpg"
       alt=""

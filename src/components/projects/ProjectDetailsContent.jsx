@@ -51,7 +51,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
               {/* Main Slideshow Image */}
               <div className="relative w-full h-[480px]">
                 <img
-                  src={`../../../public/images/${selectedProject.images[currentIndex]}`}
+                  src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedProject.images[currentIndex]}`}
                   alt="slide"
                   className="w-full h-full object-cover object-center shadow-lg"
                 />

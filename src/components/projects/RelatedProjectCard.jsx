@@ -26,7 +26,7 @@ const RelatedProjectCard = ({ project, projectId }) => {
         >
           <img
             className="h-72 w-full object-cover object-center"
-            src={`../../../public/images/${project.images[0]}`}
+            src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
             onClick={scrollToTop}
             alt="Product Image"
           />

@@ -15,7 +15,7 @@ const ServicesContent = () => {
                 <div key={service.service_id} className="flex flex-col">
                   <div className="flex justify-center items-center">
                     <img
-                      src={`../../../public/images/${service.service_image}`}
+                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${service.service_image}`}
                       alt={service.service_name}
                       className="w-96 h-64"
                     />

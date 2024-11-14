@@ -82,7 +82,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                     }  overflow-hidden focus:outline-none`}
                   >
                     <img
-                      src={`../../../public/images/${image}`}
+                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${image}`}
                       alt={`thumbnail-${index}`}
                       className="w-full h-52 object-cover"
                     />

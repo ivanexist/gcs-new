@@ -48,50 +48,50 @@ const AboutContent = () => (
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 my-20  sm:mx-4 md:mx-0">
         <div className="flex flex-col p-2 text-justify">
-          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase">
-            What we do?
+          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
+            KOMITMEN
           </div>
           <div className="text-gray-500">
-            We have worked on construction in various government and private
-            institutions, both for industrial and commercial and household
-            clients.
+            Seiring dengan program pemerintah tentang pembangunan
+            berkesinambungan serta penggunaan energi alternatif, maka merupakan
+            komitmen bagi kami untuk mampu berkarya sebaik mungkin, sehingga
+            program pemerataan pembangunan untuk semua masyarakat dapat
+            terlayani dan tercukupi dengan baik.
           </div>
         </div>
         <div className="flex flex-col p-2 text-justify">
-          <div className="font-semibold text-2xl my-4  text-blue-600 uppercase">
+          <div className="font-semibold text-2xl my-4  text-blue-600 uppercase flex justify-center items-center">
             Our Mission
           </div>
           <div className="text-gray-500">
             <ul className="list-disc">
               <li>
-                Providing innovative service solutions by involving strong
-                resources and extensive relationships
+                Menyediakan solusi jasa yang inovatif dengan melibatkan sumber
+                daya terbaik dan relasi yang kuat
               </li>
               <li>
-                Increase the value of the company (shareholders, employees, and
-                customers) through the growth and profit of the company
-                Providing innovative service solutions by involving strong
-                resources and extensive relationships
+                Meningkatkan nilai tambah bagi stakeholder secara berkelanjutan
+                melalui pertumbuhan dan keuntungan perusahaan
               </li>
               <li>
-                Focus on service quality through an educated and guaranteed
-                process
+                Fokus pada kualitas layanan serta human capital yang unggul dan
+                berakhlak
               </li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col p-2 text-justify">
-          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase">
-            Our Vision
+          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
+            VISI
           </div>
           <div className="text-gray-500">
-            Become a leading and professional construction company in East Java
-            in the year 2025
+            Menjadi Perusahaan Konstruksi Terkemuka dan Professional di Jawa
+            Timur 2030
           </div>
         </div>
       </div>
       <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-8 uppercase ">
-        <p className="border-b-2 pb-4 border-b-atlantis-500">Certifications</p>
+        <p className="border-b-2 pb-4 border-b-atlantis-500">Sertifikat</p>
       </div>
       <div className="flex justify-center items-center my-8 mb-16">
         <ul>

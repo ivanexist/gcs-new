@@ -85,7 +85,7 @@
     {
       "service_id": 5,
       "service_name": "Steel Construction",
-      "service_image": "1",
+      "service_image": "Shelter-Filling-Station/Proses-2.jpeg",
       "description": [
         {
           "description_overview": "With expertise in steel framework, the company handles steel construction projects, which are ideal for durable and high-load structures such as warehouses and multi-story buildings.",
@@ -98,7 +98,7 @@
     {
       "service_id": 6,
       "service_name": "Drainage System",
-      "service_image": "1",
+      "service_image": "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-3.jpg",
       "description": [
         {
           "description_overview": "PT Gemilang Cipta Sentosa also designs and installs drainage systems to manage water flow, prevent flooding, and enhance the durability of roadways and other infrastructure.",
@@ -160,7 +160,7 @@
       "client_id": 1,
       "service_id": 4,
       "project_name": "Pembangunan Gedung Pos Angkatan Laut, 2 Lantai",
-      "description": "testung",
+      "description": "The Indonesian Navy is making significant strides toward improving its facilities with the construction of the Gedung Barak Kowal at Lantamal VI in Makassar. Designed specifically for the Kowal, or Women’s Corps of the Indonesian Navy, \n this new barracks building aims to provide safe, comfortable, and well-equipped accommodations for female personnel, reinforcing the Navy’s commitment to supporting gender inclusivity and operational efficiency.",
       "location": "Lombok",
       "year_completed": "2020",
       "images": [
@@ -203,7 +203,7 @@
     {
       "project_id": 7,
       "client_id": 4,
-      "service_id": 6,
+      "service_id": 5,
       "project_name": "Pembangunan Gedung Shelter Filling Station",
       "description": "testung",
       "location": "Gresik",
@@ -213,6 +213,36 @@
         "Shelter-Filling-Station/Proses-2.jpeg",
         "Shelter-Filling-Station/Side-1.jpg",
         "Shelter-Filling-Station/Side-2.jpg"
+      ]
+    },
+    {
+      "project_id": 8,
+      "client_id": 1,
+      "service_id": 4,
+      "project_name": "Pembangunan Gedung Flat T45 Marinir",
+      "description": "testung",
+      "location": "Sorong, Papua Barat Daya",
+      "year_completed": "2023 - 2024",
+      "images": [
+        "Gedung-Flat-T45-Marinir/Side-1.jpg",
+        "Gedung-Flat-T45-Marinir/Side-2.jpg",
+        "Gedung-Flat-T45-Marinir/Side-3.jpg",
+        "Gedung-Flat-T45-Marinir/Side-4.jpg"
+      ]
+    },
+    {
+      "project_id": 9,
+      "client_id": 1,
+      "service_id": 6,
+      "project_name": "Pemasangan Saluran U-Ditch Terminal Teluk Lamong",
+      "description": "testung",
+      "location": "Gresik, Jawa Timur",
+      "year_completed": "2020",
+      "images": [
+        "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-1.jpg",
+        "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-2.jpg",
+        "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-3.jpg",
+        "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-4.jpg"
       ]
     }
   ]

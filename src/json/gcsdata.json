@@ -1,0 +1,219 @@
+{
+  "Clients": [
+    {
+      "client_id": 1,
+      "name": "Dinas Fasilitas Pangkalan Angkatan Laut",
+      "description": "hello",
+      "city": "Makassar",
+      "country": "Indonesia"
+    },
+    {
+      "client_id": 2,
+      "name": "Terminal Teluk Lamong",
+      "description": "hello",
+      "city": "Gresik",
+      "country": "Indonesia"
+    },
+    {
+      "client_id": 3,
+      "name": "Pelindo Energi Logistik",
+      "description": "hello",
+      "city": "Semarang",
+      "country": "Indonesia"
+    },
+    {
+      "client_id": 4,
+      "name": "Lantamal V Surabaya",
+      "description": "hello",
+      "city": "Surabaya",
+      "country": "Indonesia"
+    }
+  ],
+  "Services": [
+    {
+      "service_id": 1,
+      "service_name": "Street Construction",
+      "service_image": "Pembangunan-Jalan/Proses-2-jalan.jpeg",
+      "description": [
+        {
+          "description_overview": "PT Gemilang Cipta Sentosa specializes in constructing and repairing streets to ensure safe, durable, and well-designed roadways, including asphalt and concrete paving.",
+          "description_service_consultant": "Our team of street construction consultants provides expertise in planning, design, and project management. We work closely with clients to assess project requirements, budget, and timelines, ensuring that every street construction project aligns with safety standards, environmental considerations, and optimal usage. Our consultants are dedicated to delivering sustainable solutions for smooth and resilient roadways.",
+          "description_our_services_includes": [{}],
+          "description_contact_us": "contact us"
+        }
+      ]
+    },
+    {
+      "service_id": 2,
+      "service_name": "House Construction",
+      "service_image": "Rumneg-T45-Lantamal-V/Side-1.jpg",
+      "description": [
+        {
+          "description_overview": "The company provides comprehensive house construction services, covering everything from planning and design to building and finishing, creating high-quality, lasting residential spaces.",
+          "description_service_consultant": "testing",
+          "description_our_services_includes": "coba",
+          "description_contact_us": "contact us"
+        }
+      ]
+    },
+    {
+      "service_id": 3,
+      "service_name": "Pipe Installation",
+      "service_image": "Pipa-Pelindo-Energi-Logistik/Side-3.jpg",
+      "description": [
+        {
+          "description_overview": "Skilled in pipe installation for both residential and commercial needs, PT Gemilang Cipta Sentosa offers efficient and reliable services for water supply, drainage, and sewage systems.",
+          "description_service_consultant": "testing",
+          "description_our_services_includes": "coba",
+          "description_contact_us": "contact us"
+        }
+      ]
+    },
+    {
+      "service_id": 4,
+      "service_name": "Building  Construction",
+      "service_image": "Gedung-Barak-Kowal-Lantamal-VI/Side-2.jpeg",
+      "description": [
+        {
+          "description_overview": "This includes construction of commercial and industrial buildings, with a focus on structural integrity, safety, and adherence to client specifications and project timelines.",
+          "description_service_consultant": "testing",
+          "description_our_services_includes": "coba",
+          "description_contact_us": "contact us"
+        }
+      ]
+    },
+    {
+      "service_id": 5,
+      "service_name": "Steel Construction",
+      "service_image": "1",
+      "description": [
+        {
+          "description_overview": "With expertise in steel framework, the company handles steel construction projects, which are ideal for durable and high-load structures such as warehouses and multi-story buildings.",
+          "description_service_consultant": "testing",
+          "description_our_services_includes": "coba",
+          "description_contact_us": "contact us"
+        }
+      ]
+    },
+    {
+      "service_id": 6,
+      "service_name": "Drainage System",
+      "service_image": "1",
+      "description": [
+        {
+          "description_overview": "PT Gemilang Cipta Sentosa also designs and installs drainage systems to manage water flow, prevent flooding, and enhance the durability of roadways and other infrastructure.",
+          "description_service_consultant": "testing",
+          "description_our_services_includes": "coba",
+          "description_contact_us": "contact us"
+        }
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "project_id": 1,
+      "client_id": 1,
+      "service_id": 4,
+      "project_name": "Gedung Barak Kowal Lantamal VI",
+      "description": "testung",
+      "location": "Makassar",
+      "year_completed": "2022",
+      "images": [
+        "Gedung-Barak-Kowal-Lantamal-VI/Gedung-1.jpeg",
+        "Gedung-Barak-Kowal-Lantamal-VI/Side-2.jpeg",
+        "Gedung-Barak-Kowal-Lantamal-VI/Side-3.jpeg",
+        "Gedung-Barak-Kowal-Lantamal-VI/Side-4.jpeg"
+      ]
+    },
+    {
+      "project_id": 2,
+      "client_id": 2,
+      "service_id": 1,
+      "project_name": "Pembangunan Jalan Terminal Teluk Lamong",
+      "description": "testung",
+      "location": "Gresik",
+      "year_completed": "2021",
+      "images": [
+        "Pembangunan-Jalan/Proses-1.jpg",
+        "Pembangunan-Jalan/Proses-2-jalan.jpeg",
+        "Pembangunan-Jalan/Proses-3.jpeg",
+        "Pembangunan-Jalan/Proses-4.jpeg"
+      ]
+    },
+    {
+      "project_id": 3,
+      "client_id": 3,
+      "service_id": 3,
+      "project_name": "Perbaikan Pipa Bahan Bakar",
+      "description": "testung",
+      "location": "Semarang",
+      "year_completed": "2021",
+      "images": [
+        "Pipa-Pelindo-Energi-Logistik/Side-1.jpg",
+        "Pipa-Pelindo-Energi-Logistik/Side-2.jpg",
+        "Pipa-Pelindo-Energi-Logistik/Side-3.jpg",
+        "Pipa-Pelindo-Energi-Logistik/Side-4.jpg"
+      ]
+    },
+    {
+      "project_id": 4,
+      "client_id": 1,
+      "service_id": 4,
+      "project_name": "Pembangunan Gedung Pos Angkatan Laut, 2 Lantai",
+      "description": "testung",
+      "location": "Lombok",
+      "year_completed": "2020",
+      "images": [
+        "Posal-Gili-Air/Proses.jpeg",
+        "Posal-Gili-Air/Side-1.jpg",
+        "Posal-Gili-Air/Side-2.jpg",
+        "Posal-Gili-Air/Side-3.jpg"
+      ]
+    },
+    {
+      "project_id": 5,
+      "client_id": 4,
+      "service_id": 2,
+      "project_name": "Pembangunan Rumah Negara T45 Wonosari",
+      "description": "testung",
+      "location": "Surabaya",
+      "year_completed": "2020",
+      "images": [
+        "Rumneg-T45-Lantamal-V/Proses.jpeg",
+        "Rumneg-T45-Lantamal-V/Side-1.jpg",
+        "Rumneg-T45-Lantamal-V/Side-2.jpg",
+        "Rumneg-T45-Lantamal-V/Side-3.jpg"
+      ]
+    },
+    {
+      "project_id": 6,
+      "client_id": 4,
+      "service_id": 4,
+      "project_name": "Pembangunan Rumah Negara T45 Pesapen",
+      "description": "testung",
+      "location": "Surabaya",
+      "year_completed": "2021",
+      "images": [
+        "Rumneg-T45-Lantamal-V-Pesapen/Side-1.jpeg",
+        "Rumneg-T45-Lantamal-V-Pesapen/Side-2.jpeg",
+        "Rumneg-T45-Lantamal-V-Pesapen/Side-3.jpeg",
+        "Rumneg-T45-Lantamal-V-Pesapen/Side-4.jpeg"
+      ]
+    },
+    {
+      "project_id": 7,
+      "client_id": 4,
+      "service_id": 6,
+      "project_name": "Pembangunan Gedung Shelter Filling Station",
+      "description": "testung",
+      "location": "Gresik",
+      "year_completed": "2020",
+      "images": [
+        "Shelter-Filling-Station/Proses-1.jpeg",
+        "Shelter-Filling-Station/Proses-2.jpeg",
+        "Shelter-Filling-Station/Side-1.jpg",
+        "Shelter-Filling-Station/Side-2.jpg"
+      ]
+    }
+  ]
+}

@@ -26,7 +26,8 @@
     "react-paginate": "^8.2.0",
     "react-router-dom": "^6.23.1",
     "swiper": "^11.1.14",
-    "use-react-router-breadcrumbs": "^4.0.1"
+    "use-react-router-breadcrumbs": "^4.0.1",
+    "vercel": "^39.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

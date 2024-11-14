@@ -41,7 +41,7 @@ const GCSProvider = ({ children }) => {
       try {
         setTimeout(async () => {
           const response = await axios.get(
-            "https://raw.githubusercontent.com/ivanexist/Projects/refs/heads/master/gcsdata.json"
+            "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/src/json/gcsdata.json"
           );
 
           // After fetching data, the data will be stored in the gcs Data state

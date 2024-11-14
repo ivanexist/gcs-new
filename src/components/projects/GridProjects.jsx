@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Category from "../filterandsort/Category";
 import ProjectCard from "./ProjectCard";
 import { GCSContext } from "../../context/GCSContext";
+import Index1 from "../../json/Index";
 // import { useContext } from "react";
 
 const GridProjects = ({
@@ -21,8 +22,9 @@ const GridProjects = ({
         </div> */}
         <div className="col-span-4">
           <div className="grid grid-cols-1 gap-x-1 gap-y-8 sm:grid-cols-3 xl:gap-x-4">
-            {console.log(gcsData.Projects)}
-            {gcsData.Projects.length > 0 ? (
+            {/* {console.log(gcsData.Projects)} */}
+            {
+              // gcsData.Projects.length > 0 ? (
               gcsData.Projects.map((project) => (
                 <ProjectCard
                   project={project}
@@ -30,13 +32,14 @@ const GridProjects = ({
                   projectId={project.project_id}
                 />
               ))
-            ) : (
-              <div className="grid col-span-5 h-screen place-content-center bg-white px-4">
-                <h1 className="uppercase tracking-widest font-bold text-4xl text-blumine-900">
-                  Product Not Found
-                </h1>
-              </div>
-            )}
+              // ) : (
+              //   <div className="grid col-span-5 h-screen place-content-center bg-white px-4">
+              //     <h1 className="uppercase tracking-widest font-bold text-4xl text-blumine-900">
+              //       Product Not Found
+              //     </h1>
+              //   </div>
+              // )
+            }
           </div>
         </div>
       </div>
@@ -73,6 +76,7 @@ const GridProjects = ({
           />
         )}
       </motion.div> */}
+      <Index1 />
     </div>
   );
 };

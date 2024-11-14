@@ -4,6 +4,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Navbar2 from "./components/Navbar2";
 import Routers from "./Routers";
 import GCSProvider from "./context/GCSContext";
+import Index1 from "./json/Index";
+// import Index from ".";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
             <Navbar2 />
           </div> */}
           <Routers />
+          <Index1 />
         </GCSProvider>
       </Router>
     </>

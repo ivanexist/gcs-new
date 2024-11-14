@@ -16,7 +16,7 @@ const ProjectCard = ({ project, projectId }) => {
     );
     return service ? service.service_name : "Unknown Service";
   };
-  console.log(gcsData.Services);
+  // console.log(gcsData.Services);
 
   return (
     <div>
@@ -27,7 +27,7 @@ const ProjectCard = ({ project, projectId }) => {
           onClick={scrollToTop}
         >
           <img
-            className="h-72 w-full object-cover object-center"
+            className="h-72 w-full object-cover object-center image"
             src={`../../../public/images/${project.images[0]}`}
             onClick={scrollToTop}
             alt="Product Image"

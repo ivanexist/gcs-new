@@ -22,7 +22,7 @@ export default function BestServices() {
             <div className="flex flex-col">
               <div className="flex justify-center items-center">
                 <img
-                  src={`../../../public/images/Proses-2.jpeg`}
+                  src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Proses-2.jpeg`}
                   alt="Street constructions"
                   className="w-96 h-64"
                   // height={300}
@@ -45,7 +45,7 @@ export default function BestServices() {
             <div className="flex flex-col">
               <div className="flex justify-center items-center">
                 <img
-                  src={`../../../public/images/Hilite-2.jpeg`}
+                  src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-2.jpeg`}
                   alt="Street constructions"
                   className="w-96 h-64"
                 />
@@ -66,7 +66,7 @@ export default function BestServices() {
             <div className="flex flex-col">
               <div className="flex justify-center items-center">
                 <img
-                  src={`../../../public/images/Pipa-3.jpg`}
+                  src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Pipa-3.jpg`}
                   alt="Street constructions"
                   className="w-96 h-64"
                 />

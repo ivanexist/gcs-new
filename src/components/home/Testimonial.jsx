@@ -10,13 +10,8 @@ const Testimonial = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0">
             <div className="flex flex-col">
               <div>
-                <img src="../../../public/images/tni-al.jpg" alt="" />
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <div>
                 <img
-                  src="../../../public/images/pelindo_energi_log.jpg"
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg"
                   alt=""
                 />
               </div>
@@ -24,33 +19,31 @@ const Testimonial = () => {
             <div className="flex flex-col">
               <div>
                 <img
-                  src="../../../public/images/pt-terminal-teluk-lamong.jpg"
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pelindo_energi_log.jpg"
                   alt=""
                 />
               </div>
             </div>
             <div className="flex flex-col">
               <div>
-                <img src="../../../public/images/peti_kemas_logo.jpg" alt="" />
+                <img
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pt-terminal-teluk-lamong.jpg"
+                  alt=""
+                />
               </div>
             </div>
             <div className="flex flex-col">
               <div>
                 <img
-                  src="../../../public/images/lamong-energi-logo.jpg"
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/peti_kemas_logo.jpg"
                   alt=""
                 />
               </div>
             </div>
-            <div className="flex flex-col m-4">
-              <div>
-                <img src="../../../public/images/clients/BMS.png" alt="" />
-              </div>
-            </div>
-            <div className="flex flex-col m-4">
+            <div className="flex flex-col">
               <div>
                 <img
-                  src="../../../public/images/clients/Disfaslanal.png"
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/lamong-energi-logo.jpg"
                   alt=""
                 />
               </div>
@@ -58,20 +51,39 @@ const Testimonial = () => {
             <div className="flex flex-col m-4">
               <div>
                 <img
-                  src="../../../public/images/clients/Kodiklatal.jpg"
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/BMS.png"
                   alt=""
                 />
               </div>
             </div>
             <div className="flex flex-col m-4">
               <div>
-                <img src="../../../public/images/clients/Kodikmar.png" alt="" />
+                <img
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Disfaslanal.png"
+                  alt=""
+                />
               </div>
             </div>
             <div className="flex flex-col m-4">
               <div>
                 <img
-                  src="../../../public/images/clients/Lantamal V.png"
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodiklatal.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="flex flex-col m-4">
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodikmar.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="flex flex-col m-4">
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Lantamal V.png"
                   alt=""
                 />
               </div>

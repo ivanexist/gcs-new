@@ -9,7 +9,7 @@ const WelcomeToGCS = () => {
       <div className="">
         <img
           className="relative w-full h-[440px]"
-          src="../../../public/images/gcs.jpg"
+          src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
           alt=""
         />
       </div>

@@ -39,7 +39,7 @@ const AboutContent = () => (
         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 flex justify-end items-end">
           <div className="relative ">
             <img
-              src="../../../public/images/gcs.jpg"
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
               alt="aboutimage"
               className="relative z-10 object-cover w-full h-[440px]"
             />
@@ -151,55 +151,82 @@ const AboutContent = () => (
       <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0">
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/tni-al.jpg" alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img src="../../../public/images/pelindo_energi_log.jpg" alt="" />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
             <img
-              src="../../../public/images/pt-terminal-teluk-lamong.jpg"
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg"
               alt=""
             />
           </div>
         </div>
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/peti_kemas_logo.jpg" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pelindo_energi_log.jpg"
+              alt=""
+            />
           </div>
         </div>
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/lamong-energi-logo.jpg" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pt-terminal-teluk-lamong.jpg"
+              alt=""
+            />
           </div>
         </div>
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/clients/BMS.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/peti_kemas_logo.jpg"
+              alt=""
+            />
           </div>
         </div>
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/clients/Disfaslanal.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/lamong-energi-logo.jpg"
+              alt=""
+            />
           </div>
         </div>
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/clients/Kodiklatal.jpg" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/BMS.png"
+              alt=""
+            />
           </div>
         </div>
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/clients/Kodikmar.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Disfaslanal.png"
+              alt=""
+            />
           </div>
         </div>
         <div className="flex flex-col m-4">
           <div>
-            <img src="../../../public/images/clients/Lantamal V.png" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodiklatal.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="flex flex-col m-4">
+          <div>
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodikmar.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="flex flex-col m-4">
+          <div>
+            <img
+              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Lantamal V.png"
+              alt=""
+            />
           </div>
         </div>
       </div>

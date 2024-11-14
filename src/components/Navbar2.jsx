@@ -19,7 +19,7 @@ export default function Navbar2() {
             >
               <span className="self-center font-BrunoAce font-semibold whitespace-nowrap w-40 h-24">
                 <img
-                  src="../../public/Logo-GCS.png"
+                  src="https://github.com/ivanexist/gcs-new/tree/master/public/images/Logo-GCS.png"
                   alt="Logo Gemilang Cipta Sentosa"
                 />
               </span>

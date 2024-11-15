@@ -37,13 +37,11 @@ const AboutContent = () => (
         </div>
         {/* here */}
         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 flex justify-end items-end">
-          <div className="relative ">
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
-              alt="aboutimage"
-              className="relative z-10 object-cover w-full h-[440px]"
-            />
-          </div>
+          <img
+            src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
+            alt="aboutimage"
+            className="relative z-10 object-cover w-full h-[480px]"
+          />
         </div>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 my-20  sm:mx-4 md:mx-0">
@@ -65,15 +63,15 @@ const AboutContent = () => (
           </div>
           <div className="text-gray-500">
             <ul className="list-disc">
-              <li>
+              <li className="mb-2">
                 Menyediakan solusi jasa yang inovatif dengan melibatkan sumber
                 daya terbaik dan relasi yang kuat
               </li>
-              <li>
+              <li className="mb-2">
                 Meningkatkan nilai tambah bagi stakeholder secara berkelanjutan
                 melalui pertumbuhan dan keuntungan perusahaan
               </li>
-              <li>
+              <li className="mb-2">
                 Fokus pada kualitas layanan serta human capital yang unggul dan
                 berakhlak
               </li>
@@ -144,91 +142,6 @@ const AboutContent = () => (
             </span>
           </li>
         </ul>
-      </div>
-      <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase ">
-        <p className="border-b-2 pb-4 border-b-atlantis-500">Our Clients</p>
-      </div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0 bg-white">
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pelindo_energi_log.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pt-terminal-teluk-lamong.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/peti_kemas_logo.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/lamong-energi-logo.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/BMS.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Disfaslanal.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodiklatal.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodikmar.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="flex flex-col m-4">
-          <div>
-            <img
-              src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Lantamal V.png"
-              alt=""
-            />
-          </div>
-        </div>
       </div>
     </div>
     <hr />

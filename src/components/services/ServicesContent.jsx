@@ -23,9 +23,15 @@ const ServicesContent = () => {
                   <div className="my-2 font-semibold text-blue-600">
                     <p>{service.service_name}</p>
                   </div>
-                  <div className="text-gray-600">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Culpa, quia officiis facere [...]
+                  <div className="text-gray-600 text-justify">
+                    {service.description[0].description_overview.length > 75
+                      ? `${service.description[0].description_overview.substring(
+                          0,
+                          75
+                        )}[...]`
+                      : service.description[0].description_overview}
+                    {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Culpa, quia officiis facere [...] */}
                   </div>
                   <div className="flex my-4">
                     {/* <a href="">Details</a> */}

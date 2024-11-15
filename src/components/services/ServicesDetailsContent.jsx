@@ -46,23 +46,27 @@ const ServicesDetailsContent = () => {
           <div className="col-span-5">
             <div className="col-span-3">
               <div className="flex bg-gray-100">
-                <div className="pr-8 pl-4">
-                  <p className="text-gray-400 py-4 font-semibold">
-                    SPECIAL SERVICES
-                  </p>
-                  <h1 className="text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600">
-                    {getServiceName(selectedService.service_id)}
-                  </h1>
-                  <p className="my-4 text-gray-500">
-                    {selectedService.description[0].description_overview}
-                  </p>
+                <div className="col-span-2">
+                  <div className="pr-8 pl-4">
+                    <p className="text-gray-400 py-4 font-semibold">
+                      SPECIAL SERVICES
+                    </p>
+                    <h1 className="text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600">
+                      {getServiceName(selectedService.service_id)}
+                    </h1>
+                    <p className="my-4 text-gray-500">
+                      {selectedService.description[0].description_overview}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedService.service_image}`}
-                    alt=""
-                    className="h-80 w-[1032px]"
-                  />
+                <div className="col-span-1">
+                  <div className="h-64 w-96 overflow-hidden">
+                    <img
+                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedService.service_image}`}
+                      alt=""
+                      className="h-72 w-[580px] object-cover"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -99,48 +103,6 @@ const ServicesDetailsContent = () => {
               </ul>
             </div>
             {/* <div className="col-span-2"></div> */}
-
-            <div>
-              <h1 className="uppercase mb-4 font-semibold text-blue-600 text-xl">
-                Contact Us for House Construction Services Today
-              </h1>
-              <div className="flex ">
-                {/* <!-- Sidebar Tabs --> */}
-                <div className="flex flex-col w-1/4 bg-gray-100 p-4 space-y-2">
-                  <button className="px-4 py-2 text-left rounded-md hover:bg-gray-200 focus:bg-blue-500 focus:text-white">
-                    Our Focus
-                  </button>
-                  <button className="px-4 py-2 text-left rounded-md hover:bg-gray-200 focus:bg-blue-500 focus:text-white">
-                    Dedicated
-                  </button>
-                  <button className="px-4 py-2 text-left rounded-md hover:bg-gray-200 focus:bg-blue-500 focus:text-white">
-                    Commited
-                  </button>
-                </div>
-
-                {/* <!-- Tab Content --> */}
-                <div>
-                  <div className="p-4">
-                    <div className="content">
-                      {/* <h1 className="text-2xl font-semibold">Tab Content</h1> */}
-                      <p className=" text-gray-500">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. <br />
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor
-                        sit amet, consectetur, adipisci velit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

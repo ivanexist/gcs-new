@@ -22,27 +22,27 @@ export default function BestServices() {
         <div>
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {/* Best Quality */}
-            {gcsData.Services.map((service) => (
-              <div key={service.service_id} className="flex flex-col">
-                <Link
-                  to={`/services/${service.service_id}`}
-                  onClick={scrollToTop}
-                >
-                  <div className="flex justify-center items-center">
-                    <img
-                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${service.service_image}`}
-                      alt="Street constructions"
-                      className="w-96 h-64"
-                    />
-                  </div>
-                  {/* {console.log(service)} */}
-                  <div>
-                    <p className="font-semibold my-4 text-xl text-blue-600">
-                      {service.service_name}
-                    </p>
-                  </div>
-                </Link>
-              </div>
+            {gcsData.Services.slice(0, 3).map((service) => (
+              <Link
+                key={service.service_id}
+                to={`/services/${service.service_id}`}
+                onClick={scrollToTop}
+                className="flex flex-col"
+              >
+                <div className="flex justify-center items-center">
+                  <img
+                    src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${service.service_image}`}
+                    alt="Street constructions"
+                    className="w-96 h-64"
+                  />
+                </div>
+                {/* {console.log(service)} */}
+                <div>
+                  <p className="font-semibold my-4 text-xl text-blue-600">
+                    {service.service_name}
+                  </p>
+                </div>
+              </Link>
             ))}
             {/* <div>
                 <p className="text-gray-500 text-justify">

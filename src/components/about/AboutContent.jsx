@@ -57,7 +57,7 @@ const AboutContent = () => (
             terlayani dan tercukupi dengan baik.
           </div>
         </div>
-        <div className="flex flex-col p-2 text-justify">
+        <div className="flex flex-col p-2 text-justify mx-2">
           <div className="font-semibold text-2xl my-4  text-blue-600 uppercase flex justify-center items-center">
             MISI
           </div>

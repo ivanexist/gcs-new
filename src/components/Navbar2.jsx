@@ -79,8 +79,6 @@ export default function Navbar2() {
                     : "text-gray-400"
                 }`}
               >
-                {console.log(projectId)}
-                {console.log(serviceId)}
                 PROJECTS
               </Link>
             </li>

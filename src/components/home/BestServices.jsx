@@ -22,7 +22,7 @@ export default function BestServices() {
         <div>
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {/* Best Quality */}
-            {gcsData.Services.slice(0, 3).map((service) => (
+            {/* {gcsData.Services.slice(0, 3).map((service) => (
               <div key={service.service_id} className="flex flex-col">
                 <Link
                   to={`/services/${service.service_id}`}
@@ -37,6 +37,7 @@ export default function BestServices() {
                       // width={500}
                     />
                   </div>
+                  {console.log(service)}
                   <div>
                     <p className="font-semibold my-4 text-xl text-blue-600">
                       {service.service_name}
@@ -44,7 +45,7 @@ export default function BestServices() {
                   </div>
                 </Link>
               </div>
-            ))}
+            ))} */}
             {/* <div>
                 <p className="text-gray-500 text-justify">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.

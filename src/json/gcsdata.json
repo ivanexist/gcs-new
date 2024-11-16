@@ -115,7 +115,13 @@
       "client_id": 1,
       "service_id": 4,
       "project_name": "Gedung Barak Kowal Lantamal VI",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Proyek pembangunan Gedung Barak Kowal (Korps Wanita Angkatan Laut) di Lantamal VI adalah salah satu inisiatif strategis untuk mendukung operasional dan kesejahteraan personel wanita di lingkungan TNI Angkatan Laut, khususnya di wilayah Lantamal VI yang berbasis di Makassar. Proyek ini bertujuan untuk menyediakan fasilitas yang nyaman, aman, dan modern, guna mendukung fungsi barak sebagai tempat tinggal dan pusat kegiatan sehari-hari bagi personel Kowal.",
+          "paragraph_2": "Gedung ini dirancang dengan memperhatikan aspek efisiensi ruang, ketahanan struktur, dan kesesuaian dengan standar militer. Bangunan mencakup berbagai fasilitas, seperti kamar tidur berkapasitas optimal, ruang serbaguna, dapur, ruang makan, area olahraga, ruang ibadah, dan ruang rekreasi. Setiap aspek konstruksi didasarkan pada standar konstruksi militer yang kuat dan tahan lama, termasuk pengaplikasian teknologi konstruksi terbaru untuk memastikan keamanan dan kenyamanan penghuninya.",
+          "paragraph_3": "Dalam proses pembangunan, kolaborasi antara pihak militer, konsultan perencanaan, dan kontraktor profesional diutamakan untuk memastikan bahwa proyek ini berjalan sesuai jadwal, anggaran, dan spesifikasi teknis yang telah ditetapkan."
+        }
+      ],
       "location": "Makassar",
       "year_completed": "2022",
       "images": [
@@ -130,7 +136,13 @@
       "client_id": 2,
       "service_id": 1,
       "project_name": "Pembangunan Jalan Terminal Teluk Lamong",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Pembangunan jalan menuju Terminal Teluk Lamong merupakan proyek strategis yang dirancang untuk mendukung pengembangan infrastruktur transportasi dan logistik di Indonesia. Terminal Teluk Lamong, yang terletak di Surabaya, Jawa Timur, adalah salah satu pelabuhan modern berbasis ramah lingkungan yang menjadi bagian penting dari jaringan distribusi nasional. Untuk meningkatkan aksesibilitas dan efisiensi operasional pelabuhan ini, pembangunan jalan penghubung menjadi langkah vital.",
+          "paragraph_2": "Proyek ini dirancang dengan mempertimbangkan aspek teknis modern, termasuk pemanfaatan material berkualitas tinggi yang tahan terhadap beban berat dan cuaca ekstrem. Selain itu, pembangunan jalan ini mengintegrasikan konsep ramah lingkungan, seperti pengelolaan limbah konstruksi, penanaman kembali area hijau di sekitar proyek, dan pengaturan drainase untuk mencegah banjir.",
+          "paragraph_3": "Jalan menuju Terminal Teluk Lamong tidak hanya mendukung kegiatan logistik, tetapi juga membuka peluang bagi pertumbuhan ekonomi lokal. Akses yang lebih baik akan mendorong investasi di kawasan sekitar, menciptakan lapangan kerja baru, dan mempercepat distribusi barang ke berbagai wilayah Indonesia. Dari sisi sosial, masyarakat sekitar juga mendapatkan manfaat berupa kemudahan akses transportasi dan peningkatan infrastruktur di wilayah mereka."
+        }
+      ],
       "location": "Gresik",
       "year_completed": "2021",
       "images": [
@@ -145,7 +157,13 @@
       "client_id": 3,
       "service_id": 3,
       "project_name": "Perbaikan Pipa Bahan Bakar",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Merupakan kegiatan pemeliharaan dan perbaikan yang dilakukan untuk memastikan kelancaran distribusi bahan bakar, baik untuk operasional kapal maupun keperluan lainnya di pelabuhan. Pipa bahan bakar ini memiliki peran penting dalam memastikan ketersediaan energi bagi kapal yang berlayar, mesin-mesin operasional pelabuhan, dan fasilitas lain yang bergantung pada pasokan bahan bakar.",
+          "paragraph_2": "Pipa bahan bakar merupakan elemen krusial dalam infrastruktur logistik energi, terutama bagi Pelindo Energi Logistik yang mengelola distribusi bahan bakar di pelabuhan. Seiring dengan pemakaian, pipa-pipa ini bisa mengalami kerusakan atau penurunan kinerja akibat faktor usia, korosi, tekanan tinggi, atau kontaminasi. Oleh karena itu, perbaikan secara rutin diperlukan untuk menghindari kebocoran, kehilangan bahan bakar, atau potensi terjadinya kecelakaan yang dapat membahayakan keselamatan dan kelancaran operasional.",
+          "paragraph_3": "Perbaikan pipa bahan bakar di Pelindo Energi Logistik adalah kegiatan vital yang tidak hanya memastikan kelancaran distribusi bahan bakar, tetapi juga berperan besar dalam menjaga keselamatan operasional dan lingkungan. Proses perbaikan yang tepat dan efisien akan mendukung keberlanjutan operasional dalam mendukung aktivitas logistik energi, khususnya di pelabuhan yang memiliki tingkat trafik tinggi."
+        }
+      ],
       "location": "Semarang",
       "year_completed": "2021",
       "images": [
@@ -160,7 +178,13 @@
       "client_id": 1,
       "service_id": 4,
       "project_name": "Pembangunan Gedung Pos Angkatan Laut, 2 Lantai",
-      "description": "The Indonesian Navy is making significant strides toward improving its facilities with the construction of the Gedung Barak Kowal at Lantamal VI in Makassar. Designed specifically for the Kowal, or Women’s Corps of the Indonesian Navy, \n this new barracks building aims to provide safe, comfortable, and well-equipped accommodations for female personnel, reinforcing the Navy’s commitment to supporting gender inclusivity and operational efficiency.",
+      "description": [
+        {
+          "paragraph_1": "Pembangunan Gedung Pos Angkatan Laut adalah proyek konstruksi yang bertujuan untuk mendirikan fasilitas yang akan mendukung operasional dan keberadaan Angkatan Laut di suatu wilayah. Gedung ini dirancang dengan tujuan untuk menyediakan ruang yang fungsional bagi personel Angkatan Laut dalam menjalankan tugas dan operasionalnya. Pos Angkatan Laut umumnya berfungsi sebagai pusat pengawasan dan komunikasi serta tempat pengumpulan data intelijen, pemantauan pergerakan kapal dan pesawat, serta koordinasi dengan instansi lain yang terkait dalam menjaga kedaulatan laut dan pertahanan negara.",
+          "paragraph_2": "Desain gedung Pos Angkatan Laut biasanya mengutamakan ketahanan terhadap kondisi cuaca laut yang ekstrim, seperti angin kencang dan hujan lebat. Struktur bangunan sering kali menggunakan material tahan lama dan kokoh. Selain itu, gedung ini dilengkapi dengan fasilitas yang menunjang kenyamanan dan keamanan personel, seperti ruang rapat, ruang kontrol, ruang istirahat.",
+          "paragraph_3": "Secara keseluruhan, pembangunan Gedung Pos Angkatan Laut merupakan langkah strategis dalam memperkuat sistem pertahanan negara, memastikan keberlanjutan operasi militer di laut, serta menyediakan fasilitas yang memadai untuk personel yang bertugas."
+        }
+      ],
       "location": "Lombok",
       "year_completed": "2020",
       "images": [
@@ -175,7 +199,13 @@
       "client_id": 4,
       "service_id": 2,
       "project_name": "Pembangunan Rumah Negara T45 Wonosari",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Pembangunan rumah negara ini bertujuan untuk memberikan fasilitas perumahan yang layak dan sesuai bagi anggota Angkatan Laut yang bertugas, dengan mengutamakan kesejahteraan mereka dan keluarganya. Proyek ini adalah bagian dari upaya pemerintah untuk meningkatkan kualitas hidup prajurit dan pegawai negeri sipil (PNS) di lingkungan Angkatan Laut, serta sebagai salah satu langkah untuk meningkatkan kinerja dalam melaksanakan tugas negara.",
+          "paragraph_2": "Pembangunan Rumah Negara T45 Angkatan Laut adalah sebuah inisiatif strategis untuk meningkatkan kualitas hidup anggota TNI AL dengan menyediakan tempat tinggal yang layak dan nyaman. Dengan pendanaan yang berbasis syariah (SBSN), proyek ini juga mencerminkan komitmen pemerintah dalam memanfaatkan instrumen keuangan yang dapat mendukung pembangunan infrastruktur negara secara berkelanjutan. Proyek ini diharapkan dapat memberikan dampak positif baik bagi prajurit Angkatan Laut, keluarga mereka, maupun masyarakat sekitar.",
+          "paragraph_3": ""
+        }
+      ],
       "location": "Surabaya",
       "year_completed": "2020",
       "images": [
@@ -190,7 +220,13 @@
       "client_id": 4,
       "service_id": 4,
       "project_name": "Pembangunan Rumah Negara T45 Pesapen",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Pembangunan rumah negara ini bertujuan untuk memberikan fasilitas perumahan yang layak dan sesuai bagi anggota Angkatan Laut yang bertugas, dengan mengutamakan kesejahteraan mereka dan keluarganya. Proyek ini adalah bagian dari upaya pemerintah untuk meningkatkan kualitas hidup prajurit dan pegawai negeri sipil (PNS) di lingkungan Angkatan Laut, serta sebagai salah satu langkah untuk meningkatkan kinerja dalam melaksanakan tugas negara.",
+          "paragraph_2": "Tujuan proyek pembangunan Rumah Negara T45 ini bertujuan untuk menjamin kesejahteraan prajurit angkatan laut memberikan akses kepada anggota Angkatan Laut untuk memiliki tempat tinggal yang layak sebagai bagian dari kesejahteraan mereka. Meningkatkan Motivasi dan Kinerja: Dengan memiliki tempat tinggal yang nyaman, diharapkan anggota Angkatan Laut dapat lebih fokus dalam menjalankan tugas dan tanggung jawab mereka. Pemanfaatan SBSN: Sebagai salah satu bentuk pemanfaatan instrumen keuangan syariah, SBSN digunakan untuk mendanai proyek ini dengan prinsip-prinsip yang sesuai dengan ketentuan syariah.",
+          "paragraph_3": ""
+        }
+      ],
       "location": "Surabaya",
       "year_completed": "2021",
       "images": [
@@ -205,7 +241,13 @@
       "client_id": 4,
       "service_id": 5,
       "project_name": "Pembangunan Gedung Shelter Filling Station",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Pembangunan Gedung Shelter Filling Station Teluk Lamong merupakan proyek konstruksi yang bertujuan untuk membangun fasilitas pengisian bahan bakar di kawasan Teluk Lamong, Surabaya. Proyek ini dirancang untuk mendukung distribusi energi dengan menyediakan infrastruktur pengisian bahan bakar yang lebih modern dan efisien.",
+          "paragraph_2": "Proyek ini berlokasi di kawasan Teluk Lamong, yang merupakan salah satu kawasan strategis di Surabaya. Teluk Lamong dikenal sebagai daerah dengan potensi besar dalam bidang logistik dan distribusi, berkat keberadaan pelabuhan yang mendukung kegiatan industri dan perdagangan. Pembangunan shelter ini bertujuan untuk meningkatkan kapasitas distribusi bahan bakar, memberikan kenyamanan bagi pengguna bahan bakar.",
+          "paragraph_3": "Dengan pembangunan Gedung Shelter Filling Station Teluk Lamong, diharapkan kawasan ini dapat menjadi pusat distribusi bahan bakar yang strategis dan efisien, mendukung pertumbuhan ekonomi di Surabaya dan sekitarnya."
+        }
+      ],
       "location": "Gresik",
       "year_completed": "2020",
       "images": [
@@ -220,7 +262,13 @@
       "client_id": 1,
       "service_id": 4,
       "project_name": "Pembangunan Gedung Flat T45 Marinir",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Pembangunan Gedung Flat T45 Marinir adalah proyek konstruksi yang dirancang untuk menyediakan fasilitas hunian bagi personel marinir dengan tujuan mendukung kebutuhan tempat tinggal yang layak dan nyaman. Gedung ini direncanakan sebagai gedung bertingkat yang akan menampung sejumlah unit hunian, yang masing-masing dilengkapi dengan fasilitas modern untuk meningkatkan kenyamanan para penghuninya. Pembangunan ini bertujuan tidak hanya untuk menyediakan tempat tinggal, tetapi juga untuk memperkuat kemampuan dan kesiapsiagaan prajurit marinir dalam menjalankan tugas-tugasnya.",
+          "paragraph_2": "Secara keseluruhan, pembangunan Gedung Flat T45 Marinir akan menjadi investasi jangka panjang untuk meningkatkan kualitas hidup personel marinir dan memperkuat kesiapan operasional mereka.",
+          "paragraph_3": ""
+        }
+      ],
       "location": "Sorong, Papua Barat Daya",
       "year_completed": "2023 - 2024",
       "images": [
@@ -235,7 +283,13 @@
       "client_id": 1,
       "service_id": 6,
       "project_name": "Pemasangan Saluran U-Ditch Terminal Teluk Lamong",
-      "description": "testung",
+      "description": [
+        {
+          "paragraph_1": "Pemasangan saluran U-Ditch Terminal Teluk Lamong merupakan bagian dari proyek infrastruktur untuk mendukung kelancaran operasional di kawasan pelabuhan dan terminal. Saluran U-Ditch adalah saluran beton berbentuk huruf U yang digunakan untuk saluran drainase dan pengaliran air. Pemasangan saluran ini memiliki beberapa tahapan teknis yang krusial dalam membangun sistem pengelolaan air yang efektif dan efisien, untuk mencegah terjadinya genangan atau banjir di area terminal.",
+          "paragraph_2": "",
+          "paragraph_3": ""
+        }
+      ],
       "location": "Gresik, Jawa Timur",
       "year_completed": "2020",
       "images": [

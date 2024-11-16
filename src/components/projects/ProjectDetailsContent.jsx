@@ -96,37 +96,14 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                       Project Description
                     </h1>
                     <p className="py-2 text-gray-600 text-justify">
-                      The ten-storey, 325,000 SF Krembil Discovery Centre
-                      provides the Toronto Western Hospital with a new research
-                      and rehabilitation facility. The Integrated Project
-                      Delivery contract included the base building core and
-                      shell (and associated functional space), interior fit-up
-                      of two floors of the rehab solutions space, two floors of
-                      wet labs, a single floor vivarium and the associated
-                      interstitial floor Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit. Neque, nihil. Deserunt illum sit nisi
-                      nobis temporibus aspernatur veritatis veniam atque.
-                      <span>
-                        {formatTextWithBreaks(selectedProject.description)}
-                      </span>
+                      {selectedProject.description.paragraph_1}
                     </p>
-                    {/* <p className="py-2 text-gray-600  text-justify">
-                      From November 2013 to April 2014, EllisDon was awarded an
-                      additional Lump Sum contract for $5 million. This
-                      additional scope of work included a lab fit- up on the
-                      fourth level of the Krembil Discovery Centre. Lorem ipsum
-                      dolor sit amet consectetur adipisicing elit. Cumque
-                      voluptatem quis totam soluta veritatis aspernatur rem quo,
-                      doloremque ipsa iure culpa, vitae perferendis sunt. A
-                      excepturi placeat laborum ea eligendi consequatur
-                      deleniti! Quidem quo sit nostrum tempora numquam dolor
-                      perspiciatis obcaecati ad esse veritatis corporis rem
-                      sint, praesentium at quibusdam dolorem temporibus non
-                      nemo. Perspiciatis autem nemo soluta maiores quos illum
-                      repellat laboriosam optio! Quidem quasi iure recusandae
-                      laboriosam quod voluptas omnis provident architecto? Natus
-                      deleniti ratione consectetur nulla cupiditate.
-                    </p> */}
+                    <p className="py-2 text-gray-600 text-justify">
+                      {selectedProject.description.paragraph_2}
+                    </p>
+                    <p className="py-2 text-gray-600 text-justify">
+                      {selectedProject.description.paragraph_3}
+                    </p>
                   </div>
                 </div>
                 <div className="col-span-1 my-4">

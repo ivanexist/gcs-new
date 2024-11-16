@@ -9,12 +9,24 @@ import { Navigation, Pagination } from "swiper/modules";
 
 const RelatedProjects = ({ selectedProject }) => {
   const { gcsData } = useContext(GCSContext);
+  const filterRelatedProductCard =
+    gcsData.Projects.filter(
+      (project) =>
+        project.service_id === selectedProject.service_id &&
+        project.project_id !== selectedProject.project_id
+    ) || [];
+
   return (
     <div className="my-12">
       <div className="flex justify-center items-center font-bold text-lg uppercase text-blue-600 ">
-        <span className="border-b-2 border-b-atlantis-500 pb-2">
-          Related Projects
-        </span>
+        {console.log(filterRelatedProductCard.length)}
+        {filterRelatedProductCard.length > 0 ? (
+          <span className="border-b-2 border-b-atlantis-500 pb-2">
+            Related Projects
+          </span>
+        ) : (
+          ""
+        )}
       </div>
       {/* filter category based on selected product card category, except selected book */}
       {/* <div className="grid sm:grid-cols-2 gap-4"> */}
@@ -31,11 +43,7 @@ const RelatedProjects = ({ selectedProject }) => {
         }}
         className="w-full"
       >
-        {gcsData.Projects.filter(
-          (project) =>
-            project.service_id === selectedProject.service_id &&
-            project.project_id !== selectedProject.project_id
-        ).map((project) => (
+        {filterRelatedProductCard.map((project) => (
           <SwiperSlide
             key={project.project_id}
             className="flex justify-center gap-8"

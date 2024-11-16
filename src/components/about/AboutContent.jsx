@@ -5,7 +5,7 @@ const AboutContent = () => (
         <div className="w-full mb-10 lg:w-1/2 lg:mb-0 mx-4">
           <div>
             <h1 className="text-3xl font-sans flex justify-center items-center font-bold text-blue-600 md:text-4xl uppercase mb-8">
-              SEJARAH PERUSAHAAN
+              WHO WE ARE?
             </h1>
           </div>
           <p className="my-4 text-base leading-7 text-gray-500 text-justify">
@@ -47,7 +47,7 @@ const AboutContent = () => (
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 my-20  sm:mx-4 md:mx-0">
         <div className="flex flex-col p-2 text-justify">
           <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
-            KOMITMEN
+            Commitment
           </div>
           <div className="text-gray-500">
             Seiring dengan program pemerintah tentang pembangunan
@@ -59,7 +59,7 @@ const AboutContent = () => (
         </div>
         <div className="flex flex-col p-2 text-justify mx-2">
           <div className="font-semibold text-2xl my-4  text-blue-600 uppercase flex justify-center items-center">
-            MISI
+            Our Mission
           </div>
           <div className="text-gray-500">
             <ul className="list-disc">
@@ -80,7 +80,7 @@ const AboutContent = () => (
         </div>
         <div className="flex flex-col p-2 text-justify">
           <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
-            VISI
+            Our Vision
           </div>
           <div className="text-gray-500">
             Menjadi Perusahaan Konstruksi Terkemuka dan Professional di Jawa
@@ -89,7 +89,7 @@ const AboutContent = () => (
         </div>
       </div>
       <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-8 uppercase">
-        <p className="border-b-2 pb-4 border-b-atlantis-500">Sertifikat</p>
+        <p className="border-b-2 pb-4 border-b-atlantis-500">Certification</p>
       </div>
       <div className="flex justify-center items-center my-8 mb-16">
         <ul>

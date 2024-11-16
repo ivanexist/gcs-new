@@ -61,8 +61,8 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                At our company, we respect the customer’s time and schedule and
-                always complete the projects on timely fashion way.
+                Di perusahaan kami, kami menghormati waktu dan jadwal pelanggan
+                dan selalu menyelesaikan proyek tepat waktu.
               </p>
             </div>
           </div>
@@ -89,9 +89,9 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                As the saying goes practice makes perfect. With our years of
-                experience you can bet on us to get the job done exactly to your
-                specifications.
+                Dengan pengalaman kami selama bertahun-tahun, Anda dapat
+                mengandalkan kami untuk menyelesaikan pekerjaan sesuai dengan
+                spesifikasi Anda.
               </p>
             </div>
           </div>

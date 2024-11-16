@@ -77,7 +77,7 @@ const ServicesDetailsContent = () => {
               <p className="text-gray-500">
                 <ul className="list-disc mx-4">
                   <li className="my-2">
-                    Konsultasi mengenaik desain struktural dan kebutuhan teknis
+                    Konsultasi mengenai desain struktural dan kebutuhan teknis
                     lainnya
                   </li>
                   <li className="my-2">

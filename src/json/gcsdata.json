@@ -85,7 +85,7 @@
     {
       "service_id": 5,
       "service_name": "Steel Construction",
-      "service_image": "Shelter-Filling-Station/Proses-2.jpeg",
+      "service_image": "Shelter-Filling-Station/Proses-1.jpeg",
       "description": [
         {
           "description_overview": "Pekerjaan konstruksi baja melibatkan berbagai aktivitas yang terkait dengan fabrikasi, dan pemasangan struktur baja untuk berbagai jenis bangunan dan infrastruktur.",
@@ -122,8 +122,8 @@
           "paragraph_3": "Dalam proses pembangunan, kolaborasi antara pihak militer, konsultan perencanaan, dan kontraktor profesional diutamakan untuk memastikan bahwa proyek ini berjalan sesuai jadwal, anggaran, dan spesifikasi teknis yang telah ditetapkan."
         }
       ],
-      "location": "Makassar",
-      "year_completed": "2022",
+      "location": "Makassar, Sulawesi Selatan",
+      "year_completed": "2021",
       "images": [
         "Gedung-Barak-Kowal-Lantamal-VI/Gedung-1.jpeg",
         "Gedung-Barak-Kowal-Lantamal-VI/Side-2.jpeg",
@@ -143,8 +143,8 @@
           "paragraph_3": "Jalan menuju Terminal Teluk Lamong tidak hanya mendukung kegiatan logistik, tetapi juga membuka peluang bagi pertumbuhan ekonomi lokal. Akses yang lebih baik akan mendorong investasi di kawasan sekitar, menciptakan lapangan kerja baru, dan mempercepat distribusi barang ke berbagai wilayah Indonesia. Dari sisi sosial, masyarakat sekitar juga mendapatkan manfaat berupa kemudahan akses transportasi dan peningkatan infrastruktur di wilayah mereka."
         }
       ],
-      "location": "Gresik",
-      "year_completed": "2021",
+      "location": "Gresik, Jawa Timur",
+      "year_completed": "2020",
       "images": [
         "Pembangunan-Jalan/Proses-1.jpg",
         "Pembangunan-Jalan/Proses-2-jalan.jpeg",
@@ -164,7 +164,7 @@
           "paragraph_3": "Perbaikan pipa bahan bakar di Pelindo Energi Logistik adalah kegiatan vital yang tidak hanya memastikan kelancaran distribusi bahan bakar, tetapi juga berperan besar dalam menjaga keselamatan operasional dan lingkungan. Proses perbaikan yang tepat dan efisien akan mendukung keberlanjutan operasional dalam mendukung aktivitas logistik energi, khususnya di pelabuhan yang memiliki tingkat trafik tinggi."
         }
       ],
-      "location": "Semarang",
+      "location": "Semarang, Jawa Tengah",
       "year_completed": "2021",
       "images": [
         "Pipa-Pelindo-Energi-Logistik/Side-1.jpg",
@@ -177,7 +177,7 @@
       "project_id": 4,
       "client_id": 1,
       "service_id": 4,
-      "project_name": "Pembangunan Gedung Pos Angkatan Laut, 2 Lantai",
+      "project_name": "Pembangunan Gedung Pos Angkatan Laut",
       "description": [
         {
           "paragraph_1": "Pembangunan Gedung Pos Angkatan Laut adalah proyek konstruksi yang bertujuan untuk mendirikan fasilitas yang akan mendukung operasional dan keberadaan Angkatan Laut di suatu wilayah. Gedung ini dirancang dengan tujuan untuk menyediakan ruang yang fungsional bagi personel Angkatan Laut dalam menjalankan tugas dan operasionalnya. Pos Angkatan Laut umumnya berfungsi sebagai pusat pengawasan dan komunikasi serta tempat pengumpulan data intelijen, pemantauan pergerakan kapal dan pesawat, serta koordinasi dengan instansi lain yang terkait dalam menjaga kedaulatan laut dan pertahanan negara.",
@@ -185,8 +185,8 @@
           "paragraph_3": "Secara keseluruhan, pembangunan Gedung Pos Angkatan Laut merupakan langkah strategis dalam memperkuat sistem pertahanan negara, memastikan keberlanjutan operasi militer di laut, serta menyediakan fasilitas yang memadai untuk personel yang bertugas."
         }
       ],
-      "location": "Lombok",
-      "year_completed": "2020",
+      "location": "Lombok, Nusa Tenggara Barat",
+      "year_completed": "2019",
       "images": [
         "Posal-Gili-Air/Proses.jpeg",
         "Posal-Gili-Air/Side-1.jpg",
@@ -206,7 +206,7 @@
           "paragraph_3": ""
         }
       ],
-      "location": "Surabaya",
+      "location": "Surabaya, Jawa Timur",
       "year_completed": "2020",
       "images": [
         "Rumneg-T45-Lantamal-V/Proses.jpeg",
@@ -218,7 +218,7 @@
     {
       "project_id": 6,
       "client_id": 4,
-      "service_id": 4,
+      "service_id": 2,
       "project_name": "Pembangunan Rumah Negara T45 Pesapen",
       "description": [
         {
@@ -227,8 +227,8 @@
           "paragraph_3": ""
         }
       ],
-      "location": "Surabaya",
-      "year_completed": "2021",
+      "location": "Surabaya, Jawa Timur",
+      "year_completed": "2021 - 2022",
       "images": [
         "Rumneg-T45-Lantamal-V-Pesapen/Side-1.jpeg",
         "Rumneg-T45-Lantamal-V-Pesapen/Side-2.jpeg",
@@ -238,7 +238,7 @@
     },
     {
       "project_id": 7,
-      "client_id": 4,
+      "client_id": 2,
       "service_id": 5,
       "project_name": "Pembangunan Gedung Shelter Filling Station",
       "description": [
@@ -280,7 +280,7 @@
     },
     {
       "project_id": 9,
-      "client_id": 1,
+      "client_id": 2,
       "service_id": 6,
       "project_name": "Pemasangan Saluran U-Ditch Terminal Teluk Lamong",
       "description": [

@@ -72,35 +72,72 @@ const ServicesDetailsContent = () => {
             </div>
             <div className="py-4">
               <h1 className="my-4 font-semibold text-blue-600 text-xl">
-                Service Consultant
+                Perencanaan dan Desain
               </h1>
               <p className="text-gray-500">
-                Through our Design-Build service, we provides a single source of
-                responsibility to the client. We work to develop and understand
-                project expectations and then manage those needs with a
-                customized, qualified design team. Innovation should happen
-                throughout a project. To do that, we focus our efforts on each
-                step of every phase to make the entire process smooth and
-                straightforward. Our proactive, collaborative approach is what
-                uncovers unique ideas and opportunities for improvement before
-                the next phase begins.
+                <ul className="list-disc mx-4">
+                  <li className="my-2">
+                    Konsultasi mengenaik desain struktural dan kebutuhan teknis
+                    lainnya
+                  </li>
+                  <li className="my-2">
+                    Saran tentang efisiensi biaya dan waktu pengerjaan
+                  </li>
+                  <li className="my-2">
+                    Pemilihan material yang sesuai dengan anggaran dan tujuan
+                    proyek
+                  </li>
+                </ul>
               </p>
             </div>
             <div className="py-4">
-              <h1 className="uppercase mb-4 font-semibold text-blue-600 text-xl">
-                Our Services Includes
+              <h1 className="mb-4 font-semibold text-blue-600 text-xl">
+                Manajemen Proyek
               </h1>
               <p className="text-gray-500">
-                We have successfully completed projects in numerous states
-                across the Indonesia. Gemilang Cipta Sentosa Services has a
-                proven track record of:
+                <ul className="list-disc mx-4">
+                  <li className="my-2">
+                    Penjadwalan proyek dan estimasi durasi pengerjaan
+                  </li>
+                  <li className="my-2">
+                    Pengelolaan sumber daya manusia dan material di lapangan
+                  </li>
+                  <li className="my-2">
+                    Strategi untuk mengatasi potensi hambatan yang bisa terjadi
+                    selama pembangunan
+                  </li>
+                </ul>
               </p>
-              <ul className="list-disc mx-6 my-4 text-gray-500">
-                <li className="my-1">Interior Design Planning</li>
-                <li className="my-1">Colour & Finish Consultations</li>
-                <li className="my-1">Architectural & Custom Lighting</li>
-                <li className="my-1">Glass & Acrylic Specifications</li>
-              </ul>
+            </div>
+            <div className="py-4">
+              <h1 className="mb-4 font-semibold text-blue-600 text-xl">
+                Evaluasi Kelayakan
+              </h1>
+              <p className="text-gray-500">
+                <ul className="list-disc mx-4">
+                  <li className="my-2">
+                    Kajian kelayakan proyek terkait dengan kondisi tanah, cuaca
+                    dan aspek lingkungan
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div className="py-4">
+              <h1 className="mb-4 font-semibold text-blue-600 text-xl">
+                Biaya dan Anggaran
+              </h1>
+              <p className="text-gray-500">
+                <ul className="list-disc mx-4">
+                  <li className="my-2">
+                    Diskusi mengenai estimasi biaya konstruksi dan bagaimana
+                    cara mengelola anggaran proyek secara efektif
+                  </li>
+                  <li className="my-2">
+                    Konsultasi tentang potensi penghematan biaya atau solusi
+                    yang lebih efisien
+                  </li>
+                </ul>
+              </p>
             </div>
             {/* <div className="col-span-2"></div> */}
           </div>

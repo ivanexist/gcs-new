@@ -96,13 +96,13 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                       Project Description
                     </h1>
                     <p className="py-2 text-gray-600 text-justify">
-                      {selectedProject.description.paragraph_1}
+                      {selectedProject.description[0].paragraph_1}
                     </p>
                     <p className="py-2 text-gray-600 text-justify">
-                      {selectedProject.description.paragraph_2}
+                      {selectedProject.description[0].paragraph_2}
                     </p>
                     <p className="py-2 text-gray-600 text-justify">
-                      {selectedProject.description.paragraph_3}
+                      {selectedProject.description[0].paragraph_3}
                     </p>
                   </div>
                 </div>

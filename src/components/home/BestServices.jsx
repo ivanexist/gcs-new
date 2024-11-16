@@ -22,7 +22,7 @@ export default function BestServices() {
         <div>
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {/* Best Quality */}
-            {/* {gcsData.Services.slice(0, 3).map((service) => (
+            {gcsData.Services.map((service) => (
               <div key={service.service_id} className="flex flex-col">
                 <Link
                   to={`/services/${service.service_id}`}
@@ -33,8 +33,6 @@ export default function BestServices() {
                       src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${service.service_image}`}
                       alt="Street constructions"
                       className="w-96 h-64"
-                      // height={300}
-                      // width={500}
                     />
                   </div>
                   {console.log(service)}
@@ -45,7 +43,7 @@ export default function BestServices() {
                   </div>
                 </Link>
               </div>
-            ))} */}
+            ))}
             {/* <div>
                 <p className="text-gray-500 text-justify">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.

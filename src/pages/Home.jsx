@@ -9,6 +9,7 @@ import Testimonial from "../components/home/Testimonial";
 import WelcomeToGCS from "../components/home/WelcomeToGCS";
 import HeroMain from "../components/home/hero/HeroMain";
 import { motion } from "framer-motion";
+import HeroMain2 from "../components/home/hero/HeroMain2";
 
 export default function Home() {
   return (

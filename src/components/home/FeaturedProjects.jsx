@@ -30,8 +30,8 @@ export default function FeaturedProjects() {
                   />
                 </div>
                 {console.log(project)}
-                <div>
-                  <p className="font-semibold my-4 text-xl text-blue-600">
+                <div className="flex justify-start items-start">
+                  <p className="font-semibold mx-4 my-4 text-xl text-blue-600">
                     {project.project_name}
                   </p>
                   {/* <p className="flex justify-start items-start">

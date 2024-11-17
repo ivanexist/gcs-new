@@ -33,8 +33,8 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                Gemilang Cipta Sentosa are committed to meeting the highest
-                quality standards without compromising our safety culture.
+                PT GCS berkomitmen untuk memberikan standar kualitas terbaik
+                dengan tetap memperhatikan keselamatan kerja.
               </p>
             </div>
           </div>
@@ -61,8 +61,8 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                Di perusahaan kami, kami menghormati waktu dan jadwal pelanggan
-                dan selalu menyelesaikan proyek tepat waktu.
+                Kami selalu menghormati pelanggan dan menyelesaikan proyek tepat
+                pada waktunya.
               </p>
             </div>
           </div>
@@ -89,9 +89,8 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                Dengan pengalaman kami selama bertahun-tahun, Anda dapat
-                mengandalkan kami untuk menyelesaikan pekerjaan sesuai dengan
-                spesifikasi Anda.
+                Dengan sumber daya yang berpengalaman, Anda dapat mengandalkan
+                kami untuk menangani proyek konstruksi yang beragam.
               </p>
             </div>
           </div>

@@ -72,7 +72,7 @@
     {
       "service_id": 4,
       "service_name": "Building  Construction",
-      "service_image": "Gedung-Barak-Kowal-Lantamal-VI/Side-2.jpeg",
+      "service_image": "Gedung-Flat-T45-Marinir/Side-1.jpg",
       "description": [
         {
           "description_overview": "Pembangunan yang melibatkan berbagai aspek yang melibatkan banyak pihak, seperti arsitek, insinyur sipil, mandor, pekerja lapangan.",
@@ -248,7 +248,7 @@
           "paragraph_3": "Dengan pembangunan Gedung Shelter Filling Station Teluk Lamong, diharapkan kawasan ini dapat menjadi pusat distribusi bahan bakar yang strategis dan efisien, mendukung pertumbuhan ekonomi di Surabaya dan sekitarnya."
         }
       ],
-      "location": "Gresik",
+      "location": "Gresik, Jawa Timur",
       "year_completed": "2020",
       "images": [
         "Shelter-Filling-Station/Proses-1.jpeg",

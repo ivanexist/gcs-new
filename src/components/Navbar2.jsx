@@ -1,4 +1,5 @@
 import { Link, useLocation, useParams } from "react-router-dom";
+import NavbarMobile from "./NavbarMobile";
 
 export default function Navbar2() {
   const location = useLocation();
@@ -97,6 +98,7 @@ export default function Navbar2() {
             </li>
           </ul>
         </div>
+        <NavbarMobile />
       </div>
     </nav>
   );

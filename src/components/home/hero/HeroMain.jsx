@@ -103,7 +103,7 @@ const HeroMain = () => {
             <motion.div className="w-full m-4 flex lg:justify-start text-2xl lg:text-4xl font-bold uppercase text-center lg:text-left text-blue-600">
               <p>KOMITMEN UNTUK BERSINERGI SEBAIK MUNGKIN</p>
             </motion.div>
-            <motion.div className="w-full mx-4 mb-4 mt-2 flex lg:justify-start lg:text-left text-lg text-white">
+            <motion.div className="w-full mx-4 mb-4 mt-2 flex lg:justify-start lg:text-left text-lg font-semibold text-gray-600">
               <p>
                 Dengan sumber daya dan relasi yang luas, kami siap bersinergi
                 menawarkan solusi kerjasama yang produktif

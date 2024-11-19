@@ -4,28 +4,42 @@
       "client_id": 1,
       "name": "Dinas Fasilitas Pangkalan Angkatan Laut",
       "description": "hello",
-      "city": "Makassar",
+      "city": "Makassar, Sulawesi Selatan",
       "country": "Indonesia"
     },
     {
       "client_id": 2,
       "name": "Terminal Teluk Lamong",
       "description": "hello",
-      "city": "Gresik",
+      "city": "Gresik, Jawa Timur",
       "country": "Indonesia"
     },
     {
       "client_id": 3,
       "name": "Pelindo Energi Logistik",
       "description": "hello",
-      "city": "Semarang",
+      "city": "Semarang, Jawa Tengah",
       "country": "Indonesia"
     },
     {
       "client_id": 4,
       "name": "Lantamal V Surabaya",
       "description": "hello",
-      "city": "Surabaya",
+      "city": "Surabaya, Jawa Timur",
+      "country": "Indonesia"
+    },
+    {
+      "client_id": 5,
+      "name": "KODIKLATAL",
+      "description": "hello",
+      "city": "Surabaya, Jawa Timur",
+      "country": "Indonesia"
+    },
+    {
+      "client_id": 6,
+      "name": "Pangkalan Korps Marinir",
+      "description": "hello",
+      "city": "Surabaya, Jawa Timur",
       "country": "Indonesia"
     }
   ],
@@ -99,6 +113,19 @@
       "service_id": 6,
       "service_name": "Drainage System",
       "service_image": "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-3.jpg",
+      "description": [
+        {
+          "description_overview": "Pekerjaan ini sangat penting dalam memastikan keberlanjutan lingkungan dan infrastruktur kota atau wilayah, karena drainase yang baik akan membantu mengurangi dampak bencana alam, seperti banjir, serta menjaga kesehatan lingkungan.",
+          "description_service_consultant": "testing",
+          "description_our_services_includes": "coba",
+          "description_contact_us": "contact us"
+        }
+      ]
+    },
+    {
+      "service_id": 7,
+      "service_name": "Renovation",
+      "service_image": "Perbaikan-Dapur-Kodiklatal/Side-1.jpg",
       "description": [
         {
           "description_overview": "Pekerjaan ini sangat penting dalam memastikan keberlanjutan lingkungan dan infrastruktur kota atau wilayah, karena drainase yang baik akan membantu mengurangi dampak bencana alam, seperti banjir, serta menjaga kesehatan lingkungan.",
@@ -297,6 +324,111 @@
         "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-2.jpg",
         "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-3.jpg",
         "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-4.jpg"
+      ]
+    },
+    {
+      "project_id": 10,
+      "client_id": 2,
+      "service_id": 3,
+      "project_name": "Pemasangan Pipa Distribusi Gas 12 Inch",
+      "description": [
+        {
+          "paragraph_1": "Proyek pemasangan pipa distribusi gas ini dirancang untuk memenuhi kebutuhan gas di kawasan Terminal Teluk Lamong, sebuah pelabuhan modern yang menjadi bagian dari sistem logistik nasional. Pekerjaan ini melibatkan instalasi pipa dengan diameter 12 inci, yang mampu mengalirkan gas dengan volume besar secara efisien untuk mendukung aktivitas operasional pelabuhan.",
+          "paragraph_2": "Setelah selesai, pipa distribusi ini akan menjadi bagian penting dari jaringan infrastruktur energi di Terminal Teluk Lamong, meningkatkan keandalan suplai energi, mendukung efisiensi operasional pelabuhan, serta memberikan manfaat ekonomi bagi kawasan industri di sekitarnya.",
+          "paragraph_3": ""
+        }
+      ],
+      "location": "Gresik, Jawa Timur",
+      "year_completed": "2020",
+      "images": [
+        "Pipa-Distribusi-12-inch-TTL/Proses-1.jpg",
+        "Pipa-Distribusi-12-inch-TTL/Proses-2.jpg",
+        "Pipa-Distribusi-12-inch-TTL/Proses-3.jpg",
+        "Pipa-Distribusi-12-inch-TTL/Proses-4.jpg"
+      ]
+    },
+    {
+      "project_id": 11,
+      "client_id": 1,
+      "service_id": 4,
+      "project_name": "Gedung Barak Siswa Lantamal VI",
+      "description": [
+        {
+          "paragraph_1": "Gedung Barak Siswa Lantamal VI adalah sebuah fasilitas militer yang digunakan untuk mendukung pelatihan dan pembinaan siswa di bawah naungan Pangkalan Utama TNI Angkatan Laut VI (Lantamal VI), yang terletak di wilayah Makassar, Sulawesi Selatan. Gedung ini dirancang untuk memenuhi kebutuhan tempat tinggal sementara bagi siswa yang sedang mengikuti pendidikan atau pelatihan di lingkungan militer.",
+          "paragraph_2": "Dengan desainnya yang sesuai untuk mendukung kebutuhan siswa militer, Gedung Barak Siswa Lantamal VI menjadi salah satu elemen penting dalam membentuk prajurit Angkatan Laut yang tangguh, disiplin, dan profesional. Dalam proses pembangunan, kolaborasi antara pihak militer, konsultan perencanaan, dan kontraktor profesional diutamakan untuk memastikan bahwa proyek ini berjalan sesuai jadwal, anggaran dan spesifikasi teknis yang telah ditetapkan.",
+          "paragraph_3": ""
+        }
+      ],
+      "location": "Makassar, Sulawesi Selatan",
+      "year_completed": "2022",
+      "images": [
+        "Gedung-Barak-Siswa-Lantamal-VI/Side-1.jpg",
+        "Gedung-Barak-Siswa-Lantamal-VI/Side-2.jpg",
+        "Gedung-Barak-Siswa-Lantamal-VI/Side-3.jpg",
+        "Gedung-Barak-Siswa-Lantamal-VI/Side-4.jpg"
+      ]
+    },
+    {
+      "project_id": 12,
+      "client_id": 5,
+      "service_id": 7,
+      "project_name": "Perbaikan Dapur Kodiklatal",
+      "description": [
+        {
+          "paragraph_1": "Renovasi dapur di Kodiklatal (Komando Pembinaan Doktrin, Pendidikan dan Latihan TNI Angkatan Laut) merupakan sebuah proyek yang dirancang untuk meningkatkan fasilitas, kenyamanan dan efisiensi operasional di area pendidikan dan pelatihan Angkatan Laut. Dapur menjadi bagian penting dari fasilitas ini karena memiliki peran yang vital dalam mendukung kebutuhan logistik makanan bagi personel yang menjalani pendidikan atau latihan di sana. Oleh karena itu, renovasi ini bertujuan untuk menciptakan lingkungan kerja yang lebih modern, fungsional dan higienis, serta mendukung penerapan standar operasional yang lebih baik dalam penyediaan makanan.",
+          "paragraph_2": "Tujuan utama renovasi dapur Kodiklatal ini adalah untuk ; Meningkatkan Kapasitas Dapur: Memperbesar ruang dapur untuk mengakomodasi jumlah personel yang lebih banyak, terutama dalam skala pelatihan dan pendidikan yang melibatkan banyak peserta. Peningkatan Higienitas dan Keamanan: Meningkatkan sistem sanitasi dan kebersihan dapur, termasuk penggunaan alat dan peralatan yang lebih higienis serta pemisahan area pengolahan bahan makanan mentah dan matang. Efisiensi Operasional: Membuat alur kerja yang lebih efisien sehingga waktu dan tenaga yang dikeluarkan untuk menyiapkan makanan dapat lebih teroptimalkan. Pemenuhan Standar Kesehatan dan Keamanan Pangan: Dapur yang direnovasi akan mengikuti standar yang berlaku dalam penyediaan makanan sehat dan aman, sesuai dengan regulasi dari Badan Pengawas Obat dan Makanan (BPOM) dan instansi terkait.",
+          "paragraph_3": ""
+        }
+      ],
+      "location": "Surabaya, Jawa Timur",
+      "year_completed": "2023",
+      "images": [
+        "Perbaikan-Dapur-Kodiklatal/Side-1.jpg",
+        "Perbaikan-Dapur-Kodiklatal/Side-2.jpg",
+        "Perbaikan-Dapur-Kodiklatal/Side-3.jpg",
+        "Perbaikan-Dapur-Kodiklatal/Side-4.jpg"
+      ]
+    },
+    {
+      "project_id": 13,
+      "client_id": 6,
+      "service_id": 7,
+      "project_name": "Perbaikan Barak Yon Ranratfib 2 Marinir",
+      "description": [
+        {
+          "paragraph_1": "Perbaikan Barak Yon Ranratfib 2 Marinir adalah salah satu upaya untuk meningkatkan kualitas fasilitas tempat tinggal prajurit di kesatuan tersebut. Barak adalah bagian penting dari infrastruktur militer yang bertujuan untuk memberikan kenyamanan dan mendukung kesiapan operasional prajurit. Kegiatan perbaikan ini mencakup berbagai aspek, baik dari segi struktur bangunan, fasilitas pendukung, hingga kebersihan dan kenyamanan lingkungan sekitar.",
+          "paragraph_2": "Perbaikan Barak di Yon Ranratfib 2 Marinir merupakan langkah penting dalam menjaga kualitas hidup prajurit sekaligus mendukung kelancaran tugas dan operasi. Kegiatan ini bukan hanya tentang renovasi fisik, tetapi juga mencakup perbaikan lingkungan sosial yang mendukung kebersamaan dan kerjasama antar prajurit. Dengan perbaikan yang dilakukan, diharapkan barak menjadi tempat yang lebih nyaman, aman, dan mendukung produktivitas para prajurit Yon Ranratfib 2 Marinir.",
+          "paragraph_3": ""
+        }
+      ],
+      "location": "Surabaya, Jawa Timur",
+      "year_completed": "2024",
+      "images": [
+        "Perbaikan-Barak-Yon-Ranratfib-2-Marinir/Side-1.jpg",
+        "Perbaikan-Barak-Yon-Ranratfib-2-Marinir/Side-2.jpg",
+        "Perbaikan-Barak-Yon-Ranratfib-2-Marinir/Side-3.jpg",
+        "Perbaikan-Barak-Yon-Ranratfib-2-Marinir/Side-4.jpg"
+      ]
+    },
+    {
+      "project_id": 14,
+      "client_id": 4,
+      "service_id": 7,
+      "project_name": "Perbaikan Rumkital DR. Oepomo",
+      "description": [
+        {
+          "paragraph_1": "Perbaikan Barak Yon Ranratfib 2 Marinir adalah salah satu upaya untuk meningkatkan kualitas fasilitas tempat tinggal prajurit di kesatuan tersebut. Barak adalah bagian penting dari infrastruktur militer yang bertujuan untuk memberikan kenyamanan dan mendukung kesiapan operasional prajurit. Kegiatan perbaikan ini mencakup berbagai aspek, baik dari segi struktur bangunan, fasilitas pendukung, hingga kebersihan dan kenyamanan lingkungan sekitar.",
+          "paragraph_2": "Perbaikan Barak di Yon Ranratfib 2 Marinir merupakan langkah penting dalam menjaga kualitas hidup prajurit sekaligus mendukung kelancaran tugas dan operasi. Kegiatan ini bukan hanya tentang renovasi fisik, tetapi juga mencakup perbaikan lingkungan sosial yang mendukung kebersamaan dan kerjasama antar prajurit. Dengan perbaikan yang dilakukan, diharapkan barak menjadi tempat yang lebih nyaman, aman, dan mendukung produktivitas para prajurit Yon Ranratfib 2 Marinir.",
+          "paragraph_3": ""
+        }
+      ],
+      "location": "Surabaya, Jawa Timur",
+      "year_completed": "2021",
+      "images": [
+        "Perbaikan-Rumkital-Dr-Oepomo/Side-1.jpg",
+        "Perbaikan-Rumkital-Dr-Oepomo/Side-2.jpg",
+        "Perbaikan-Rumkital-Dr-Oepomo/Side-3.jpg",
+        "Perbaikan-Rumkital-Dr-Oepomo/Side-4.jpg"
       ]
     }
   ]

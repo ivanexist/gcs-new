@@ -54,7 +54,7 @@ const ServicesDetailsContent = () => {
                     <h1 className="text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600">
                       {getServiceName(selectedService.service_id)}
                     </h1>
-                    <p className="my-4 text-gray-500">
+                    <p className="my-4 text-gray-500 text-justify">
                       {selectedService.description[0].description_overview}
                     </p>
                   </div>

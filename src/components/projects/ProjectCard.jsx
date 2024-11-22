@@ -21,7 +21,7 @@ const ProjectCard = ({ project, projectId }) => {
   return (
     <div>
       {/* New Project Card */}
-      <div className="bg-white shadow-lg overflow-hidden my-4 rounded-lg h-96 w-[412px]">
+      <div className="bg-white shadow-lg overflow-hidden my-4 rounded-lg h-[372px] w-[412px]">
         <Link
           key={project.project_id}
           to={`/projects/${project.project_id}`}

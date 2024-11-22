@@ -76,7 +76,7 @@ const GridProjects = ({
           />
         )}
       </motion.div> */}
-      <Index1 />
+      {/* <Index1 /> */}
     </div>
   );
 };

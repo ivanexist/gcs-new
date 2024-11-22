@@ -48,7 +48,7 @@ const HeroMain2 = () => {
           <h1 className="text-4xl md:text-6xl font-bold">
             KOMITMEN UNTUK BERSINERGI SEBAIK MUNGKIN
           </h1>
-          <p className="text-lg md:text-2xl mt-4 text-black">
+          <p className="sm:text-justify md:text-start text-lg md:text-2xl mt-4 text-black">
             Dengan sumber daya dan relasi yang luas, kami siap bersinergi
             menawarkan solusi kerjasama yang produktif serta kemitraan yang
             harmonis untuk menghasilkan karya yang bermanfaat dan berkualitas.

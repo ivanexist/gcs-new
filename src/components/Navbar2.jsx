@@ -16,9 +16,9 @@ export default function Navbar2() {
           <div className="flex">
             <Link
               to="/"
-              className="flex items-center space-x-3 rtl:space-x-reverse mx-2"
+              className="flex items-center space-x-3 rtl:space-x-reverse mx-2 sm:w-24 sm:h-12 md:w-40 md:h-24"
             >
-              <span className="self-center font-BrunoAce font-semibold whitespace-nowrap w-40 h-24">
+              <span className="self-center font-BrunoAce font-semibold whitespace-nowrap">
                 <img
                   src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/Logo-GCS.png"
                   alt="Logo Gemilang Cipta Sentosa"

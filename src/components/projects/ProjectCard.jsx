@@ -21,23 +21,24 @@ const ProjectCard = ({ project, projectId }) => {
   return (
     <div>
       {/* New Project Card */}
-      <div className="bg-white shadow-lg overflow-hidden my-4 rounded-lg">
+      <div className="bg-white shadow-lg overflow-hidden my-4 rounded-lg h-40 w-[412px]">
         <Link
           key={project.project_id}
           to={`/projects/${project.project_id}`}
           onClick={scrollToTop}
+          className="h-full flex flex-col"
         >
           <img
             className="w-full h-56 object-cover object-center"
             src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
             alt="avatar"
           />
-          <div className="py-4 px-6">
+          <div className="py-4 px-6 flex-1 flex flex-col justify-between">
             <h1 className="text-lg font-semibold text-blue-600">
               {project.project_name}
             </h1>
-            <div className="flex gap-4">
-              <div className="flex items-center mt-4 text-gray-600">
+            <div className="flex justify-between items-center text-gray-600 gap-4">
+              <div className="flex items-center mt-4 ">
                 <svg
                   className="h-6 w-6 fill-current"
                   viewBox="0 0 24 24"

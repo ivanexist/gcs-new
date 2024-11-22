@@ -21,7 +21,7 @@ const ProjectCard = ({ project, projectId }) => {
   return (
     <div>
       {/* New Project Card */}
-      <div className="bg-white shadow-lg overflow-hidden my-4 rounded-lg h-40 w-[412px]">
+      <div className="bg-white shadow-lg overflow-hidden my-4 rounded-lg">
         <Link
           key={project.project_id}
           to={`/projects/${project.project_id}`}
@@ -32,12 +32,10 @@ const ProjectCard = ({ project, projectId }) => {
             src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
             alt="avatar"
           />
-          <div className="py-4 px-6 ">
-            <div>
-              <h1 className="text-lg font-semibold text-blue-600">
-                {project.project_name}
-              </h1>
-            </div>
+          <div className="py-4 px-6">
+            <h1 className="text-lg font-semibold text-blue-600">
+              {project.project_name}
+            </h1>
             <div className="flex gap-4">
               <div className="flex items-center mt-4 text-gray-600">
                 <svg
@@ -100,6 +98,7 @@ const ProjectCard = ({ project, projectId }) => {
                   version="1.0"
                   id="Layer_1"
                   xmlns="http://www.w3.org/2000/svg"
+                  // xmlns:xlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 64 64"
                   enableBackground="new 0 0 64 64"
                   xmlSpace="preserve"

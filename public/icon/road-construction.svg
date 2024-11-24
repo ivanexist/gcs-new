@@ -1,6 +1,5 @@
 <svg
-className="w-16 h-16 fill-blue-600 group-hover:fill-white"
-                    fill="#2563eb "
+                    fill="currentColor"
                     version="1.1"
                     id="Capa_1"
                     xmlns="http://www.w3.org/2000/svg"

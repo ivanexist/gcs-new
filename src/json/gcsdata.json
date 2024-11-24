@@ -61,7 +61,7 @@
     {
       "service_id": 2,
       "service_name": "House Construction",
-      "service_icon": "",
+      "service_icon": "house-construction.svg",
       "service_image": "Rumneg-T45-Lantamal-V/Side-1.JPG",
       "description": [
         {

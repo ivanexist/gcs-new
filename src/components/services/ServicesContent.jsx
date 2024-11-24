@@ -56,10 +56,12 @@ const ServicesContent = () => {
                 >
                   <div className=" absolute bg-blue-500/50 top-0 left-0 w-24 h-1 z-20 transition-all duration-200 group-hover:bg-white group-hover:w-1/2  "></div>
                   <div className="py-2 px-8 relative group">
-                    <ReactSVG
-                      className="w-20 h-20 group-hover:text-white text-blue-500 transition-colors duration-300"
-                      src={`../../../public/icon/${service.service_icon}`}
-                    />
+                    <div>
+                      <ReactSVG
+                        className="w-20 h-20 group-hover:text-white text-blue-500 transition-colors duration-300"
+                        src={`../../../public/icon/${service.service_icon}`}
+                      />
+                    </div>
                     <h3 className="mt-8 text-lg font-semibold text-blue-600 group-hover:text-white ">
                       {service.service_name}
                     </h3>

@@ -1,13 +1,13 @@
 const AboutContent = () => (
   <section className="flex items-center max-w-screen-xl bg-transparent mx-auto">
     <div className="justify-center flex-1 py-4 mx-auto lg:py-6 md:px-6 my-4">
-      <div className="flex justify-between items-end">
-        <div className="w-full mb-10 lg:w-1/2 lg:mb-0 mx-4">
-          <div>
-            <h1 className="text-3xl font-sans flex justify-center items-center font-bold text-blue-600 md:text-4xl uppercase mb-8">
-              WHO WE ARE?
-            </h1>
-          </div>
+      <div className="mx-auto">
+        <h1 className="text-3xl font-sans font-bold text-blue-600 md:text-4xl uppercase mb-8">
+          WHO WE ARE?
+        </h1>
+      </div>
+      <div className="flex sm:flex-col-reverse md:flex-row md:justify-between md:items-end">
+        <div className="sm:w-full mb-10 lg:w-1/2 lg:mb-0 sm:mx-4">
           <p className="my-4 text-base leading-7 text-gray-500 text-justify">
             PT.Gemilang Cipta Sentosa adalah Perusahaan yang bergerak dalam
             bidang konstruksi Sipil Bangunan, Jetty/Dermaga, dan Pemasangan
@@ -28,15 +28,9 @@ const AboutContent = () => (
             dan pabrik, Kontruksi pemasangan gas dalam bangunan, Kontruksi
             perpipaan, gas, energi (pekerjaan rekayasa).
           </p>
-          {/* <button
-            href="#"
-            className="px-6 py-4 text-white font-semibold bg-atlantis-500 hover:bg-atlantis-600"
-          >
-            Learn more
-          </button> */}
         </div>
-        {/* here */}
-        <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 flex justify-end items-end">
+        {/* images */}
+        <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
           <img
             src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
             alt="aboutimage"
@@ -87,61 +81,6 @@ const AboutContent = () => (
             Timur 2030
           </div>
         </div>
-      </div>
-      <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-8 uppercase">
-        <p className="border-b-2 pb-4 border-b-atlantis-500">Certification</p>
-      </div>
-      <div className="flex justify-center items-center my-8 mb-16">
-        <ul>
-          <li className="py-2 font-semibold">
-            Sertifikat BUJK - Bangunan Gedung :{" "}
-            <span className="text-atlantis-600 ">
-              No. 0-3578-06-004-1-13-084037
-            </span>
-          </li>
-          <li className="py-2 font-semibold">
-            Sertifikat BUJK - Sipil :{" "}
-            <span className="text-atlantis-600 font-semibold">
-              No. 0-3578-07-004-1-13-084037
-            </span>
-          </li>
-          <li className="py-2 font-semibold">
-            Sertifikat BUJK - Mekanikal :{" "}
-            <span className="text-atlantis-600 font-semibold">
-              No. 0-3578-06-004-1-13-084037
-            </span>
-          </li>
-          <li className="py-2 font-semibold">
-            Sertifikat BUJK - Elektrikal :{" "}
-            <span className="text-atlantis-600 font-semibold">
-              No. 0-3578-06-004-1-13-084037
-            </span>
-          </li>
-          <li className="py-2 font-semibold">
-            SKT MIGAS :{" "}
-            <span className="text-atlantis-600 font-semibold">
-              No. 5621.Ket/19.11/DMT/2017
-            </span>
-          </li>
-          <li className="py-2 font-semibold">
-            STKIG :{" "}
-            <span className="text-atlantis-600 font-semibold">
-              No. 018000.S/PP.02.03/PMO/2018
-            </span>
-          </li>
-          <li className="py-2 font-semibold">
-            SKUP MIGAS :{" "}
-            <span className="text-atlantis-600 font-semibold">
-              No. 0398/19.07/DMB/2019
-            </span>
-          </li>
-          <li className="py-2 font-semibold">
-            Ahli K3 Umum :{" "}
-            <span className="text-atlantis-600 font-semibold">
-              No. KEP.5756/NAKER-BINWASK3/VII/2017
-            </span>
-          </li>
-        </ul>
       </div>
     </div>
     <hr />

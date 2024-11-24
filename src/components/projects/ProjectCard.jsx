@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { GCSContext } from "../../context/GCSContext";
 
 const ProjectCard = ({ project, projectId }) => {
-  const { gcsData } = useContext(GCSContext);
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "auto" });
-  };
+  const { gcsData, scrollToTop } = useContext(GCSContext);
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, behavior: "auto" });
+  // };
 
   // const [services, setServices] = useState([]);
   // Function to find service name based on service_id
@@ -16,7 +16,6 @@ const ProjectCard = ({ project, projectId }) => {
     );
     return service ? service.service_name : "Unknown Service";
   };
-  // console.log(gcsData.Services);
 
   return (
     <div>

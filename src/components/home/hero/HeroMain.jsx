@@ -92,25 +92,19 @@ const HeroMain = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className=" grid grid-cols-4 gap-4 mx-auto max-w-screen-xl absolute inset-0  items-center justify-center z-10">
-          <div className="sm:col-span-1 lg:col-span-2"></div>
-          <div className="flex flex-col sm:my-20 md:my-36 pr-2 col-span-2">
-            <div className="flex sm:justify-center sm:items-center lg:justify-start lg:items-start my-2">
-              {/* <h1 className="font-semibold text-lg uppercase text-blumine-950">
-              New Arrivals
-            </h1> */}
-            </div>
-            <motion.div className="w-full m-4 flex sm:justify-center sm:items-center lg:justify-start text-2xl lg:text-4xl font-bold uppercase text-center lg:text-left text-blue-600">
+        <div className=" grid grid-cols-4 gap-4 mx-auto max-w-screen-xl absolute inset-0 items-center justify-center z-10">
+          {/* <div className="sm:col-span-1 lg:col-span-2"></div> */}
+          <div className="flex flex-col pr-2 col-span-2">
+            <motion.div className="w-full m-4 flex sm:justify-center sm:items-center lg:justify-start sm:text-lg lg:text-4xl font-bold uppercase text-center lg:text-left text-white">
               <p>KOMITMEN UNTUK BERSINERGI SEBAIK MUNGKIN</p>
             </motion.div>
-            <motion.div className="w-full mx-4 mb-4 mt-2 flex lg:justify-start lg:text-left text-lg font-semibold text-gray-800">
+            <motion.div className="w-full mx-4 mb-4 mt-2 flex sm:justify-center lg:justify-start lg:text-left text-base text-white">
               <p>
                 Dengan sumber daya dan relasi yang luas, kami siap bersinergi
-                menawarkan solusi kerjasama yang produktif
+                menawarkan kerjasama yang produktif
                 <span className="sm:hidden lg:inline">
                   {" "}
-                  serta kemitraan yang harmonis untuk menghasilkan karya yang
-                  bermanfaat dan berkualitas.
+                  untuk mengahasilkan karya yang berkualitas.
                 </span>
               </p>
             </motion.div>

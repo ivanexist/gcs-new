@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Hero1 = () => (
-  <section className="bg-[linear-gradient(to_left,rgba(255,255,255,0.3),rgba(255,255,255,0.5)),url(https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-2.jpeg)] bg-cover bg-no-repeat sm:h-[40rem] lg:h-[40rem]">
+  <section className="bg-[url(https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-2.jpeg)] bg-cover bg-no-repeat sm:h-[40rem] lg:h-[40rem]">
     {/* <img src="../../../../public/images/" alt="" /> */}
     <motion.div
     // initial={{ y: -100, opacity: 0 }}

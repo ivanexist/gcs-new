@@ -47,6 +47,7 @@
     {
       "service_id": 1,
       "service_name": "Street Construction",
+      "service_icon": "road-construction.svg",
       "service_image": "Pembangunan-Jalan/Proses-2-jalan.jpeg",
       "description": [
         {
@@ -60,6 +61,7 @@
     {
       "service_id": 2,
       "service_name": "House Construction",
+      "service_icon": "",
       "service_image": "Rumneg-T45-Lantamal-V/Side-1.JPG",
       "description": [
         {
@@ -73,6 +75,7 @@
     {
       "service_id": 3,
       "service_name": "Pipe Installation",
+      "service_icon": "",
       "service_image": "Pipa-Pelindo-Energi-Logistik/Side-3.jpg",
       "description": [
         {
@@ -86,6 +89,7 @@
     {
       "service_id": 4,
       "service_name": "Building  Construction",
+      "service_icon": "",
       "service_image": "Gedung-Flat-T45-Marinir/Side-1.jpg",
       "description": [
         {
@@ -99,6 +103,7 @@
     {
       "service_id": 5,
       "service_name": "Steel Construction",
+      "service_icon": "",
       "service_image": "Shelter-Filling-Station/Proses-1.jpeg",
       "description": [
         {
@@ -112,6 +117,7 @@
     {
       "service_id": 6,
       "service_name": "Drainage System",
+      "service_icon": "",
       "service_image": "Saluran-U-Ditch-Terminal-Teluk-Lamong/Side-3.jpg",
       "description": [
         {
@@ -125,6 +131,7 @@
     {
       "service_id": 7,
       "service_name": "Renovation",
+      "service_icon": "",
       "service_image": "Perbaikan-Dapur-Kodiklatal/Side-1.jpg",
       "description": [
         {

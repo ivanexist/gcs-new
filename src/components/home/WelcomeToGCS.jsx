@@ -20,52 +20,37 @@ const WelcomeToGCS = () => {
         <div className="sm:ml-8 md:ml-16 md:pl-16 my-4 text-gray-600">
           <ul className="flex flex-col sm:justify-start md:justify-center sm:items-start list-none text-lg">
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Glory</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Bagus</span>
+              <b className="text-2xl mr-[2px]">G</b>
+              lory - <span className="text-atlantis-500">Bagus</span>
             </li>
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Excellent</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Sempurna</span>
+              <b className="text-2xl mr-[2px]">E</b>
+              xcellent - <span className="text-atlantis-500">Sempurna</span>
             </li>
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Modest</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Sederhana</span>
+              <b className="text-2xl mr-[2px]">M</b>
+              odest - <span className="text-atlantis-500">Sederhana</span>
             </li>
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Innovative</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Inovasi</span>
+              <b className="text-2xl mr-[2px]">I</b>
+              nnovative - <span className="text-atlantis-500">Inovasi</span>
             </li>
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Loyal</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Setia</span>
+              <b className="text-2xl mr-[2px]">L</b>
+              oyal - <span className="text-atlantis-500">Setia</span>
             </li>
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Accurate</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Tepat</span>
+              <b className="text-2xl mr-[2px]">A</b>
+              ccurate - <span className="text-atlantis-500">Tepat</span>
             </li>
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Networking</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Membangun Hubungan</span>
+              <b className="text-2xl mr-[2px]">N</b>
+              etworking -{" "}
+              <span className="text-atlantis-500">Membangun Hubungan</span>
             </li>
             <li className="my-2 text-blue-600">
-              <b>
-                <i>Growth</i>
-              </b>{" "}
-              - <span className="text-atlantis-500">Bertumbuh</span>
+              <b className="text-2xl mr-[2px]">G</b>
+              rowth - <span className="text-atlantis-500">Bertumbuh</span>
             </li>
           </ul>
         </div>

@@ -2,6 +2,7 @@ import AboutContent from "../components/about/AboutContent";
 import AboutTestimonial from "../components/about/AboutTestimonial";
 import Breadcrumb from "../components/Breadcrumb";
 import Footer from "../components/Footer";
+import MemberGroup from "../components/home/MemberGroup";
 import Testimonial from "../components/home/Testimonial";
 import Navbar2 from "../components/Navbar2";
 import ScrollUpButton from "../components/ScrollUpButton";
@@ -22,6 +23,7 @@ const About = () => (
       <AboutContent />
       {/* <div>About Page</div> */}
       <Testimonial />
+      <MemberGroup />
       <Footer />
       <ScrollUpButton />
     </motion.div>

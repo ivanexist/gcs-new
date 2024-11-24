@@ -1,24 +1,29 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { GCSContext } from "../../context/GCSContext";
+import { ReactSVG } from "react-svg";
 
 const ServicesContent = () => {
   const { gcsData, scrollToTop } = useContext(GCSContext);
   return (
-    <section className="flex items-center bg-white">
+    <section className="flex items-center">
       <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6 my-12">
         <div className="flex flex-col">
-          <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 text-blue-600">
             {/* Best Quality */}
             {gcsData.Services.length > 0 ? (
               gcsData.Services.map((service) => (
-                <div key={service.service_id} className="flex flex-col">
+                <div
+                  key={service.service_id}
+                  className="flex flex-col rounded-lg bg-white p-4 shadow-lg hover:shadow-2xl"
+                >
                   <div className="flex justify-center items-center">
                     <img
                       src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${service.service_image}`}
                       alt={service.service_name}
                       className="w-96 h-64"
                     />
+                    <ReactSVG src={`../../../icon/${service.service_icon}`} />
                   </div>
                   <div className="my-2 font-semibold text-blue-600">
                     <p>{service.service_name}</p>
@@ -30,11 +35,8 @@ const ServicesContent = () => {
                           75
                         )}[...]`
                       : service.description[0].description_overview}
-                    {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Culpa, quia officiis facere [...] */}
                   </div>
                   <div className="flex my-4">
-                    {/* <a href="">Details</a> */}
                     <Link
                       className=" text-atlantis-500 hover:text-atlantis-400 font-semibold"
                       to={`/services/${service.service_id}`}
@@ -181,6 +183,47 @@ const ServicesContent = () => {
                 <Link to="/services/details" onClick={scrollToTop}>
                   Details
                 </Link>
+              </div>
+            </div> */}
+
+            {/*  */}
+            {/* <div
+              className="flex justify-center items-center min-h-screen"
+              key={service.service_id}
+            >
+              <div className="max-w-[720px] mx-auto">
+                <div className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 hover:shadow-xl shadow-lg">
+                  <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
+                    <img
+                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${service.service_image}`}
+                      alt={service.service_name}
+                    />
+                    <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-tr from-transparent via-transparent to-black/60"></div>
+                  </div>
+                  <div className="p-6">
+                    <div className="flex items-center justify-between mb-3">
+                      <h5 className="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-600">
+                        {service.service_name}
+                      </h5>
+                    </div>
+                    <p className="block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
+                      {service.description[0].description_overview.length > 75
+                        ? `${service.description[0].description_overview.substring(
+                            0,
+                            75
+                          )}[...]`
+                        : service.description[0].description_overview}
+                    </p>
+
+                    <Link
+                      className=" text-atlantis-500 hover:text-atlantis-400 font-semibold"
+                      to={`/services/${service.service_id}`}
+                      onClick={scrollToTop}
+                    >
+                      Details
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div> */}
           </div>

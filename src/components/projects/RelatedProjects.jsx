@@ -17,9 +17,9 @@ const RelatedProjects = ({ selectedProject }) => {
     ) || [];
 
   return (
-    <div className="my-12">
+    <div className="my-24">
       <div className="flex justify-center items-center font-bold text-lg uppercase text-blue-600 ">
-        {console.log(filterRelatedProductCard.length)}
+        {/* {console.log(filterRelatedProductCard.length)} */}
         {filterRelatedProductCard.length > 0 ? (
           <span className="border-b-2 border-b-atlantis-500 pb-2">
             Related Projects

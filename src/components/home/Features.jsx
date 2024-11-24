@@ -33,8 +33,8 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                PT GCS berkomitmen untuk memberikan standar kualitas terbaik
-                dengan tetap memperhatikan keselamatan kerja.
+                Kami berkomitmen memberikan kualitas terbaik dengan tetap
+                memperhatikan keselamatan kerja.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                Kami selalu menghormati pelanggan dan menyelesaikan proyek tepat
+                Kami selalu menghargai client dengan menyelesaikan proyek tepat
                 pada waktunya.
               </p>
             </div>
@@ -89,8 +89,8 @@ export default function Features() {
             </div>
             <div>
               <p className="text-justify px-10 text-gray-500">
-                Dengan sumber daya yang berpengalaman, Anda dapat mengandalkan
-                kami untuk menangani proyek konstruksi yang beragam.
+                Kami dapat diandalkan untuk menangani proyek
+                konstruksi yang beragam dengan sumber daya yang berpengalaman.
               </p>
             </div>
           </div>

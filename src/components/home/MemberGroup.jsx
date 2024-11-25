@@ -7,7 +7,10 @@ const MemberGroup = () => {
         </p>
       </div>
       <div className="w-auto h-auto my-8">
-        <img src="../../../public/images/eka-langgeng-abadi-logo.jpg" alt="" />
+        <img
+          src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/eka-langgeng-abadi-logo.jpg"
+          alt=""
+        />
       </div>
     </div>
   );

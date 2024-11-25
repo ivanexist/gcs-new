@@ -15,11 +15,11 @@ const ServicesDetailsContent = () => {
     return service ? service.service_name : "Unknown Service";
   };
   return (
-    <section className="flex items-center bg-white">
+    <section className="flex items-center bg-gray-100">
       <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6">
         <div className="grid sm:grid-cols-1 lg:grid-cols-7 my-16">
           <div className="flex justify-between items-start col-span-2 ml-4 pb-4">
-            <div className=" ml-2 p-8 bg-gray-100">
+            <div className=" ml-2 px-8 bg-gray-100">
               <ul className="list-disc marker:text-atlantis-500">
                 {/* {console.log("serviceId " + serviceId)}
                 {console.log("service_id " + selectedService.service_id)} */}
@@ -47,7 +47,7 @@ const ServicesDetailsContent = () => {
             <div className="col-span-3">
               <div className="flex bg-gray-100">
                 <div className="col-span-2">
-                  <div className="pr-8 pl-4">
+                  <div className="pr-8">
                     <p className="text-gray-400 py-4 font-semibold">
                       SPECIAL SERVICES
                     </p>

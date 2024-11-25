@@ -3,6 +3,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { GCSContext } from "../../context/GCSContext";
+import ServiceCard from "../services/ServiceCard";
 
 export default function BestServices() {
   const { scrollToTop, gcsData } = useContext(GCSContext);
@@ -22,26 +23,11 @@ export default function BestServices() {
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {/* Best Quality */}
             {ArraySlice3.slice(0, 3).map((service) => (
-              <div key={service.service_id} className="flex flex-col">
-                <Link
-                  to={`/services/${service.service_id}`}
-                  onClick={scrollToTop}
-                  className="sm:mx-4 md:mx-0"
-                >
-                  <div className="flex justify-center items-center">
-                    <img
-                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${service.service_image}`}
-                      alt="Street constructions"
-                      className="w-96 h-64"
-                    />
-                  </div>
-                  <div>
-                    <p className="font-semibold my-4 text-xl text-blue-600">
-                      {service.service_name}
-                    </p>
-                  </div>
-                </Link>
-              </div>
+              <ServiceCard
+                key={service.service_id}
+                service={service}
+                serviceId={service.service_id}
+              />
             ))}
           </div>
           <div className="flex justify-center items-center my-12 ">

@@ -23,7 +23,7 @@ const ServicesContent = () => {
                   <div className="py-2 px-8 relative group">
                     <div>
                       <ReactSVG
-                        className="w-24 h-24 group-hover:text-white text-blue-500 transition-colors duration-300"
+                        className="w-32 h-32 group-hover:text-white text-blue-500 transition-colors duration-300"
                         src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/${service.service_icon}`}
                       />
                     </div>

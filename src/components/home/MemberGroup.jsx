@@ -6,7 +6,7 @@ const MemberGroup = () => {
           Member of GEMILANG Group
         </p>
       </div>
-      <div className="w-auto h-auto my-8">
+      <div className="w-96 h-80 my-8">
         <img
           src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/eka-langgeng-abadi-logo.jpg"
           alt=""

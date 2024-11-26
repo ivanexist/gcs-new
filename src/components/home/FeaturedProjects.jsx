@@ -28,7 +28,7 @@ export default function FeaturedProjects() {
       </div>
       <div className="flex justify-center items-center sm:my-8 md:my-16">
         <Link to="/projects" onClick={scrollToTop}>
-          <button className="py-4 px-8 bg-atlantis-500 text-white font-semibold text-lg">
+          <button className="py-4 px-8 bg-atlantis-500 text-white font-semibold text-xl rounded-lg">
             All Projects
           </button>
         </Link>

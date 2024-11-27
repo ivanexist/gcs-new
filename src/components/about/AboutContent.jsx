@@ -1,6 +1,6 @@
 const AboutContent = () => (
   <section className="flex items-center max-w-screen-xl bg-transparent mx-auto">
-    <div className="justify-center flex-1 py-4 mx-auto lg:py-6 md:px-6 my-4">
+    <div className="justify-center flex-1 mx-auto md:px-6">
       <div className="flex justify-center items-center self-center">
         <h1 className="text-3xl font-sans font-bold text-blue-600 md:text-4xl uppercase mb-8">
           WHO WE ARE?
@@ -38,7 +38,7 @@ const AboutContent = () => (
           />
         </div>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 my-20  sm:mx-4 md:mx-0">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mb-8 mt-16 sm:mx-4 md:mx-0">
         <div className="flex flex-col p-2 text-justify">
           <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
             Commitment

@@ -49,9 +49,9 @@ const WelcomeToGCS = () => {
             </li>
           </ul>
         </div>
-        <div className="flex justify-center items-center self-center mx-8 my-4">
+        <div className="flex justify-center items-center self-center mx-8 my-4 ">
           <Link to={`/contact`} onClick={scrollToTop}>
-            <button className="px-8 py-4 bg-atlantis-500 font-semibold text-white">
+            <button className="px-8 py-4 bg-atlantis-500 hover:bg-atlantis-400 font-semibold text-white rounded-lg shadow-md">
               GET IN TOUCH
             </button>
           </Link>

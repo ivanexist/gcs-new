@@ -32,7 +32,7 @@ export default function BestServices() {
           </div>
           <div className="flex justify-center items-center my-12 ">
             <Link to="/services" onClick={scrollToTop}>
-              <button className="py-4 px-8 bg-atlantis-500 text-white font-semibold text-xl rounded-lg">
+              <button className="py-4 px-8 bg-atlantis-500 hover:bg-atlantis-400 text-white font-semibold text-xl rounded-lg">
                 All Services
               </button>
             </Link>

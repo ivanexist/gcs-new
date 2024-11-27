@@ -11,7 +11,7 @@ export default function FeaturedProjects() {
     <div>
       <div className="flex flex-col my-8">
         <div className="flex justify-center items-center">
-          <h1 className="font-bold text-3xl text-blue-600 mb-16">
+          <h1 className="font-bold text-3xl text-blue-600 mb-12">
             FEATURES PROJECTS
           </h1>
         </div>
@@ -26,9 +26,9 @@ export default function FeaturedProjects() {
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center sm:my-8 md:my-16">
+      <div className="flex justify-center items-center sm:my-8 md:my-12">
         <Link to="/projects" onClick={scrollToTop}>
-          <button className="py-4 px-8 bg-atlantis-500 text-white font-semibold text-xl rounded-lg">
+          <button className="py-4 px-8 bg-atlantis-500 hover:bg-atlantis-400 text-white font-semibold text-xl rounded-lg">
             All Projects
           </button>
         </Link>

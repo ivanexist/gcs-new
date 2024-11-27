@@ -22,7 +22,7 @@ const About = () => (
       <Breadcrumb />
       <AboutContent />
       {/* <div>About Page</div> */}
-      <Testimonial />
+      <AboutTestimonial />
       <MemberGroup />
       <Footer />
       <ScrollUpButton />

@@ -19,7 +19,7 @@ const ServicesDetailsContent = () => {
       <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6">
         <div className="grid sm:grid-cols-1 lg:grid-cols-7 my-16">
           <div className="flex justify-between items-start col-span-2 ml-4 pb-4">
-            <div className=" ml-2 px-8 bg-gray-100">
+            <div className=" ml-2 px-8 py-4 bg-slate-200">
               <ul className="list-disc marker:text-atlantis-500">
                 {/* {console.log("serviceId " + serviceId)}
                 {console.log("service_id " + selectedService.service_id)} */}
@@ -48,7 +48,7 @@ const ServicesDetailsContent = () => {
               <div className="flex bg-gray-100">
                 <div className="col-span-2">
                   <div className="pr-8">
-                    <p className="text-gray-400 py-4 font-semibold">
+                    <p className="text-gray-400 pb-4 font-semibold">
                       SPECIAL SERVICES
                     </p>
                     <h1 className="text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600">

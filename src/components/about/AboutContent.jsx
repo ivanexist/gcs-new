@@ -1,7 +1,7 @@
 const AboutContent = () => (
   <section className="flex items-center max-w-screen-xl bg-transparent mx-auto">
     <div className="justify-center flex-1 py-4 mx-auto lg:py-6 md:px-6 my-4">
-      <div className="mx-auto">
+      <div className="flex justify-center items-center self-center">
         <h1 className="text-3xl font-sans font-bold text-blue-600 md:text-4xl uppercase mb-8">
           WHO WE ARE?
         </h1>

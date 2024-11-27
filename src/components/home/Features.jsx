@@ -3,7 +3,7 @@ export default function Features() {
     <div>
       <div className="flex flex-col py-4">
         <div className="flex justify-center items-center">
-          <div className="my-12 font-bold text-2xl text-blue-600">
+          <div className="my-12 font-bold text-3xl text-blue-600">
             YOUR BEST CHOICE
           </div>
         </div>

@@ -9,9 +9,9 @@ export default function FeaturedProjects() {
 
   return (
     <div>
-      <div className="flex flex-col">
+      <div className="flex flex-col my-8">
         <div className="flex justify-center items-center">
-          <h1 className="font-bold text-2xl text-blue-600 mb-16">
+          <h1 className="font-bold text-3xl text-blue-600 mb-16">
             FEATURES PROJECTS
           </h1>
         </div>

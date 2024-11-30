@@ -6,7 +6,7 @@ const HeroMainTrial = () => {
   const slides = [
     {
       image:
-        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-2.jpeg", //house
+        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-2.jpg", //house
     },
     {
       image:

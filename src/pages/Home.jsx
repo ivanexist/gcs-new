@@ -10,6 +10,7 @@ import WelcomeToGCS from "../components/home/WelcomeToGCS";
 import HeroMain from "../components/home/hero/HeroMain";
 import { motion } from "framer-motion";
 import HeroMain2 from "../components/home/hero/HeroMain2";
+import HeroMainTrial from "../components/home/hero/HeroMainTrial";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         transition={{ duration: 0.7 }}
       >
         <main className="relative w-full">
-          <HeroMain />
+          <HeroMainTrial />
           <div className="max-w-screen-xl mx-auto text-center">
             <Features />
             <WelcomeToGCS />

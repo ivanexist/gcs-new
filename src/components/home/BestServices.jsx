@@ -14,7 +14,7 @@ export default function BestServices() {
       <div className="flex flex-col pt-4 pb-8">
         <div className="flex justify-center items-center">
           <div>
-            <p className="font-bold my-4 mb-16 text-blue-600 text-3xl">
+            <p className="font-bold my-4 mb-12 text-blue-600 text-3xl">
               BEST SERVICES
             </p>
           </div>

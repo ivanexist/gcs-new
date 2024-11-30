@@ -11,7 +11,7 @@ export default function Features() {
           {/* Best Quality */}
           <div className="flex flex-col">
             <div className="flex justify-center items-center">
-              <div className="p-8 bg-gray-100 transition ease-in-out duration-500 rounded-full hover:bg-atlantis-500 group">
+              <div className="sm:p-6 lg:p-8 bg-gray-100 transition ease-in-out duration-500 rounded-full hover:bg-atlantis-500 group">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="1em"
@@ -41,7 +41,7 @@ export default function Features() {
           {/* ON TIME */}
           <div className="flex flex-col">
             <div className="flex justify-center items-center">
-              <div className="p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
+              <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="1em"
@@ -67,9 +67,9 @@ export default function Features() {
             </div>
           </div>
           {/* EXPERIENCED */}
-          <div className="flex flex-col">
+          <div className="flex flex-col sm:my-4 lg:my-0">
             <div className="flex justify-center items-center">
-              <div className="p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
+              <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="1em"

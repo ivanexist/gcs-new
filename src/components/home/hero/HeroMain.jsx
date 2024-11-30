@@ -64,14 +64,28 @@ const HeroMain = () => {
           ref={swiperRef}
           onSlideChange={handleSlideChange}
           centeredSlides={true}
+          onInit={(swiper) => {
+            swiper.update(); // Ensures Swiper recalculates sizes and layout
+          }}
           autoplay={{
-            delay: 5000,
+            delay: 4000,
             disableOnInteraction: false,
+            waitForTransition: false,
+          }}
+          onSlideChangeTransitionStart={(swiper) => {
+            // Ensure animations sync for first slide
+            if (swiper.realIndex === 0 && swiper.previousIndex === null) {
+              swiper.params.autoplay.delay = 500; // Extend delay for the first slide
+            } else {
+              swiper.params.autoplay.delay = 4000; // Normal delay for others
+            }
           }}
           pagination={{
             clickable: true,
             type: "bullets",
           }}
+          initialSlide={0}
+          loop={true}
           modules={[Autoplay, Pagination, Navigation, EffectFade]}
           effect="fade"
         >

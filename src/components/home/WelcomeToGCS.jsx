@@ -13,41 +13,64 @@ const WelcomeToGCS = () => {
         </h1>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 mb-20 bg-gray-100">
-        <div className="flex sm:mb-8 md:mb-0 sm:flex-col justify-start items-start">
-          <div className="sm:ml-12 my-4 text-gray-600">
+        <div className="flex sm:mb-8 md:mb-0 sm:flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start">
+          <div className="sm:ml-4 lg:ml-12 my-4 text-gray-600">
             <ul className="flex flex-col sm:justify-start sm:items-start self-center list-none text-lg">
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">G</b>
-                lory - <span className="text-atlantis-500">Bagus</span>
+                lory{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Bagus
+                </span>
               </li>
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">E</b>
-                xcellent - <span className="text-atlantis-500">Sempurna</span>
+                xcellent{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Sempurna
+                </span>
               </li>
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">M</b>
-                odest - <span className="text-atlantis-500">Sederhana</span>
+                odest{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Sederhana
+                </span>
               </li>
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">I</b>
-                nnovative - <span className="text-atlantis-500">Inovasi</span>
+                nnovative{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Inovasi
+                </span>
               </li>
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">L</b>
-                oyal - <span className="text-atlantis-500">Setia</span>
+                oyal{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Setia
+                </span>
               </li>
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">A</b>
-                ccurate - <span className="text-atlantis-500">Tepat</span>
+                ccurate{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Tepat
+                </span>
               </li>
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">N</b>
-                etworking -{" "}
-                <span className="text-atlantis-500">Membangun Hubungan</span>
+                etworking{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Membangun Hubungan
+                </span>
               </li>
               <li className="my-2 text-blue-600">
                 <b className="text-2xl mr-[2px]">G</b>
-                rowth - <span className="text-atlantis-500">Bertumbuh</span>
+                rowth{" "}
+                <span className="text-atlantis-500 sm:hidden lg:inline">
+                  - Bertumbuh
+                </span>
               </li>
             </ul>
           </div>
@@ -61,7 +84,7 @@ const WelcomeToGCS = () => {
         </div>
         <div>
           <img
-            className="relative md:w-[500px] md:h-[500px] sm:w-full sm:h-full sm:p-4 rounded-full"
+            className="relative md:w-[500px] md:h-[500px] sm:w-full sm:h-full sm:p-4 rounded-full sm:hidden lg:block"
             src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
             alt="GCS Logo"
           />

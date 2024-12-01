@@ -41,7 +41,7 @@ const HeroMainTrial = () => {
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
               <img
-                className="object-cover object-center w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+                className="object-cover object-center w-full sm:h-64 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
                 src={slide.image}
               />
             </SwiperSlide>
@@ -49,11 +49,11 @@ const HeroMainTrial = () => {
         </Swiper>
       </div>
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
-        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-          <h2 className="mb-5 font-sans text-3xl font-bold text-blue-600 sm:leading-none uppercase">
+        <div className="mb-16 sm:my-0 lg:my-40 lg:max-w-lg lg:pr-5">
+          <h2 className="mb-5 font-sans sm:text-2xl lg:text-3xl font-bold text-blue-600 sm:leading-none uppercase">
             Komitmen untuk bersinergi sebaik mungkin
           </h2>
-          <p className="pr-5 mb-5 text-base text-gray-500 md:text-lg">
+          <p className="pr-5 mb-5 text-base sm:text-justify lg:text-start text-gray-500 md:text-lg">
             Dengan sumber daya dan relasi yang luas, kami siap bersinergi
             menawarkan kerjasama yang produktif untuk mengahasilkan karya yang
             berkualitas.

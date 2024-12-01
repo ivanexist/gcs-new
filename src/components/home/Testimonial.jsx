@@ -7,7 +7,7 @@ const Testimonial = () => {
           <div className="flex justify-center items-center self text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase">
             <p className="border-b-2 pb-4 border-b-atlantis-500">Our Clients</p>
           </div>
-          <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0 lg:max-w-7xl">
+          <div className="grid sm:grid-cols-1 sm:place-items-center md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0 lg:max-w-7xl ">
             <div className="flex justify-center items-center self-center m-4 h-52 w-52 p-4 bg-white rounded-full shadow-lg">
               <img
                 src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg"

@@ -3,13 +3,13 @@ export default function Features() {
     <div>
       <div className="flex flex-col py-4">
         <div className="flex justify-center items-center">
-          <div className="my-12 font-bold text-3xl text-blue-600">
+          <div className="sm:my-4 md:my-12 font-bold text-3xl text-blue-600">
             YOUR BEST CHOICE
           </div>
         </div>
         <div className="grid sm:grid-cols-1 md:grid-cols-3">
           {/* Best Quality */}
-          <div className="flex flex-col">
+          <div className="flex flex-col sm:my-4 lg:my-0">
             <div className="flex justify-center items-center">
               <div className="sm:p-6 lg:p-8 bg-gray-100 transition ease-in-out duration-500 rounded-full hover:bg-atlantis-500 group">
                 <svg
@@ -39,7 +39,7 @@ export default function Features() {
             </div>
           </div>
           {/* ON TIME */}
-          <div className="flex flex-col">
+          <div className="flex flex-col sm:my-4 lg:my-0">
             <div className="flex justify-center items-center">
               <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
                 <svg

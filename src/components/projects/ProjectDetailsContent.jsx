@@ -89,10 +89,10 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                   </button>
                 ))}
               </div>
-              <div className="grid grid-cols-3 my-16">
+              <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:my-8 lg:my-16 ">
                 <div className="col-span-2">
-                  <div className="mr-16">
-                    <h1 className="text-xl font-semibold text-blue-600 py-4">
+                  <div className="sm:mr-0 lg:mr-16 sm:px-4">
+                    <h1 className="text-xl font-semibold text-blue-600 py-4 text-center">
                       Project Description
                     </h1>
                     <p className="py-2 text-gray-600 text-justify">
@@ -107,7 +107,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                   </div>
                 </div>
                 <div className="col-span-1 my-4">
-                  <h1 className="font-semibold text-xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase">
+                  <h1 className="font-semibold text-xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center ">
                     {selectedProject.project_name}
                   </h1>
                   <div className="container mx-auto my-4">

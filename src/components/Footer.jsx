@@ -3,9 +3,9 @@
 const Footer = () => (
   // <section className="flex items-center bg-white">
   //   <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 my-10"></div>
-  <footer className="text-center text-gray-950  lg:text-left">
+  <footer className="text-center text-gray-950  lg:text-left border-t-2 border-t-blue-100">
     {/* Main container div: holds the entire content of the footer, including four sections (TW ELements, Products, Useful, links, and COntact), with responsive styling and appropriate padding/margins */}
-    <div className="mx-6 py-10 text-center md:text-left">
+    <div className="mx-6 pt-10 text-center md:text-left">
       <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         {/* TW Elements Section */}
         <div>
@@ -31,7 +31,7 @@ const Footer = () => (
           <h6 className="flex justify-start font-semibold mb-2 uppercase text-blue-600">
             Contact Us
           </h6>
-          <div className="flex flex-col justify-start ">
+          <div className="flex flex-col justify-start text-left">
             <div className="flex my-2">
               <span>
                 <svg
@@ -84,9 +84,8 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center border-t-2 border-blue-200 p-6 my-4 lg:justify-between">
+      <div className="flex items-center justify-center border-t-2 border-blue-200 p-2 my-4 lg:justify-between">
         <div className="mr-12 hidden lg:block"></div>
-        {/* Social Network icons container */}
       </div>
     </div>
   </footer>

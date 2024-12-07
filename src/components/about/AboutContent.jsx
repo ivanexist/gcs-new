@@ -7,7 +7,7 @@ const AboutContent = () => (
         </h1>
       </div>
       <div className="flex sm:flex-col-reverse md:flex-row md:justify-between md:items-end">
-        <div className="sm:w-full mb-10 lg:w-1/2 lg:mb-0 sm:mx-4">
+        <div className="sm:w-full lg:w-1/2 lg:mb-0 px-4">
           <p className="my-4 text-base leading-7 text-gray-500 text-justify">
             PT.Gemilang Cipta Sentosa adalah Perusahaan yang bergerak dalam
             bidang konstruksi Sipil Bangunan, Jetty/Dermaga, dan Pemasangan
@@ -32,13 +32,13 @@ const AboutContent = () => (
         {/* images */}
         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
           <img
-            src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
+            src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/about-gcs.jpg"
             alt="aboutimage"
             className="relative z-10 object-cover w-full h-[480px]"
           />
         </div>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 mb-8 mt-16 sm:mx-4 md:mx-0">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:gap-8 mb-8 lg:mt-8 sm:mx-4 md:mx-0">
         <div className="flex flex-col p-2 text-justify">
           <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
             Commitment

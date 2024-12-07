@@ -84,7 +84,6 @@ const Breadcrumb = () => {
           ))}
         </nav>
       </div>
-      {/* {console.log(bookId)} */}
       <div className="max-w-screen-xl mx-10 my-6">
         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse ">
           <li className="inline-flex items-center">
@@ -101,18 +100,16 @@ const Breadcrumb = () => {
               >
                 {breadcrumb.key === "/" ? (
                   <div className="flex">
-                    <FaHome className="mt-1 mr-2 " /> Home
+                    <FaHome className="mt-1 mr-2" /> Home
                   </div>
                 ) : (
-                  <div className="flex">
-                    <FaAngleRight className="mr-2 mt-[5px]" />
+                  <div className="flex justify-center items-center">
+                    <FaAngleRight className="mr-2 mt-[4px]" />
                     {breadcrumb}
                   </div>
                 )}
               </Link>
             ))}
-            {/* {console.log(projectId)} */}
-            {/* {console.log(serviceId)} */}
           </li>
         </ol>
       </div>

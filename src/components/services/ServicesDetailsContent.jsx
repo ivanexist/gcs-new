@@ -1,10 +1,14 @@
 import { useContext } from "react";
 import { Link, useParams } from "react-router-dom";
 import { GCSContext } from "../../context/GCSContext";
+import { Button, Dropdown, Menu } from "antd";
+import { useMediaQuery } from "react-responsive";
 
 const ServicesDetailsContent = () => {
   const { serviceId } = useParams();
   const { gcsData } = useContext(GCSContext);
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
   const selectedService = gcsData.Services.find(
     (service) => service.service_id === parseInt(serviceId, 10)
   );
@@ -14,38 +18,53 @@ const ServicesDetailsContent = () => {
     );
     return service ? service.service_name : "Unknown Service";
   };
+
+  const servicesMenu = (
+    <Menu>
+      {gcsData.Services.map((service) => (
+        <Menu.Item key={service.service_id}>
+          <Link to={`/services/${service.service_id}`}>
+            {service.service_name}
+          </Link>
+        </Menu.Item>
+      ))}
+    </Menu>
+  );
+
   return (
     <section className="flex items-center bg-gray-100">
       <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6">
         <div className="grid sm:grid-cols-1 lg:grid-cols-7 my-16">
           <div className="flex justify-between items-start col-span-2 ml-4 pb-4">
-            <div className=" ml-2 px-8 py-4 bg-slate-200">
-              <ul className="list-disc marker:text-atlantis-500">
-                {/* {console.log("serviceId " + serviceId)}
-                {console.log("service_id " + selectedService.service_id)} */}
-
-                {/* {console.log(selectedService.service_id == serviceId)} */}
-                {gcsData.Services.map((service) => (
-                  <li
-                    key={service.service_id}
-                    className={`text-blue-500 hover:text-blue-600 ${
-                      selectedService?.service_id === service.service_id
-                        ? "text-blue-600 font-semibold"
-                        : " "
-                    } hover:font-semibold py-2`}
-                  >
-                    <Link to={`/services/${service.service_id}`}>
-                      {service.service_name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {isMobile ? (
+              <Dropdown overlay={servicesMenu} trigger={["click"]}>
+                <Button className="w-full">Select Service</Button>
+              </Dropdown>
+            ) : (
+              <div className=" ml-2 px-8 py-4 bg-gray-200">
+                <ul className="list-disc marker:text-atlantis-500">
+                  {gcsData.Services.map((service) => (
+                    <li
+                      key={service.service_id}
+                      className={`text-blue-500 hover:text-blue-600 ${
+                        selectedService?.service_id === service.service_id
+                          ? "text-blue-600 font-semibold"
+                          : " "
+                      } hover:font-semibold py-2`}
+                    >
+                      <Link to={`/services/${service.service_id}`}>
+                        {service.service_name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
 
-          <div className="col-span-5">
+          <div className="col-span-5 ps-1 ">
             <div className="col-span-3">
-              <div className="flex bg-gray-100">
+              <div className="lg:flex sm:flex-col lg:flex-row  bg-gray-100">
                 <div className="col-span-2">
                   <div className="pr-8">
                     <p className="text-gray-400 pb-4 font-semibold">
@@ -71,7 +90,7 @@ const ServicesDetailsContent = () => {
               </div>
             </div>
             <div className="py-4">
-              <h1 className="my-4 font-semibold text-blue-600 text-xl">
+              <h1 className="my-4 font-semibold text-blue-600 text-xl sm:text-center lg:text-left">
                 Perencanaan dan Desain
               </h1>
               <p className="text-gray-500">
@@ -91,7 +110,7 @@ const ServicesDetailsContent = () => {
               </p>
             </div>
             <div className="py-4">
-              <h1 className="mb-4 font-semibold text-blue-600 text-xl">
+              <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-xl">
                 Manajemen Proyek
               </h1>
               <p className="text-gray-500">
@@ -110,7 +129,7 @@ const ServicesDetailsContent = () => {
               </p>
             </div>
             <div className="py-4">
-              <h1 className="mb-4 font-semibold text-blue-600 text-xl">
+              <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-xl">
                 Evaluasi Kelayakan
               </h1>
               <p className="text-gray-500">
@@ -123,7 +142,7 @@ const ServicesDetailsContent = () => {
               </p>
             </div>
             <div className="py-4">
-              <h1 className="mb-4 font-semibold text-blue-600 text-xl">
+              <h1 className="mb-4 font-semibold text-blue-600 text-xl sm:text-center lg:text-left">
                 Biaya dan Anggaran
               </h1>
               <p className="text-gray-500">

@@ -15,7 +15,7 @@ export default function FeaturedProjects() {
             FEATURES PROJECTS
           </h1>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
           {/* Best Quality */}
           {projectsSlice3.slice(0, 3).map((project) => (
             <ProjectCard

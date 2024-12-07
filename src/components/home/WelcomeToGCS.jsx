@@ -12,7 +12,7 @@ const WelcomeToGCS = () => {
           CORE VALUE
         </h1>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 mb-20 bg-gray-100">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 sm:mb-6 lg:mb-20 bg-gray-100">
         <div className="flex sm:mb-8 md:mb-0 sm:flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start">
           <div className="sm:ml-4 lg:ml-12 my-4 text-gray-600">
             <ul className="flex flex-col sm:justify-start sm:items-start self-center list-none text-lg">

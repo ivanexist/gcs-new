@@ -16,6 +16,7 @@ export default function Navbar2() {
           <div className="flex">
             <Link
               to="/"
+              onClick={scrollToTop}
               className="flex items-center space-x-3 rtl:space-x-reverse mx-2 sm:w-24 sm:h-12 md:w-40 md:h-24"
             >
               <span className="self-center font-BrunoAce font-semibold whitespace-nowrap">

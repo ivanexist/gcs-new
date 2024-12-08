@@ -8,7 +8,7 @@ const ServicesContent = () => {
   const { gcsData, scrollToTop } = useContext(GCSContext);
   return (
     <section className="flex items-center">
-      <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6">
+      <div className="justify-center flex-1 max-w-7xl sm:py-0 mx-auto md:py-6 md:px-6">
         <div className="flex flex-col">
           <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 text-blue-600">
             {/* Best Quality */}

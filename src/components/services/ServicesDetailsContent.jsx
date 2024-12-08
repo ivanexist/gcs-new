@@ -40,7 +40,7 @@ const ServicesDetailsContent = () => {
               <Dropdown
                 overlay={servicesMenu}
                 trigger={["click"]}
-                className="py-5 font-semibold"
+                className="py-6 font-semibold text-base bg-gray-50"
               >
                 <Button className="w-full">Select Service</Button>
               </Dropdown>

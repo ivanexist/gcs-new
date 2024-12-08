@@ -68,7 +68,7 @@ const Breadcrumb = () => {
 
   return (
     <section className="">
-      <div className=" mx-auto  px-4 sm:py-16 lg:py-24 sm:px-6 justify-center sm:justify-center flex sm:h-16 lg:h-20 lg:px-8 bg-[linear-gradient(to_right,rgba(255,255,255,0.5),rgba(255,255,255,0.7)),url('https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?q=80&w=1479&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
+      <div className=" mx-auto px-4 sm:py-16 lg:py-24 sm:px-6 justify-center sm:justify-center flex sm:h-16 lg:h-20 lg:px-8 bg-[linear-gradient(to_right,rgba(255,255,255,0.5),rgba(255,255,255,0.7)),url('https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?q=80&w=1479&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
         <nav
           className="flex flex-col justify-center items-center max-w-screen-xl"
           aria-label="Breadcrumb"
@@ -84,7 +84,7 @@ const Breadcrumb = () => {
           ))}
         </nav>
       </div>
-      <div className="max-w-screen-xl mx-10 my-6">
+      <div className="max-w-screen-xl sm:mx-4 md:mx-8 lg:mx-10  my-6">
         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse ">
           <li className="inline-flex items-center">
             {/* Place code dynamic breadcrumb here */}

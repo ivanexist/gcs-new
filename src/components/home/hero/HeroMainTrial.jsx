@@ -50,7 +50,7 @@ const HeroMainTrial = () => {
       </div>
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
         <div className="mb-16 sm:my-0 lg:my-40 lg:max-w-lg lg:pr-5">
-          <h2 className="mb-5 font-sans sm:text-2xl lg:text-3xl font-bold text-blue-600 sm:leading-none uppercase">
+          <h2 className="mb-5 font-sans sm:text-2xl lg:text-3xl font-bold text-blue-600 sm:leading-none uppercase sm:text-center md:text-left">
             Komitmen untuk bersinergi sebaik mungkin
           </h2>
           <p className="pr-5 mb-5 text-base sm:text-justify lg:text-start text-gray-500 md:text-lg">

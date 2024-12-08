@@ -49,7 +49,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
           <div className="col-span-4">
             <div className="max-w-screen-xl mx-auto">
               {/* Main Slideshow Image */}
-              <div className="relative w-full h-[800px]">
+              <div className="relative w-full sm:h-80 md:h-[500px] lg:h-[800px] px-1">
                 <img
                   src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedProject.images[currentIndex]}`}
                   alt="slide"
@@ -58,19 +58,19 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                 {/* Left & Right Navigation */}
                 <button
                   onClick={goToPrevious}
-                  className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2  hover:bg-gray-700"
+                  className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 hover:bg-gray-700"
                 >
                   ❮
                 </button>
                 <button
                   onClick={goToNext}
-                  className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2  hover:bg-gray-700"
+                  className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 hover:bg-gray-700"
                 >
                   ❯
                 </button>
               </div>
               {/* Thumbnail Selector */}
-              <div className="flex justify-center mt-4 space-x-2">
+              <div className="flex overflow-x-auto justify-center sm:w-96 md:w-full mt-4 space-x-2 px-1">
                 {selectedProject.images.map((image, index) => (
                   <button
                     key={index}
@@ -84,12 +84,12 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                     <img
                       src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${image}`}
                       alt={`thumbnail-${index}`}
-                      className="w-full h-52 object-cover"
+                      className="w-full sm:h-24 md:h-36 lg:h-52 object-cover"
                     />
                   </button>
                 ))}
               </div>
-              <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:my-8 lg:my-16 ">
+              <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:my-8 lg:my-16">
                 <div className="col-span-2">
                   <div className="sm:mr-0 lg:mr-16 sm:px-4">
                     <h1 className="text-xl font-semibold text-blue-600 py-4 text-center">

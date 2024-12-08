@@ -76,7 +76,7 @@ const Breadcrumb = () => {
           {/* Title page based on Breadcrumb */}
           {breadcrumbs.slice(-1).map(({ match, breadcrumb }) => (
             <h1
-              className="font-semibold text-4xl mx-4  uppercase tracking-wider text-chathams-blue-900 bg-clip-text "
+              className="font-semibold sm:text-xl md:text-2xl lg:text-4xl mx-4  uppercase tracking-wider text-chathams-blue-900 bg-clip-text "
               key={match.url}
             >
               {breadcrumb}
@@ -94,8 +94,8 @@ const Breadcrumb = () => {
                 to={match.pathname}
                 className={
                   match.pathname === location.pathname
-                    ? "text-blue-600 inline-flex items-center text-base font-semibold mr-1"
-                    : "text-gray-500  inline-flex items-center text-base font-medium hover:text-blue-600  mr-2"
+                    ? "text-blue-600 inline-flex items-center sm:text-sm md:text-base font-semibold mr-1"
+                    : "text-gray-500  inline-flex items-center sm:text-sm md:text-base font-medium hover:text-blue-600 mr-2"
                 }
               >
                 {breadcrumb.key === "/" ? (

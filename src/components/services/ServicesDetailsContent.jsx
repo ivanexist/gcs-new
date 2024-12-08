@@ -34,10 +34,14 @@ const ServicesDetailsContent = () => {
   return (
     <section className="flex items-center bg-gray-100">
       <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6">
-        <div className="grid sm:grid-cols-1 lg:grid-cols-7 my-16">
-          <div className="flex justify-between items-start col-span-2 ml-4 pb-4">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-7  sm:my-0 lg:my-16">
+          <div className="flex justify-between items-start col-span-2 sm:mx-2 lg:mx-0 lg:ml-4 pb-4">
             {isMobile ? (
-              <Dropdown overlay={servicesMenu} trigger={["click"]}>
+              <Dropdown
+                overlay={servicesMenu}
+                trigger={["click"]}
+                className="py-5 font-semibold"
+              >
                 <Button className="w-full">Select Service</Button>
               </Dropdown>
             ) : (
@@ -66,11 +70,11 @@ const ServicesDetailsContent = () => {
             <div className="col-span-3">
               <div className="lg:flex sm:flex-col lg:flex-row  bg-gray-100">
                 <div className="col-span-2">
-                  <div className="pr-8">
-                    <p className="text-gray-400 pb-4 font-semibold">
+                  <div className=" sm:px-2 lg:px-0 lg:pr-8">
+                    <p className="text-gray-400 pb-4 font-semibold text-center sm:pt-4 lg:pt-0 sm:hidden lg:inline">
                       SPECIAL SERVICES
                     </p>
-                    <h1 className="text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600">
+                    <h1 className="sm:mt-4 lg:mt-0 text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600 text-center">
                       {getServiceName(selectedService.service_id)}
                     </h1>
                     <p className="my-4 text-gray-500 text-justify">
@@ -79,7 +83,7 @@ const ServicesDetailsContent = () => {
                   </div>
                 </div>
                 <div className="col-span-1">
-                  <div className="h-64 w-96 overflow-hidden">
+                  <div className="h-64 px-2 sm:w-full lg:w-96 overflow-hidden">
                     <img
                       src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedService.service_image}`}
                       alt=""

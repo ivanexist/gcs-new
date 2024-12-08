@@ -8,14 +8,14 @@ const AboutContent = () => (
       </div>
       <div className="flex sm:flex-col-reverse md:flex-row md:justify-between md:items-end">
         <div className="sm:w-full lg:w-1/2 lg:mb-0 px-4">
-          <p className="my-4 text-base leading-7 text-gray-500 text-justify">
+          <p className="sm:mb-4 md:mb-0 sm:my-0 md:my-4 text-base leading-7 text-gray-500">
             PT.Gemilang Cipta Sentosa adalah Perusahaan yang bergerak dalam
             bidang konstruksi Sipil Bangunan, Jetty/Dermaga, dan Pemasangan
             Instalasi Perpipaan (Pipa Air, Pipa Gas, dan Pipa Hydrant). Kami
             berdiri sejak tahun 2014 dan telah mengerjakan berbagai pekerjaan
             dari skala kecil hingga besar.
           </p>
-          <p className="my-4 text-base leading-7 text-gray-500 text-justify">
+          <p className="sm:mb-4 md:mb-0 sm:my-0 md:my-4 text-base leading-7 text-gray-500">
             Kami telah mengerjakan konstruksi diberbagai Instansi pemerintah
             maupun swasta, baik pada calon pelanggaan industri maupun komersil
             dan rumah tangga. Tenaga kerja kami merupakan tenaga yang terampil
@@ -38,9 +38,9 @@ const AboutContent = () => (
           />
         </div>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:gap-8 mb-8 lg:mt-8 sm:mx-4 md:mx-0">
-        <div className="flex flex-col p-2 text-justify">
-          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:gap-8 mb-8 lg:mt-8 sm:px-2 md:px-0">
+        <div className="flex flex-col p-2">
+          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
             Commitment
           </div>
           <div className="text-gray-500">
@@ -51,7 +51,7 @@ const AboutContent = () => (
             terlayani dan tercukupi dengan baik.
           </div>
         </div>
-        <div className="flex flex-col p-2 text-justify mx-2">
+        <div className="flex flex-col p-2 mx-2">
           <div className="font-semibold text-2xl my-4  text-blue-600 uppercase flex justify-center items-center">
             Our Mission
           </div>
@@ -72,7 +72,7 @@ const AboutContent = () => (
             </ul>
           </div>
         </div>
-        <div className="flex flex-col p-2 text-justify">
+        <div className="flex flex-col p-2">
           <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
             Our Vision
           </div>

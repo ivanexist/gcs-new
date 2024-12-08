@@ -2,7 +2,7 @@ const AboutTestimonial = () => {
   return (
     <section className="flex items-center">
       <div className="justify-center flex-1 max-w-7xl py-4 mx-auto md:px-6">
-        <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase">
+        <div className="flex justify-center items-center sm:text-xl md:text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase">
           <p className="border-b-2 pb-4 border-b-atlantis-500">Our Clients</p>
         </div>
         <div className="grid sm:grid-cols-1 md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0 lg:max-w-7xl sm:place-items-center">

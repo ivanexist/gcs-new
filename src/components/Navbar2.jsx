@@ -9,7 +9,7 @@ export default function Navbar2() {
   };
   return (
     <nav
-      className={`sticky bg-wild-sand-50 bg-border-blue-100 transition-colors duration-300 ease-in-out z-20 py-4`}
+      className={`sticky bg-wild-sand-50 shadow-sm border-b-blue-100 transition-colors duration-300 ease-in-out z-20 py-4`}
     >
       <div className="max-w-screen-xl w-full flex items-center justify-between mx-auto py-2">
         <div className="flex">
@@ -88,7 +88,7 @@ export default function Navbar2() {
               <Link
                 to="/contact"
                 onClick={scrollToTop}
-                className={`py-2 px-4  rounded hover:text-blue-600  md:p-0 ${
+                className={`py-2 px-4 rounded hover:text-blue-600 md:p-0 ${
                   location.pathname === "/contact"
                     ? "font-bold text-blue-600"
                     : "text-gray-400"

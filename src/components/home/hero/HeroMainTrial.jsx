@@ -6,15 +6,15 @@ const HeroMainTrial = () => {
   const slides = [
     {
       image:
-        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-Rumah.jpg", //house
-    },
-    {
-      image:
         "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Gedung-Flat-T45-Marinir/Side-1.jpg", //gedung
     },
     {
       image:
         "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Pembangunan-Jalan/Proses-2-jalan.jpeg", //jalan
+    },
+    {
+      image:
+        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-Rumah.jpg", //house
     },
     {
       image:
@@ -53,7 +53,7 @@ const HeroMainTrial = () => {
           <h2 className="mb-5 font-sans sm:text-2xl lg:text-3xl font-bold text-blue-600 sm:leading-none uppercase sm:text-center md:text-left">
             Komitmen untuk bersinergi sebaik mungkin
           </h2>
-          <p className="pr-5 mb-5 text-base sm:text-justify lg:text-start text-gray-500 md:text-lg">
+          <p className="pr-5 mb-5 text-base sm:text-start text-gray-500 md:text-lg">
             Dengan sumber daya dan relasi yang luas, kami siap bersinergi
             menawarkan kerjasama yang produktif untuk mengahasilkan karya yang
             berkualitas.

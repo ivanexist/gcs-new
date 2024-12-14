@@ -28,7 +28,7 @@ const ProjectCard = ({ project, projectId }) => {
           className="h-full flex flex-col"
         >
           <img
-            className="w-full h-56 object-cover object-center"
+            className="w-full h-56 object-cover object-center hover:opacity-90"
             src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
             alt="avatar"
           />

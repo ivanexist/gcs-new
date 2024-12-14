@@ -2,10 +2,8 @@ export default function Features() {
   return (
     <div>
       <div className="flex flex-col py-4">
-        <div className="flex justify-center items-center">
-          <div className="sm:my-4 md:my-12 font-bold text-3xl text-blue-600">
-            YOUR BEST CHOICE
-          </div>
+        <div className="sm:my-4 md:my-12 font-bold text-3xl text-blue-600 text-center">
+          YOUR BEST CHOICE
         </div>
         <div className="grid sm:grid-cols-1 md:grid-cols-3">
           {/* Best Quality */}

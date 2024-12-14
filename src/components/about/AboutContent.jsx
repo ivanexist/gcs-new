@@ -8,7 +8,7 @@ const AboutContent = () => (
       </div>
       <div className="flex sm:flex-col-reverse md:flex-row md:justify-between md:items-end">
         <div className="sm:w-full lg:w-1/2 lg:mb-0 px-4">
-          <p className="sm:mb-4 md:mb-0 sm:my-0 md:my-4 text-base leading-7 text-gray-500">
+          <p className="sm:mb-4 md:mb-0 text-base leading-7 text-gray-500">
             PT.Gemilang Cipta Sentosa adalah Perusahaan yang bergerak dalam
             bidang konstruksi Sipil Bangunan, Jetty/Dermaga, dan Pemasangan
             Instalasi Perpipaan (Pipa Air, Pipa Gas, dan Pipa Hydrant). Kami

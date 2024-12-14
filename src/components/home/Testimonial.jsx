@@ -1,86 +1,105 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { motion } from "framer-motion";
+import { Navigation, Pagination } from "swiper/modules";
+
 const Testimonial = () => {
+  // Variants for the flipping animation
+  const flipVariants = {
+    hover: {
+      rotateY: [0, 180, 360], // 3 flips
+      transition: {
+        duration: 1, // Adjust duration
+        ease: "easeInOut", // Smooth ease effect
+      },
+    },
+    initial: {
+      rotateY: 0, // Initial state
+    },
+  };
   return (
     <>
-      {/* <section className="flex items-center bg-white"> */}
       <section className="flex items-center">
         <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6">
-          <div className="flex justify-center items-center self text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase">
+          <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase">
             <p className="border-b-2 pb-4 border-b-atlantis-500">Our Clients</p>
           </div>
-          <div className="grid sm:grid-cols-2 sm:place-items-center md:grid-cols-5 gap-8 my-8 sm:mx-8 md:mx-0 lg:max-w-7xl ">
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg"
-                alt="TNI AL"
-                className="rounded-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pelindo_energi_log.jpg"
-                alt="Pelindo Energi Logistik"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pt-terminal-teluk-lamong.jpg"
-                alt="PT Terminal Teluk Lamong"
-                className="max-h-full max-w-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/peti_kemas_logo.jpg"
-                alt="Terminal Peti Kemas Surabaya"
-                className="max-h-full max-w-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/lamong-energi-logo.jpg"
-                alt="PT Lamong Energi Indonesia"
-                className="max-h-full max-w-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-2 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/BMS.png"
-                alt="PT Berlian Manyar Sejahtera"
-                className="max-h-full max-w-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Disfaslanal.png"
-                alt="Disfaslanal"
-                className="max-h-full max-w-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodiklatal.jpg"
-                alt="Kodiklatal"
-                className="rounded-full max-h-full max-w-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodikmar.png"
-                alt="Kodikmar"
-                className="max-h-full max-w-full"
-              />
-            </div>
-            <div className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg">
-              <img
-                src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Lantamal V.png"
-                alt="Lantamal V"
-                className="max-h-full max-w-full"
-              />
-            </div>
-          </div>
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={30}
+            slidesPerView={1}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              640: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 5 },
+            }}
+          >
+            {[
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg",
+                alt: "TNI AL",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pelindo_energi_log.jpg",
+                alt: "Pelindo Energi Logistik",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pt-terminal-teluk-lamong.jpg",
+                alt: "PT Terminal Teluk Lamong",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/peti_kemas_logo.jpg",
+                alt: "Terminal Peti Kemas Surabaya",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/lamong-energi-logo.jpg",
+                alt: "PT Lamong Energi Indonesia",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/BMS.png",
+                alt: "PT Berlian Manyar Sejahtera",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Disfaslanal.png",
+                alt: "Disfaslanal",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodiklatal.jpg",
+                alt: "Kodiklatal",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodikmar.png",
+                alt: "Kodikmar",
+              },
+              {
+                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Lantamal V.png",
+                alt: "Lantamal V",
+              },
+            ].map((client, index) => (
+              <SwiperSlide key={index} className="pt-4 pb-16">
+                <motion.div
+                  className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg"
+                  variants={flipVariants}
+                  initial="initial"
+                  whileHover="hover"
+                >
+                  <img
+                    src={client.src}
+                    alt={client.alt}
+                    className="max-h-full max-w-full"
+                  />
+                </motion.div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </section>
     </>
   );
 };
+
 export default Testimonial;

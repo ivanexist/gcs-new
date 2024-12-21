@@ -53,7 +53,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                 <img
                   src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedProject.images[currentIndex]}`}
                   alt="slide"
-                  className="w-full h-full object-cover object-center shadow-lg"
+                  className="w-full h-full object-cover object-center shadow-lg overflow-hidden"
                 />
                 {/* Left & Right Navigation */}
                 <button

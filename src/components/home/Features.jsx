@@ -42,7 +42,7 @@ export default function Features() {
             </p>
           </div>
           <div>
-            <p className="text-left px-10 text-gray-500">
+            <p className="text-left px-10 text-gray-500 font-roboto">
               Kami berkomitmen memberikan kualitas terbaik dengan tetap
               memperhatikan keselamatan kerja.
             </p>
@@ -77,7 +77,7 @@ export default function Features() {
             <p className="my-4 font-semibold text-blue-600">ON TIME</p>
           </div>
           <div>
-            <p className="text-left px-10 text-gray-500">
+            <p className="text-left px-10 text-gray-500 font-roboto">
               Kami selalu menghargai client dengan menyelesaikan proyek tepat
               pada waktunya.
             </p>
@@ -112,7 +112,7 @@ export default function Features() {
             <p className="my-4 font-semibold text-blue-600">EXPERIENCED</p>
           </div>
           <div>
-            <p className="text-left px-10 text-gray-500">
+            <p className="text-left px-10 text-gray-500 font-roboto">
               Kami dapat diandalkan untuk menangani proyek
               konstruksi yang beragam dengan sumber daya yang berpengalaman.
             </p>

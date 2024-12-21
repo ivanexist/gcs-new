@@ -34,7 +34,7 @@ const AboutContent = () => (
           <img
             src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/about-gcs.jpg"
             alt="aboutimage"
-            className="relative z-10 object-cover w-full h-[480px]"
+            className="relative z-10 object-cover object-center w-full h-[480px]"
           />
         </div>
       </div>

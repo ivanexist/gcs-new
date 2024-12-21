@@ -9,35 +9,18 @@ export default function Features() {
     visibleY: { y: 0, opacity: 1 },
   };
   return (
-    <motion.div
-      // variants={variantX}
-      // initial="hiddenX"
-      // whileInView="visibleX"
-      // viewport={{ once: true }}
-      // transition={{ duration: 0.5 }}
-      className="flex flex-col py-4"
-    >
-      <motion.div
-        variants={variantY}
-        initial="hiddenY"
-        whileInView="visibleY"
-        viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
-        className="sm:my-4 md:my-12 font-bold text-3xl text-blue-600 text-center"
-      >
-        YOUR BEST CHOICE
-      </motion.div>
+    <div className="flex flex-col sm:py-4 md:py-16">
       <div className="grid sm:grid-cols-1 md:grid-cols-3">
         {/* Best Quality */}
-        <div className="flex flex-col sm:my-4 lg:my-0">
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="flex justify-center items-center"
-          >
+        <motion.div
+          variants={variantY}
+          initial="hiddenY"
+          whileInView="visibleY"
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-col sm:my-4 lg:my-0"
+        >
+          <div className="flex justify-center items-center">
             <div className="sm:p-6 lg:p-8 bg-gray-100 transition ease-in-out duration-500 rounded-full hover:bg-atlantis-500 group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,41 +35,29 @@ export default function Features() {
                 ></path>
               </svg>
             </div>
-          </motion.div>
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
+          </div>
+          <div>
             <p className="my-4 font-semibold uppercase text-blue-600">
               Best Quality
             </p>
-          </motion.div>
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-          >
+          </div>
+          <div>
             <p className="text-left px-10 text-gray-500">
               Kami berkomitmen memberikan kualitas terbaik dengan tetap
               memperhatikan keselamatan kerja.
             </p>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
         {/* ON TIME */}
-        <div className="flex flex-col sm:my-4 lg:my-0">
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.9 }}
-            className="flex justify-center items-center"
-          >
+        <motion.div
+          variants={variantY}
+          initial="hiddenY"
+          whileInView="visibleY"
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="flex flex-col sm:my-4 lg:my-0"
+        >
+          <div className="flex justify-center items-center">
             <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -101,39 +72,27 @@ export default function Features() {
                 ></path>
               </svg>
             </div>
-          </motion.div>
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 1.2 }}
-          >
+          </div>
+          <div>
             <p className="my-4 font-semibold text-blue-600">ON TIME</p>
-          </motion.div>
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 1.5 }}
-          >
+          </div>
+          <div>
             <p className="text-left px-10 text-gray-500">
               Kami selalu menghargai client dengan menyelesaikan proyek tepat
               pada waktunya.
             </p>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
         {/* EXPERIENCED */}
-        <div className="flex flex-col sm:my-4 lg:my-0">
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 1.8 }}
-            className="flex justify-center items-center"
-          >
+        <motion.div
+          variants={variantY}
+          initial="hiddenY"
+          whileInView="visibleY"
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.8 }}
+          className="flex flex-col sm:my-4 lg:my-0"
+        >
+          <div className="flex justify-center items-center">
             <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -148,30 +107,18 @@ export default function Features() {
                 </g>
               </svg>
             </div>
-          </motion.div>
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 2.1 }}
-          >
+          </div>
+          <div>
             <p className="my-4 font-semibold text-blue-600">EXPERIENCED</p>
-          </motion.div>
-          <motion.div
-            variants={variantY}
-            initial="hiddenY"
-            whileInView="visibleY"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 2.4 }}
-          >
+          </div>
+          <div>
             <p className="text-left px-10 text-gray-500">
               Kami dapat diandalkan untuk menangani proyek
               konstruksi yang beragam dengan sumber daya yang berpengalaman.
             </p>
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
       </div>
-    </motion.div>
+    </div>
   );
 }

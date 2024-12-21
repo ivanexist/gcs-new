@@ -10,7 +10,7 @@ const ServicesContent = () => {
     <section className="flex items-center">
       <div className="justify-center flex-1 max-w-7xl sm:py-0 mx-auto mb-20">
         <div className="flex flex-col">
-          <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 text-blue-600">
+          <div className="grid sm:grid-cols-1 sm:place-items-center md:grid-cols-3 gap-8 text-blue-600">
             {/* Best Quality */}
             {gcsData.Services.length > 0 ? (
               gcsData.Services.map((service) => (

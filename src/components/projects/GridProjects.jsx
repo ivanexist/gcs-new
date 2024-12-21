@@ -25,11 +25,12 @@ const GridProjects = ({
             {/* {console.log(gcsData.Projects)} */}
             {
               // gcsData.Projects.length > 0 ? (
-              gcsData.Projects.map((project) => (
+              gcsData.Projects.map((project, indexMotion) => (
                 <ProjectCard
                   project={project}
                   key={project.project_id}
                   projectId={project.project_id}
+                  indexMotion={indexMotion}
                 />
               ))
               // ) : (

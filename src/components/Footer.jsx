@@ -12,7 +12,7 @@ const Footer = () => (
           <h6 className="mb-4 flex items-center font-semibold uppercase justify-start text-blue-600">
             PT Gemilang Cipta Sentosa
           </h6>
-          <p className="text-left text-gray-500">
+          <p className="text-left text-gray-500 font-roboto">
             Perusahaan yang bergerak dalam bidang konstruksi Sipil Bangunan,
             Jetty/Dermaga, dan Pemasangan Instalasi Perpipaan.
           </p>
@@ -22,7 +22,7 @@ const Footer = () => (
           <h6 className="mb-4 flex justify-start font-semibold uppercase text-blue-600">
             Business Hours
           </h6>
-          <div className="flex flex-col justify-start text-gray-500">
+          <div className="flex flex-col justify-start text-gray-500 font-roboto">
             <p className="mb-2 text-left">Mon - Fri: 9 AM - 5 PM</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Footer = () => (
           <h6 className="flex justify-start font-semibold mb-2 uppercase text-blue-600">
             Contact Us
           </h6>
-          <div className="flex flex-col justify-start text-left">
+          <div className="flex flex-col justify-start text-left font-roboto">
             <div className="flex my-2">
               <span>
                 <svg

@@ -21,21 +21,21 @@ const Testimonial = () => {
   };
   return (
     <>
-      <section className="flex items-center">
-        <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6">
+      <section className="flex justify-center items-center ">
+        <div className="flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6 overflow-hidden">
           <div className="flex justify-center items-center text-4xl text-blue-600 font-bold mb-12 mt-12 uppercase">
             <p className="border-b-2 pb-4 border-b-atlantis-500">Our Clients</p>
           </div>
           <Swiper
             modules={[Navigation, Pagination]}
-            spaceBetween={30}
+            spaceBetween={10}
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
             breakpoints={{
-              640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 5 },
+              359: { slidesPerView: 1, spaceBetween: 10, navigation: true },
+              768: { slidesPerView: 3, spaceBetween: 24 },
+              1024: { slidesPerView: 5, spaceBetween: 30 },
             }}
           >
             {[
@@ -80,7 +80,10 @@ const Testimonial = () => {
                 alt: "Lantamal V",
               },
             ].map((client, index) => (
-              <SwiperSlide key={index} className="pt-4 pb-16">
+              <SwiperSlide
+                key={index}
+                className="flex justify-center items-center self-center pt-4 pb-16"
+              >
                 <motion.div
                   className="flex justify-center items-center self-center m-4 h-40 w-40 p-8 bg-white rounded-full shadow-lg"
                   variants={flipVariants}

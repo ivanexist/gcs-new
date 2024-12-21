@@ -1,14 +1,14 @@
 const AboutContent = () => (
   <section className="flex items-center max-w-screen-xl bg-transparent mx-auto">
     <div className="justify-center flex-1 mx-auto md:px-6">
-      <div className="flex justify-center items-center self-center">
-        <h1 className="text-3xl font-sans font-bold text-blue-600 md:text-4xl uppercase my-8">
+      <div className="text-center my-12">
+        <h1 className="text-3xl font-sans font-bold text-blue-600 md:text-4xl uppercase">
           WHO WE ARE?
         </h1>
       </div>
-      <div className="flex sm:flex-col-reverse md:flex-row md:justify-between md:items-end">
+      <div className="flex sm:flex-col-reverse md:flex-row md:justify-between font-roboto">
         <div className="sm:w-full lg:w-1/2 lg:mb-0 px-4">
-          <p className="sm:mb-4 md:mb-0 text-base leading-7 text-gray-500">
+          <p className="sm:mb-4 md:mb-0 text-base leading-7 text-gray-500 ">
             PT.Gemilang Cipta Sentosa adalah Perusahaan yang bergerak dalam
             bidang konstruksi Sipil Bangunan, Jetty/Dermaga, dan Pemasangan
             Instalasi Perpipaan (Pipa Air, Pipa Gas, dan Pipa Hydrant). Kami
@@ -43,7 +43,7 @@ const AboutContent = () => (
           <div className="font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
             Commitment
           </div>
-          <div className="text-gray-500">
+          <div className="text-gray-500 font-roboto leading-7">
             Seiring dengan program pemerintah tentang pembangunan
             berkesinambungan serta penggunaan energi alternatif, maka merupakan
             komitmen bagi kami untuk mampu berkarya sebaik mungkin, sehingga
@@ -56,7 +56,7 @@ const AboutContent = () => (
             Our Mission
           </div>
           <div className="text-gray-500">
-            <ul className="list-disc">
+            <ul className="list-disc font-roboto leading-7">
               <li className="mb-2">
                 Menyediakan solusi jasa yang inovatif dengan melibatkan sumber
                 daya terbaik dan relasi yang kuat
@@ -73,10 +73,10 @@ const AboutContent = () => (
           </div>
         </div>
         <div className="flex flex-col p-2">
-          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase flex justify-center items-center">
+          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
             Our Vision
           </div>
-          <div className="text-gray-500">
+          <div className="text-gray-500 font-roboto leading-7">
             Menjadi Perusahaan Konstruksi Terkemuka dan Professional di Jawa
             Timur 2030
           </div>

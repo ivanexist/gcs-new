@@ -77,7 +77,7 @@ const ServicesDetailsContent = () => {
                     <h1 className="sm:mt-4 lg:mt-0 text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600 sm:text-center lg:text-left">
                       {getServiceName(selectedService.service_id)}
                     </h1>
-                    <p className="my-4 text-gray-500">
+                    <p className="my-4 text-gray-500 font-roboto">
                       {selectedService.description[0].description_overview}
                     </p>
                   </div>
@@ -98,7 +98,7 @@ const ServicesDetailsContent = () => {
                 Perencanaan dan Desain
               </h1>
               <p className="text-gray-500">
-                <ul className="list-disc mx-4">
+                <ul className="list-disc mx-4 font-roboto">
                   <li className="my-2">
                     Konsultasi mengenai desain struktural dan kebutuhan teknis
                     lainnya
@@ -118,7 +118,7 @@ const ServicesDetailsContent = () => {
                 Manajemen Proyek
               </h1>
               <p className="text-gray-500">
-                <ul className="list-disc mx-4">
+                <ul className="list-disc mx-4 font-roboto">
                   <li className="my-2">
                     Penjadwalan proyek dan estimasi durasi pengerjaan
                   </li>
@@ -137,7 +137,7 @@ const ServicesDetailsContent = () => {
                 Evaluasi Kelayakan
               </h1>
               <p className="text-gray-500">
-                <ul className="list-disc mx-4">
+                <ul className="list-disc mx-4 font-roboto">
                   <li className="my-2">
                     Kajian kelayakan proyek terkait dengan kondisi tanah, cuaca
                     dan aspek lingkungan
@@ -150,7 +150,7 @@ const ServicesDetailsContent = () => {
                 Biaya dan Anggaran
               </h1>
               <p className="text-gray-500">
-                <ul className="list-disc mx-4">
+                <ul className="list-disc mx-4 font-roboto">
                   <li className="my-2">
                     Diskusi mengenai estimasi biaya konstruksi dan bagaimana
                     cara mengelola anggaran proyek secara efektif

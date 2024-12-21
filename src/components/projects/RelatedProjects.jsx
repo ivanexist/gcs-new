@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
+import ProjectCard from "./ProjectCard";
 
 const RelatedProjects = ({ selectedProject }) => {
   const { gcsData } = useContext(GCSContext);
@@ -48,7 +49,7 @@ const RelatedProjects = ({ selectedProject }) => {
             key={project.project_id}
             className="flex justify-center gap-8"
           >
-            <RelatedProjectCard
+            <ProjectCard
               project={project}
               key={project.project_id}
               projectId={project.project_id}

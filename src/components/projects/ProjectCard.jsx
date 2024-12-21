@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { GCSContext } from "../../context/GCSContext";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({ project, projectId }) => {
   const { gcsData, scrollToTop } = useContext(GCSContext);
@@ -20,22 +21,40 @@ const ProjectCard = ({ project, projectId }) => {
   return (
     <div>
       {/* New Project Card */}
-      <div className="bg-white shadow-lg overflow-hidden lg:my-4 rounded-lg lg:h-[372px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 md:mx-0">
-        <Link
-          key={project.project_id}
-          to={`/projects/${project.project_id}`}
-          onClick={scrollToTop}
-          className="h-full flex flex-col"
-        >
-          <img
-            className="w-full h-56 object-cover object-center hover:opacity-90"
-            src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
-            alt="avatar"
-          />
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        whileHover={{
+          // scale: 1.05,
+          boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
+        }}
+        viewport={{ once: true, amount: 0.5 }}
+        className="bg-white shadow-lg overflow-hidden lg:my-4 rounded-lg lg:h-[372px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 md:mx-0"
+      >
+        <div className="h-full flex flex-col">
+          <Link
+            key={project.project_id}
+            to={`/projects/${project.project_id}`}
+            onClick={scrollToTop}
+          >
+            <img
+              className="w-full h-56 object-cover object-center hover:opacity-90"
+              src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
+              alt="avatar"
+            />
+          </Link>
+
           <div className="py-4 px-6 flex-1 flex flex-col justify-between">
-            <h1 className="text-lg font-semibold text-blue-600">
-              {project.project_name}
-            </h1>
+            <Link
+              key={project.project_id}
+              to={`/projects/${project.project_id}`}
+              onClick={scrollToTop}
+            >
+              <h1 className="text-lg text-start font-semibold text-blue-600 hover:text-blue-500">
+                {project.project_name}
+              </h1>
+            </Link>
             <div className="flex justify-between items-center text-gray-600 gap-4">
               <div className="flex items-center mt-4 ">
                 <svg
@@ -88,7 +107,7 @@ const ProjectCard = ({ project, projectId }) => {
                     ></path>{" "}
                   </g>
                 </svg>
-                <h1 className="px-2 text-sm">
+                <h1 className="px-2 text-sm text-start">
                   {getServiceName(project.service_id)}
                 </h1>
               </div>
@@ -118,12 +137,12 @@ const ProjectCard = ({ project, projectId }) => {
                     ></path>{" "}
                   </g>
                 </svg>
-                <h1 className="px-2 text-sm">{project.location}</h1>
+                <h1 className="px-2 text-sm text-start">{project.location}</h1>
               </div>
             </div>
           </div>
-        </Link>
-      </div>
+        </div>
+      </motion.div>
     </div>
   );
 };

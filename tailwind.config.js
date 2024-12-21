@@ -58,7 +58,11 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Montserrat", "serif"],
+        sans: ["Montserrat", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        crimson: ["Crimson", "sans-serif"],
+        openSans: ["OpenSans", "sans-serif"],
       },
     },
     screens: {

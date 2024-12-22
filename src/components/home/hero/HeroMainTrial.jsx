@@ -6,19 +6,19 @@ const HeroMainTrial = () => {
   const slides = [
     {
       image:
-        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Gedung-Flat-T45-Marinir/Side-1.jpg", //gedung
+        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hero/Hero-1.jpg", //gedung
     },
     {
       image:
-        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Pembangunan-Jalan/Proses-2-jalan.jpeg", //jalan
+        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hero/Hero-2.jpg", //jalan
     },
     {
       image:
-        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hilite-Rumah.jpg", //house
+        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hero/Hero-3.jpg", //house
     },
     {
       image:
-        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Pipa-Pelindo-Energi-Logistik/Side-1.jpg", //pipa
+        "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Hero/Hero-4.jpg", //pipa
     },
   ];
   return (
@@ -53,7 +53,7 @@ const HeroMainTrial = () => {
           <h2 className="mb-5 font-sans sm:text-2xl lg:text-3xl font-bold text-blue-600 sm:leading-none uppercase sm:text-center md:text-left">
             Commitment For Excellence
           </h2>
-          <p className="pr-5 mb-5 text-base sm:text-start text-gray-500 md:text-lg">
+          <p className="pr-5 mb-5 text-base sm:text-start text-gray-500 md:text-lg font-roboto">
             Dengan sumber daya dan relasi yang luas, kami siap bersinergi
             menawarkan kerjasama yang produktif untuk mengahasilkan karya yang
             berkualitas.

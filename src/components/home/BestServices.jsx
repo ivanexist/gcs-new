@@ -38,20 +38,13 @@ export default function BestServices() {
           </motion.div>
         </div>
         <div>
-          <motion.div
-            // variants={variant}
-            // initial="hidden"
-            // whileInView="visible"
-            // viewport={{ once: true }}
-            className="grid sm:grid-cols-1 md:grid-cols-3 gap-8"
-          >
+          <motion.div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
             {/* Best Quality */}
             {ArraySlice3.slice(0, 3).map((service) => (
               <ServiceCard
                 key={service.service_id}
                 service={service}
                 serviceId={service.service_id}
-                // indexMotion={indexMotion}
               />
             ))}
           </motion.div>

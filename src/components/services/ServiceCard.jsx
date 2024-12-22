@@ -31,7 +31,7 @@ const ServiceCard = ({ service, serviceId, indexMotion }) => {
           <h3 className="mt-8 text-lg font-semibold text-blue-600 group-hover:text-white ">
             {service.service_name}
           </h3>
-          <p className="mt-4 text-base text-gray-600 group-hover:text-white text-left">
+          <p className="mt-4 text-base text-gray-600 group-hover:text-white text-left font-roboto">
             {service.description[0].description_overview}
           </p>
         </div>

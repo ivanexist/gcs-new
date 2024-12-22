@@ -29,11 +29,11 @@ const WelcomeToGCS = () => {
         transition={{ duration: 0.5 }}
         className="flex justify-center items-center self-center"
       >
-        <h1 className="text-3xl font-bold uppercase mt-16 sm:mb-4 md:mb-12 pb-4 border-b-atlantis-500 border-b-2 text-blue-600">
+        <h1 className="text-3xl font-bold uppercase sm:mt-4 lg:mt-16 sm:mb-4 lg:mb-12 pb-4 text-blue-600">
           CORE VALUE
         </h1>
       </motion.div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 sm:mb-6 lg:mb-20 bg-gray-100">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2 sm:mb-6 lg:mb-20 bg-gray-100">
         <div className="flex sm:mb-8 md:mb-0 sm:flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start">
           <div className="sm:ml-4 lg:ml-12 my-4 text-gray-600">
             <ul className="flex flex-col sm:justify-start sm:items-start self-center list-none text-lg overflow-hidden">
@@ -47,7 +47,7 @@ const WelcomeToGCS = () => {
               >
                 <b className="text-2xl mr-[2px]">G</b>
                 lory{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
+                <span className="text-atlantis-500 sm:hidden md:inline">
                   - Bagus
                 </span>
               </motion.li>
@@ -75,7 +75,7 @@ const WelcomeToGCS = () => {
               >
                 <b className="text-2xl mr-[2px]">M</b>
                 odest{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
+                <span className="text-atlantis-500 sm:hidden md:inline">
                   - Sederhana
                 </span>
               </motion.li>
@@ -89,7 +89,7 @@ const WelcomeToGCS = () => {
               >
                 <b className="text-2xl mr-[2px]">I</b>
                 nnovative{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
+                <span className="text-atlantis-500 sm:hidden md:inline">
                   - Inovasi
                 </span>
               </motion.li>
@@ -103,7 +103,7 @@ const WelcomeToGCS = () => {
               >
                 <b className="text-2xl mr-[2px]">L</b>
                 oyal{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
+                <span className="text-atlantis-500 sm:hidden md:inline">
                   - Setia
                 </span>
               </motion.li>
@@ -117,7 +117,7 @@ const WelcomeToGCS = () => {
               >
                 <b className="text-2xl mr-[2px]">A</b>
                 ccurate{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
+                <span className="text-atlantis-500 sm:hidden md:inline">
                   - Tepat
                 </span>
               </motion.li>
@@ -131,7 +131,7 @@ const WelcomeToGCS = () => {
               >
                 <b className="text-2xl mr-[2px]">N</b>
                 etworking{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
+                <span className="text-atlantis-500 sm:hidden md:inline">
                   - Membangun Hubungan
                 </span>
               </motion.li>
@@ -145,7 +145,7 @@ const WelcomeToGCS = () => {
               >
                 <b className="text-2xl mr-[2px]">G</b>
                 rowth{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
+                <span className="text-atlantis-500 sm:hidden md:inline">
                   - Bertumbuh
                 </span>
               </motion.li>

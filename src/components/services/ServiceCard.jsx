@@ -12,7 +12,7 @@ const ServiceCard = ({ service, serviceId, indexMotion }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.5 }}
-      className="rounded-lg bg-white hover:bg-blue-500  hover:shadow-xl lg:m-2 p-4 relative z-10 group sm:mx-4 w-96 h-[25rem] mb-4"
+      className="rounded-lg bg-white hover:bg-blue-500 hover:shadow-xl lg:m-2 p-4 relative z-10 group sm:mx-4 w-96 h-[25rem] mb-4"
     >
       <Link
         key={serviceId}

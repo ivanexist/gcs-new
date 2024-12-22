@@ -5,8 +5,8 @@ import { useParams } from "react-router-dom";
 import RelatedProjects from "./RelatedProjects";
 
 const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
-  const { gcsData, formatTextWithBreaks } = useContext(GCSContext);
-  const { projectId } = useParams();
+  const { gcsData } = useContext(GCSContext);
+  // const { projectId } = useParams();
 
   const getClientName = (clientId) => {
     const client = gcsData.Clients.find(

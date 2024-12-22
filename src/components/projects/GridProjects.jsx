@@ -14,14 +14,12 @@ const GridProjects = ({
   const { gcsData } = useContext(GCSContext);
 
   return (
-    <div className="mx-auto max-w-2xl lg:max-w-7xl mb-24">
-      <div className="grid  grid-cols-4 gap-x-8 gap-y-10 lg:grid-cols-4">
+    <div className="sm:mx-8 lg:mx-auto sm:max-w-3xl md:max-w-4xl lg:max-w-7xl mb-24">
+      <div className="grid grid-cols-4 gap-x-8 gap-y-10 lg:grid-cols-4">
         {/* Filters */}
-        {/* <div className="col-span-1">
-          <Category />
-        </div> */}
+
         <div className="col-span-4">
-          <div className="grid lg:grid-cols-3 gap-x-1 gap-y-8 sm:grid-cols-1 xl:gap-x-4 sm:pr-8 lg:pr-0">
+          <div className="grid lg:grid-cols-3 gap-x-1 gap-y-8 sm:grid-cols-1 md:grid-cols-2 xl:gap-x-4 sm:pr-8 lg:pr-0">
             {/* {console.log(gcsData.Projects)} */}
             {
               // gcsData.Projects.length > 0 ? (

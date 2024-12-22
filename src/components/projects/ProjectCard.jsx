@@ -30,7 +30,7 @@ const ProjectCard = ({ project, projectId }) => {
           boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
         }}
         viewport={{ once: true, amount: 0.5 }}
-        className="bg-white shadow-lg overflow-hidden lg:my-4 rounded-lg lg:h-[372px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 md:mx-0"
+        className="bg-white shadow-lg overflow-hidden lg:my-4 rounded-lg lg:h-[372px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 lg:mx-0 md:mr-8 lg:mr-0"
       >
         <div className="h-full flex flex-col">
           <Link

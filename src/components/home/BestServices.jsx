@@ -23,7 +23,7 @@ export default function BestServices() {
 
   return (
     <div>
-      <div className="flex flex-col pt-4 pb-8">
+      <div className="flex flex-col pt-4 pb-8 overflow-hidden">
         <div className="flex justify-center items-center">
           <motion.div
             variants={variantY}
@@ -38,7 +38,7 @@ export default function BestServices() {
           </motion.div>
         </div>
         <div>
-          <motion.div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
+          <motion.div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Best Quality */}
             {ArraySlice3.slice(0, 3).map((service) => (
               <ServiceCard

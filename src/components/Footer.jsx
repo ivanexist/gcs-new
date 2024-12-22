@@ -1,9 +1,7 @@
 // import { FaBookOpen } from "react-icons/fa";
 
 const Footer = () => (
-  // <section className="flex items-center bg-white">
-  //   <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 my-10"></div>
-  <footer className="text-center text-gray-950  lg:text-left border-t-2 border-t-blue-100">
+  <footer className="text-center text-gray-950  lg:text-left border-t-2 border-t-blue-100 mb-8">
     {/* Main container div: holds the entire content of the footer, including four sections (TW ELements, Products, Useful, links, and COntact), with responsive styling and appropriate padding/margins */}
     <div className="mx-6 pt-10 text-center md:text-left">
       <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -83,9 +81,6 @@ const Footer = () => (
             </div>
           </div>
         </div>
-      </div>
-      <div className="flex items-center justify-center border-t-2 border-blue-200 p-2 my-4 lg:justify-between">
-        <div className="mr-12 hidden lg:block"></div>
       </div>
     </div>
   </footer>

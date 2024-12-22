@@ -22,9 +22,7 @@ const RelatedProjects = ({ selectedProject }) => {
       <div className="flex justify-center items-center font-bold text-lg uppercase text-blue-600 ">
         {/* {console.log(filterRelatedProductCard.length)} */}
         {filterRelatedProductCard.length > 0 ? (
-          <span className="border-b-2 border-b-atlantis-500 pb-2">
-            Related Projects
-          </span>
+          <h1 className="text-2xl mb-4">Related Projects</h1>
         ) : (
           ""
         )}

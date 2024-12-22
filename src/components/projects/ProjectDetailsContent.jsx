@@ -92,7 +92,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
               <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:my-8 lg:my-16">
                 <div className="col-span-2">
                   <div className="sm:mr-0 lg:mr-16 sm:px-4">
-                    <h1 className="text-xl font-semibold text-blue-600 py-4 text-center">
+                    <h1 className="text-2xl font-semibold text-blue-600 py-4 text-center uppercase">
                       Project Description
                     </h1>
                     <p className="py-2 text-gray-600 text-left font-roboto">

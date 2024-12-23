@@ -49,7 +49,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
           <div className="col-span-4">
             <div className="max-w-screen-xl mx-auto">
               {/* Main Slideshow Image */}
-              <div className="relative w-full sm:h-80 md:h-[500px] lg:h-[800px] px-1 overflow-hidden">
+              <div className="relative w-screen sm:h-80 md:h-[500px] lg:h-[800px] px-1 overflow-hidden">
                 <img
                   src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedProject.images[currentIndex]}`}
                   alt="slide"

@@ -18,7 +18,7 @@ const RelatedProjects = ({ selectedProject }) => {
     ) || [];
 
   return (
-    <div className="my-20 max-w-full overflow-x-hidden px-4">
+    <div className="my-20 max-w-full overflow-x-hidden">
       <div className="text-center font-bold text-lg uppercase text-blue-600">
         {/* {console.log(filterRelatedProductCard.length)} */}
         {filterRelatedProductCard.length > 0 ? (

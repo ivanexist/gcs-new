@@ -43,8 +43,8 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
     setCurrentIndex(index);
   };
   return (
-    <section className="flex items-center w-screen bg-white">
-      <div className="justify-center flex-1 max-w-7xl mx-auto">
+    <section className="flex items-center  bg-white">
+      <div className="justify-center flex-1 w-screen max-w-7xl mx-auto">
         <div className="grid grid-cols-4">
           <div className="col-span-4">
             <div className="max-w-screen-xl mx-auto">

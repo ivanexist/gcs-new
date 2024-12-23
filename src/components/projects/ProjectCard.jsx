@@ -5,11 +5,7 @@ import { motion } from "framer-motion";
 
 const ProjectCard = ({ project, projectId }) => {
   const { gcsData, scrollToTop } = useContext(GCSContext);
-  // const scrollToTop = () => {
-  //   window.scrollTo({ top: 0, behavior: "auto" });
-  // };
 
-  // const [services, setServices] = useState([]);
   // Function to find service name based on service_id
   const getServiceName = (serviceId) => {
     const service = gcsData.Services.find(

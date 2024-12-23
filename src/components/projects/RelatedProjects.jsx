@@ -18,8 +18,8 @@ const RelatedProjects = ({ selectedProject }) => {
     ) || [];
 
   return (
-    <div className="my-24">
-      <div className="flex justify-center items-center font-bold text-lg uppercase text-blue-600 ">
+    <div className="my-20 max-w-full overflow-x-hidden">
+      <div className="text-center font-bold text-lg uppercase text-blue-600">
         {/* {console.log(filterRelatedProductCard.length)} */}
         {filterRelatedProductCard.length > 0 ? (
           <h1 className="text-2xl mb-4">Related Projects</h1>
@@ -29,33 +29,31 @@ const RelatedProjects = ({ selectedProject }) => {
       </div>
       {/* filter category based on selected product card category, except selected book */}
       {/* <div className="grid sm:grid-cols-2 gap-4"> */}
-      <Swiper
-        modules={[Navigation]}
-        spaceBetween={20}
-        slidesPerView={1}
-        navigation
-        // pagination={{ clickable: true }}
-        breakpoints={{
-          640: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-        className="w-full"
-      >
-        {filterRelatedProductCard.map((project) => (
-          <SwiperSlide
-            key={project.project_id}
-            className="flex justify-center gap-8"
-          >
-            <ProjectCard
-              project={project}
+      <div className="relative w-full overflow-hidden">
+        <Swiper
+          modules={[Navigation, Pagination]}
+          spaceBetween={10}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          breakpoints={{
+            359: { slidesPerView: 1, spaceBetween: 10, navigation: true },
+            768: { slidesPerView: 2, spaceBetween: 24 },
+            1024: { slidesPerView: 3, spaceBetween: 30 },
+          }}
+          style={{ overflow: "hidden", maxWidth: "100%" }}
+          className="w-full"
+        >
+          {filterRelatedProductCard.map((project) => (
+            <SwiperSlide
               key={project.project_id}
-              projectId={project.project_id}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-      {/* </div> */}
+              className="flex justify-center items-center max-w-full"
+            >
+              <ProjectCard project={project} projectId={project.project_id} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };

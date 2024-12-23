@@ -43,7 +43,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
     setCurrentIndex(index);
   };
   return (
-    <section className="flex items-center  bg-white">
+    <section className="flex items-center bg-white">
       <div className="justify-center flex-1 w-screen max-w-7xl mx-auto">
         <div className="grid grid-cols-4">
           <div className="col-span-4">
@@ -107,9 +107,11 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                   </div>
                 </div>
                 <div className="col-span-1 my-4">
-                  <h1 className="font-semibold text-xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center ">
-                    {selectedProject.project_name}
-                  </h1>
+                  <div className="px-4">
+                    <h1 className="font-semibold text-xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center">
+                      {selectedProject.project_name}
+                    </h1>
+                  </div>
                   <div className="container mx-auto my-4">
                     <div className="flex flex-col gap-4 font-roboto">
                       {/* <!-- Table Header --> */}

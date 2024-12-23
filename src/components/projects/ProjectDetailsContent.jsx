@@ -44,7 +44,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
   };
   return (
     <section className="flex items-center bg-white">
-      <div className="justify-center flex-1 max-w-7xl mx-auto">
+      <div className="justify-center flex-1 max-w-7xl mx-auto w-screen">
         <div className="grid grid-cols-4">
           <div className="col-span-4">
             <div className="max-w-screen-xl mx-auto">

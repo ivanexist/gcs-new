@@ -9,7 +9,7 @@ export default function Features() {
     visibleY: { y: 0, opacity: 1 },
   };
   return (
-    <div className="flex flex-col sm:py-4 md:py-16">
+    <div className="flex flex-col sm:mb-16 md:mb-0 sm:py-0 md:py-16">
       <div className="grid sm:grid-cols-1 md:grid-cols-3">
         {/* Best Quality */}
         <motion.div

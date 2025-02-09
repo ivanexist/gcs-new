@@ -116,7 +116,7 @@ const WelcomeToGCS = () => {
               showArrow={false}
               header={
                 <div
-                  className={`p-4 rounded-lg shadow-sm text-lg font-PlayfairDisplay font-bold transition-colors duration-300 ${
+                  className={`p-4 flex rounded-lg shadow-sm text-lg font-PlayfairDisplay font-bold transition-colors duration-300 ${
                     activeKey.includes(item.key)
                       ? "bg-blue-500 text-white border-r-atlantis-500 border-r-8"
                       : "bg-gray-200 text-blue-600"
@@ -124,7 +124,7 @@ const WelcomeToGCS = () => {
                 >
                   <span className="w-8 h-8 mr-4">
                     <ReactSVG
-                      className="group-hover:text-white text-blue-500 transition-colors duration-300"
+                      className="w-8 h-8 group-hover:text-white text-blue-500 transition-colors duration-300"
                       src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/corevalues/${item.icon}`}
                     />
                   </span>{" "}
@@ -150,7 +150,7 @@ const WelcomeToGCS = () => {
           <path d="M50 0H100L50 100H0L50 0Z" />
         </svg>
         <img
-          className="relative  sm:p-4 sm:hidden lg:block"
+          className="relative sm:p-4 sm:hidden lg:block"
           src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
           alt="GCS Logo"
         />

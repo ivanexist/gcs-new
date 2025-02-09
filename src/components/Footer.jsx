@@ -10,7 +10,7 @@ const Footer = () => (
           <h6 className="mb-4 flex items-center font-semibold uppercase justify-start text-blue-600">
             PT Gemilang Cipta Sentosa
           </h6>
-          <p className="text-left text-gray-500 font-roboto">
+          <p className="text-left text-masala-800 font-openSans">
             Perusahaan yang bergerak dalam bidang konstruksi Sipil Bangunan,
             Jetty/Dermaga, dan Pemasangan Instalasi Perpipaan.
           </p>
@@ -20,7 +20,7 @@ const Footer = () => (
           <h6 className="mb-4 flex justify-start font-semibold uppercase text-blue-600">
             Business Hours
           </h6>
-          <div className="flex flex-col justify-start text-gray-500 font-roboto">
+          <div className="flex flex-col justify-start text-masala-800 font-openSans">
             <p className="mb-2 text-left">Mon - Fri: 9 AM - 5 PM</p>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Footer = () => (
           <h6 className="flex justify-start font-semibold mb-2 uppercase text-blue-600">
             Contact Us
           </h6>
-          <div className="flex flex-col justify-start text-left font-roboto">
+          <div className="flex flex-col justify-start text-left font-openSans">
             <div className="flex my-2">
               <span>
                 <svg
@@ -42,7 +42,7 @@ const Footer = () => (
                   <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
                 </svg>
               </span>
-              <span className="text-gray-500">
+              <span className="text-masala-800">
                 Jl. Pagesangan Agung Baru No.44, Surabaya
               </span>
             </div>
@@ -58,7 +58,7 @@ const Footer = () => (
                   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                 </svg>
               </span>
-              <span className="text-gray-500">
+              <span className="text-masala-800">
                 gemilangciptasentosa@gmail.com
               </span>
             </div>
@@ -77,7 +77,7 @@ const Footer = () => (
                   />
                 </svg>
               </span>
-              <span className="text-gray-500">+ 62 31 8522710</span>
+              <span className="text-masala-800">+ 62 31 8522710</span>
             </div>
           </div>
         </div>

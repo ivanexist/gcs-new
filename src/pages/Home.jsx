@@ -11,11 +11,12 @@ import HeroMain from "../components/home/hero/HeroMain";
 import { motion } from "framer-motion";
 import HeroMain2 from "../components/home/hero/HeroMain2";
 import HeroMainTrial from "../components/home/hero/HeroMainTrial";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   return (
     <div>
-      <div className="sticky top-0 z-20">
+      <div className="relative top-0 z-20">
         <Navbar2 />
       </div>
       <motion.div
@@ -25,7 +26,7 @@ export default function Home() {
         transition={{ duration: 0.7 }}
       >
         <main className="relative w-full">
-          <HeroMainTrial />
+          <HeroMain />
           <div className="max-w-screen-xl mx-auto text-center">
             <Features />
             <WelcomeToGCS />

@@ -1,178 +1,159 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { GCSContext } from "../../context/GCSContext";
 import { motion } from "framer-motion";
 import { div } from "framer-motion/client";
+import { Collapse } from "antd";
+import { ReactSVG } from "react-svg";
+
+const items = [
+  {
+    key: "1",
+    label: "Glory",
+    icon: "glory.svg",
+    children: (
+      <p>
+        Berusaha meraih kemuliaan dalam setiap usaha yang dilakukan, dengan
+        tujuan mencapai hasil terbaik yang dapat dibanggakan.
+      </p>
+    ),
+  },
+  {
+    key: "2",
+    label: "Excellent",
+    icon: "excellence.svg",
+    children: (
+      <p>
+        Selalu berusaha memberikan hasil yang sangat baik, dengan standar tinggi
+        yang tak tergoyahkan dalam setiap langkah yang diambil.
+      </p>
+    ),
+  },
+  {
+    key: "3",
+    label: "Modest",
+    icon: "modest.svg",
+    children: (
+      <p>
+        Meskipun telah mencapai banyak kesuksesan, tetap mempertahankan sikap
+        rendah hati dan tidak berlebihan dalam merayakan pencapaian.
+      </p>
+    ),
+  },
+  {
+    key: "4",
+    label: "Innovative",
+    icon: "innovative.svg",
+    children: (
+      <p>
+        Selalu terbuka untuk ide-ide baru dan berfokus pada penciptaan solusi
+        inovatif yang dapat membawa perubahan positif di masa depan.
+      </p>
+    ),
+  },
+  {
+    key: "5",
+    label: "Loyal",
+    icon: "loyal.svg",
+    children: (
+      <p>
+        Memiliki kesetiaan yang kuat terhadap nilai-nilai yang diyakini, serta
+        tetap teguh pada prinsip meski dalam berbagai tantangan.
+      </p>
+    ),
+  },
+  {
+    key: "6",
+    label: "Accurate",
+    icon: "accuracy.svg",
+    children: (
+      <p>
+        Menjaga ketepatan dan keakuratan dalam setiap tindakan, karena kualitas
+        tersebut sangat penting untuk hasil yang maksimal.
+      </p>
+    ),
+  },
+  {
+    key: "7",
+    label: "Networking",
+    icon: "networking.svg",
+    children: (
+      <p>
+        Membangun hubungan yang kuat dan saling menguntungkan, yang dapat
+        mendukung pengembangan dan kemajuan bersama.
+      </p>
+    ),
+  },
+  {
+    key: "8",
+    label: "Growth",
+    icon: "growth.svg",
+    children: (
+      <p>
+        Berfokus pada perkembangan yang berkelanjutan, dengan selalu mencari
+        peluang untuk tumbuh lebih baik dalam segala aspek.
+      </p>
+    ),
+  },
+];
 
 const WelcomeToGCS = () => {
-  const variantX = {
-    hiddenX: { x: 100, opacity: 0 },
-    visibleX: { x: 0, opacity: 1 },
-  };
-  const variantY = {
-    hiddenY: { y: 100, opacity: 0 },
-    visibleY: { y: 0, opacity: 1 },
-  };
-  const variant = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-  };
+  const [activeKey, setActiveKey] = useState(["1"]);
 
-  const { scrollToTop } = useContext(GCSContext);
+  const handleChange = (key) => {
+    setActiveKey(key);
+  };
   return (
-    <div>
-      <motion.div
-        variants={variantY}
-        initial="hiddenY"
-        whileInView="visibleY"
-        viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
-        className="flex justify-center items-center self-center"
-      >
-        <h1 className="text-3xl font-bold uppercase sm:mt-4 lg:mt-16 sm:mb-4 lg:mb-12 pb-4 text-blue-600">
+    <div className="grid sm:grid-cols-1 lg:grid-cols-5 sm:mb-6 lg:mb-20 bg-gray-100 sm:mt-4 lg:mt-16">
+      <div className="w-[480px] text-left lg:col-span-2">
+        <h1 className="text-3xl font-PlayfairDisplay font-bold text-center uppercase sm:mt-4 sm:mb-4 lg:mb-8 pb-4 text-blue-600">
           CORE VALUE
         </h1>
-      </motion.div>
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 sm:mb-6 lg:mb-20 bg-gray-100">
-        <div className="flex sm:mb-8 md:mb-0 sm:flex-col sm:justify-center sm:items-center lg:justify-start lg:items-start">
-          <div className="sm:ml-4 lg:ml-12 my-4 text-gray-600">
-            <ul className="flex flex-col sm:justify-start sm:items-start self-center list-none text-lg overflow-hidden">
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.15 }}
-                className="my-2 text-blue-600 "
-              >
-                <b className="text-2xl mr-[2px]">G</b>
-                lory{" "}
-                <span className="text-atlantis-500 sm:hidden md:inline">
-                  - Bagus
-                </span>
-              </motion.li>
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-                className="my-2 text-blue-600"
-              >
-                <b className="text-2xl mr-[2px]">E</b>
-                xcellent{" "}
-                <span className="text-atlantis-500 sm:hidden lg:inline">
-                  - Sempurna
-                </span>
-              </motion.li>
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.45 }}
-                className="my-2 text-blue-600"
-              >
-                <b className="text-2xl mr-[2px]">M</b>
-                odest{" "}
-                <span className="text-atlantis-500 sm:hidden md:inline">
-                  - Sederhana
-                </span>
-              </motion.li>
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.6 }}
-                className="my-2 text-blue-600"
-              >
-                <b className="text-2xl mr-[2px]">I</b>
-                nnovative{" "}
-                <span className="text-atlantis-500 sm:hidden md:inline">
-                  - Inovasi
-                </span>
-              </motion.li>
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.75 }}
-                className="my-2 text-blue-600"
-              >
-                <b className="text-2xl mr-[2px]">L</b>
-                oyal{" "}
-                <span className="text-atlantis-500 sm:hidden md:inline">
-                  - Setia
-                </span>
-              </motion.li>
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.9 }}
-                className="my-2 text-blue-600"
-              >
-                <b className="text-2xl mr-[2px]">A</b>
-                ccurate{" "}
-                <span className="text-atlantis-500 sm:hidden md:inline">
-                  - Tepat
-                </span>
-              </motion.li>
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 1.05 }}
-                className="my-2 text-blue-600"
-              >
-                <b className="text-2xl mr-[2px]">N</b>
-                etworking{" "}
-                <span className="text-atlantis-500 sm:hidden md:inline">
-                  - Membangun Hubungan
-                </span>
-              </motion.li>
-              <motion.li
-                variants={variantX}
-                initial="hiddenX"
-                whileInView="visibleX"
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 1.2 }}
-                className="my-2 text-blue-600"
-              >
-                <b className="text-2xl mr-[2px]">G</b>
-                rowth{" "}
-                <span className="text-atlantis-500 sm:hidden md:inline">
-                  - Bertumbuh
-                </span>
-              </motion.li>
-            </ul>
-          </div>
-          <motion.div
-            variants={variant}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 1.5 }}
-            className="flex justify-center items-center self-center mx-8 my-4"
-          >
-            <Link to={`/contact`} onClick={scrollToTop}>
-              <button className="px-8 py-4 bg-atlantis-500 hover:bg-atlantis-400 font-semibold text-white rounded-lg shadow-md">
-                GET IN TOUCH
-              </button>
-            </Link>
-          </motion.div>
-        </div>
-        <div>
-          <img
-            className="relative md:w-[500px] md:h-[500px] sm:w-full sm:h-full sm:p-4 rounded-full sm:hidden lg:block"
-            src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
-            alt="GCS Logo"
-          />
-        </div>
+        <Collapse activeKey={activeKey} onChange={handleChange} ghost accordion>
+          {items.map((item) => (
+            <Collapse.Panel
+              key={item.key}
+              showArrow={false}
+              header={
+                <div
+                  className={`p-4 rounded-lg shadow-sm text-lg font-PlayfairDisplay font-bold transition-colors duration-300 ${
+                    activeKey.includes(item.key)
+                      ? "bg-blue-500 text-white border-r-atlantis-500 border-r-8"
+                      : "bg-gray-200 text-blue-600"
+                  }`}
+                >
+                  <span>
+                    <ReactSVG
+                      className="w-16 h-16 group-hover:text-white text-blue-500 transition-colors duration-300 mr-4"
+                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/corevalues/${item.icon}`}
+                    />
+                  </span>{" "}
+                  {item.label}
+                </div>
+              }
+            >
+              <p className="border border-atlantis-400 p-4 text-lg font-openSans">
+                {item.children}
+              </p>
+            </Collapse.Panel>
+          ))}
+        </Collapse>
+      </div>
+
+      <div className="relative sm:w-full sm:h-full flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mx-auto overflow-hidden lg:col-span-3">
+        <svg
+          className="absolute left-0 hidden opacity-20 text-white transform lg:block z-10"
+          viewBox="0 0 100 100"
+          fill="currentColor"
+          preserveAspectRatio="none slice"
+        >
+          <path d="M50 0H100L50 100H0L50 0Z" />
+        </svg>
+        <img
+          className="relative  sm:p-4 sm:hidden lg:block"
+          src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"
+          alt="GCS Logo"
+        />
       </div>
     </div>
   );

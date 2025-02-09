@@ -23,7 +23,7 @@ const HeroMainTrial = () => {
   ];
   return (
     <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mx-auto overflow-hidden">
-      <div className="inset-y-0 top-0 right-0 z-0 w-full h-full  px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 sm:max-w-full lg:absolute xl:px-0">
+      <div className="inset-y-0 top-0 right-0 z-0 w-full h-full px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 sm:max-w-full lg:absolute xl:px-0">
         <svg
           className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block z-10"
           viewBox="0 0 100 100"
@@ -50,10 +50,10 @@ const HeroMainTrial = () => {
       </div>
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
         <div className="mb-16 sm:my-0 lg:my-40 lg:max-w-lg lg:pr-5">
-          <h2 className="mb-5 font-sans sm:text-2xl lg:text-3xl font-bold text-blue-600 sm:leading-none uppercase sm:text-center md:text-left">
+          <h2 className="mb-5 font-sans sm:text-2xl lg:text-4xl font-bold text-blue-600 sm:leading-none uppercase sm:text-center md:text-left">
             Commitment For Excellence
           </h2>
-          <p className="pr-5 mb-5 text-base sm:text-start text-gray-500 md:text-lg font-roboto">
+          <p className="pr-4 mt-6 mb-4 text-base sm:text-start text-gray-500 md:text-xl font-openSans">
             Dengan sumber daya dan relasi yang luas, kami siap bersinergi
             menawarkan kerjasama yang produktif untuk mengahasilkan karya yang
             berkualitas.

@@ -22,7 +22,7 @@ const Testimonial = () => {
   return (
     <>
       <section className="flex justify-center items-center ">
-        <div className="flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6 overflow-hidden">
+        <div className="flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6 overflow-hidden lg:mb-12">
           <div className="text-center text-4xl text-blue-600 font-bold sm:mb-8 lg:mb-12 mt-12 uppercase">
             <p>Our Clients</p>
           </div>

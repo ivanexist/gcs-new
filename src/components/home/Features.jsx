@@ -10,7 +10,7 @@ export default function Features() {
   };
   return (
     <div className="flex flex-col sm:mb-16 md:mb-0 sm:py-0 md:py-16">
-      <div className="grid sm:grid-cols-1 md:grid-cols-3">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 text-lg">
         {/* Best Quality */}
         <motion.div
           variants={variantY}
@@ -37,12 +37,12 @@ export default function Features() {
             </div>
           </div>
           <div>
-            <p className="my-4 font-semibold uppercase text-blue-600">
+            <p className="my-4 font-bold uppercase text-blue-600 font-PlayfairDisplay">
               Best Quality
             </p>
           </div>
           <div>
-            <p className="text-left px-10 text-gray-500 font-roboto">
+            <p className="text-left px-10 text-masala-800 font-openSans">
               Kami berkomitmen memberikan kualitas terbaik dengan tetap
               memperhatikan keselamatan kerja.
             </p>
@@ -74,10 +74,12 @@ export default function Features() {
             </div>
           </div>
           <div>
-            <p className="my-4 font-semibold text-blue-600">ON TIME</p>
+            <p className="my-4 font-bold text-blue-600 font-PlayfairDisplay">
+              ON TIME
+            </p>
           </div>
           <div>
-            <p className="text-left px-10 text-gray-500 font-roboto">
+            <p className="text-left px-10 text-masala-800 font-openSans">
               Kami selalu menghargai client dengan menyelesaikan proyek tepat
               pada waktunya.
             </p>
@@ -109,10 +111,12 @@ export default function Features() {
             </div>
           </div>
           <div>
-            <p className="my-4 font-semibold text-blue-600">EXPERIENCED</p>
+            <p className="my-4 font-bold text-blue-600 font-PlayfairDisplay">
+              EXPERIENCED
+            </p>
           </div>
           <div>
-            <p className="text-left px-10 text-gray-500 font-roboto">
+            <p className="text-left px-10 text-masala-800 font-openSans">
               Kami dapat diandalkan untuk menangani proyek
               konstruksi yang beragam dengan sumber daya yang berpengalaman.
             </p>

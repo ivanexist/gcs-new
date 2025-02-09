@@ -1,7 +1,5 @@
-import { Fragment, useContext, useState } from "react";
-import ProjectDetailsCard from "./ProjectDetailsCard";
+import { useContext, useState } from "react";
 import { GCSContext } from "../../context/GCSContext";
-import { useParams } from "react-router-dom";
 import RelatedProjects from "./RelatedProjects";
 
 const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
@@ -95,25 +93,27 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                     <h1 className="text-2xl font-semibold text-blue-600 py-4 text-center uppercase">
                       Project Description
                     </h1>
-                    <p className="py-2 text-gray-600 text-left font-roboto">
-                      {selectedProject.description[0].paragraph_1}
-                    </p>
-                    <p className="py-2 text-gray-600 text-left font-roboto">
-                      {selectedProject.description[0].paragraph_2}
-                    </p>
-                    <p className="py-2 text-gray-600 text-left font-roboto">
-                      {selectedProject.description[0].paragraph_3}
-                    </p>
+                    <div className="text-lg text-masala-800 text-left font-roboto">
+                      <p className="py-2">
+                        {selectedProject.description[0].paragraph_1}
+                      </p>
+                      <p className="py-2">
+                        {selectedProject.description[0].paragraph_2}
+                      </p>
+                      <p className="py-2">
+                        {selectedProject.description[0].paragraph_3}
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-span-1 my-4">
-                  <div className="px-4">
-                    <h1 className="font-semibold text-xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center">
+                  <div className="">
+                    <h1 className="font-semibold text-2xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center">
                       {selectedProject.project_name}
                     </h1>
                   </div>
                   <div className="container mx-auto my-4">
-                    <div className="flex flex-col gap-4 font-roboto">
+                    <div className="flex flex-col gap-4 font-openSans text-lg">
                       {/* <!-- Table Header --> */}
 
                       {/* <!-- Table Row --> */}
@@ -121,7 +121,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                         <div className="flex-1 font-semibold text-blue-600">
                           Client
                         </div>
-                        <div className="flex-1 mr-2 text-gray-600">
+                        <div className="flex-1 mr-2 text-masala-800">
                           {getClientName(selectedProject.client_id)}
                         </div>
                       </div>
@@ -129,7 +129,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                         <div className="flex-1 font-semibold text-blue-600">
                           Location
                         </div>
-                        <div className="flex-1 mr-2 text-gray-600">
+                        <div className="flex-1 mr-2 text-masala-800">
                           {selectedProject.location}
                         </div>
                       </div>
@@ -137,7 +137,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                         <div className="flex-1 font-semibold text-blue-600">
                           Service Type
                         </div>
-                        <div className="flex-1 mr-2 text-gray-600">
+                        <div className="flex-1 mr-2 text-masala-800">
                           {getServiceName(selectedProject.service_id)}
                         </div>
                       </div>
@@ -145,7 +145,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                         <div className="flex-1 font-semibold text-blue-600">
                           Year Completed
                         </div>
-                        <div className="flex-1 mr-2 text-gray-600">
+                        <div className="flex-1 mr-2 text-masala-800">
                           {selectedProject.year_completed}
                         </div>
                       </div>

@@ -1,21 +1,21 @@
 const AboutContent = () => (
   <section className="flex items-center max-w-screen-xl bg-transparent mx-auto">
     <div className="justify-center flex-1 mx-auto md:px-6">
-      <div className="text-center my-12">
-        <h1 className="text-3xl font-sans font-bold text-blue-600 md:text-4xl uppercase">
+      <div className="text-center mb-16 mt-8">
+        <h1 className="text-3xl font-PlayfairDisplay font-bold text-blue-600 md:text-4xl uppercase">
           WHO WE ARE?
         </h1>
       </div>
-      <div className="flex sm:flex-col-reverse md:flex-row md:justify-between font-roboto">
+      <div className="flex sm:flex-col-reverse md:flex-row md:justify-between font-openSans">
         <div className="sm:w-full lg:w-1/2 lg:mb-0 px-4">
-          <p className="sm:mb-4 md:mb-0 text-base leading-7 text-gray-500 ">
+          <p className="sm:mb-4 md:mb-0 text-lg lg:mr-4 text-masala-800">
             PT.Gemilang Cipta Sentosa adalah Perusahaan yang bergerak dalam
             bidang konstruksi Sipil Bangunan, Jetty/Dermaga, dan Pemasangan
             Instalasi Perpipaan (Pipa Air, Pipa Gas, dan Pipa Hydrant). Kami
             berdiri sejak tahun 2014 dan telah mengerjakan berbagai pekerjaan
             dari skala kecil hingga besar.
           </p>
-          <p className="sm:mb-4 md:mb-0 sm:my-0 md:my-4 text-base leading-7 text-gray-500">
+          <p className="sm:mb-4 md:mb-0 sm:my-0 md:my-4 text-lg text-masala-800">
             Kami telah mengerjakan konstruksi diberbagai Instansi pemerintah
             maupun swasta, baik pada calon pelanggaan industri maupun komersil
             dan rumah tangga. Tenaga kerja kami merupakan tenaga yang terampil
@@ -38,12 +38,12 @@ const AboutContent = () => (
           />
         </div>
       </div>
-      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:gap-8 mb-8 lg:mt-8 sm:px-2 md:px-0">
+      <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:gap-8 mb-8 lg:mt-20 sm:px-2 md:px-0">
         <div className="flex flex-col p-2">
-          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
+          <div className="font-PlayfairDisplay font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
             Commitment
           </div>
-          <div className="text-gray-500 font-roboto leading-7">
+          <div className="text-masala-800 font-openSans leading-7 text-lg">
             Seiring dengan program pemerintah tentang pembangunan
             berkesinambungan serta penggunaan energi alternatif, maka merupakan
             komitmen bagi kami untuk mampu berkarya sebaik mungkin, sehingga
@@ -52,11 +52,11 @@ const AboutContent = () => (
           </div>
         </div>
         <div className="flex flex-col p-2 mx-2">
-          <div className="font-semibold text-2xl my-4  text-blue-600 uppercase flex justify-center items-center">
+          <div className="font-semibold text-2xl my-4 font-PlayfairDisplay text-blue-600 uppercase flex justify-center items-center">
             Our Mission
           </div>
-          <div className="text-gray-500">
-            <ul className="list-disc font-roboto leading-7">
+          <div className="text-masala-800 text-lg">
+            <ul className="list-disc font-openSans leading-7">
               <li className="mb-2">
                 Menyediakan solusi jasa yang inovatif dengan melibatkan sumber
                 daya terbaik dan relasi yang kuat
@@ -73,10 +73,10 @@ const AboutContent = () => (
           </div>
         </div>
         <div className="flex flex-col p-2">
-          <div className="font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
+          <div className="font-PlayfairDisplay font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
             Our Vision
           </div>
-          <div className="text-gray-500 font-roboto leading-7">
+          <div className="text-masala-800 font-openSans leading-7 text-lg">
             Menjadi Perusahaan Konstruksi Terkemuka dan Professional di Jawa
             Timur 2030
           </div>

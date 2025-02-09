@@ -20,7 +20,9 @@ const Services = () => {
         transition={{ duration: 0.7 }}
       >
         <Breadcrumb />
-        <ServicesContent />
+        <div className="max-w-screen-xl mx-auto text-center">
+          <ServicesContent />
+        </div>
         <Footer />
         <ScrollUpButton />
       </motion.div>

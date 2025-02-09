@@ -45,14 +45,14 @@ const ServicesDetailsContent = () => {
                 <Button className="w-full">Select Service</Button>
               </Dropdown>
             ) : (
-              <div className=" ml-2 px-8 py-4 bg-gray-200">
+              <div className=" ml-2 px-8 py-4 leading-6 bg-transparent shadow-md rounded-lg">
                 <ul className="list-disc marker:text-atlantis-500">
                   {gcsData.Services.map((service) => (
                     <li
                       key={service.service_id}
                       className={`text-blue-500 hover:text-blue-600 ${
                         selectedService?.service_id === service.service_id
-                          ? "text-blue-600 font-semibold"
+                          ? "text-blue-600 font-semibold text-base"
                           : " "
                       } hover:font-semibold py-2`}
                     >
@@ -71,9 +71,6 @@ const ServicesDetailsContent = () => {
               <div className="lg:flex sm:flex-col lg:flex-row  bg-gray-100">
                 <div className="col-span-2">
                   <div className=" sm:px-2 lg:px-0 lg:pr-4">
-                    <p className="text-gray-400 pb-2 font-semibold sm:text-center md:text-left sm:pt-4 lg:pt-0 sm:hidden lg:block">
-                      SPECIAL SERVICES
-                    </p>
                     <h1 className="sm:mt-4 lg:mt-0 text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600 sm:text-center lg:text-left">
                       {getServiceName(selectedService.service_id)}
                     </h1>

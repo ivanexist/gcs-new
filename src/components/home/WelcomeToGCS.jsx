@@ -122,9 +122,9 @@ const WelcomeToGCS = () => {
                       : "bg-gray-200 text-blue-600"
                   }`}
                 >
-                  <span>
+                  <span className="w-8 h-8 mr-4">
                     <ReactSVG
-                      className="w-16 h-16 group-hover:text-white text-blue-500 transition-colors duration-300 mr-4"
+                      className="group-hover:text-white text-blue-500 transition-colors duration-300"
                       src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/corevalues/${item.icon}`}
                     />
                   </span>{" "}

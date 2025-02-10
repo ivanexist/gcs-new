@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const Hero2 = () => (
-  <section className=" bg-[linear-gradient(to_top,rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Side-1.jpg)] bg-cover bg-center bg-no-repeat sm:h-[40rem] lg:h-[40rem]">
+  <section className=" bg-[linear-gradient(to_top,rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/Side-1.jpg)] bg-cover bg-center bg-no-repeat sm:h-[40rem] lg:h-screen">
     <motion.div
       initial={{ x: -100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}

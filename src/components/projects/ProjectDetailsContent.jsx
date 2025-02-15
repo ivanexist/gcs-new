@@ -42,33 +42,12 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
   };
   return (
     <section className="flex items-center bg-inherit">
-      <div className="justify-center flex-1 w-screen max-w-7xl mx-auto">
-        <div className="grid grid-cols-4">
-          <div className="col-span-4">
-            <div className="max-w-screen-xl mx-auto">
-              {/* Main Slideshow Image */}
-              <div className="relative sm:h-80 md:h-[500px] lg:h-[800px] px-1 overflow-hidden">
-                <img
-                  src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedProject.images[currentIndex]}`}
-                  alt="slide"
-                  className="w-full h-full object-cover object-center shadow-lg overflow-hidden"
-                />
-                {/* Left & Right Navigation */}
-                <button
-                  onClick={goToPrevious}
-                  className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 hover:bg-gray-700"
-                >
-                  ❮
-                </button>
-                <button
-                  onClick={goToNext}
-                  className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 hover:bg-gray-700"
-                >
-                  ❯
-                </button>
-              </div>
+      <div className="max-w-screen-xl mx-auto">
+        <div className="justify-center flex-1 w-screen max-w-7xl mx-auto">
+          <div className="grid grid-cols-4">
+            <div className="col-span-1">
               {/* Thumbnail Selector */}
-              <div className="flex overflow-x-auto justify-center sm:w-96 md:w-full mt-4 space-x-2 px-1">
+              <div className="flex flex-col overflow-x-auto sm:w-96 md:w-full space-y-1 mr-4">
                 {selectedProject.images.map((image, index) => (
                   <button
                     key={index}
@@ -82,77 +61,89 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                     <img
                       src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${image}`}
                       alt={`thumbnail-${index}`}
-                      className="w-full sm:h-24 md:h-36 lg:h-52 object-cover"
+                      className="w-full sm:h-24 md:h-32 lg:h-48 object-cover"
+                      loading="lazy"
                     />
                   </button>
                 ))}
               </div>
-              <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:my-8 lg:my-16">
-                <div className="col-span-2">
-                  <div className="sm:mr-0 lg:mr-16 sm:px-4">
-                    <h1 className="text-2xl font-semibold text-blue-600 py-4 text-center uppercase">
-                      Project Description
-                    </h1>
-                    <div className="text-lg text-masala-800 text-left font-roboto">
-                      <p className="py-2">
-                        {selectedProject.description[0].paragraph_1}
-                      </p>
-                      <p className="py-2">
-                        {selectedProject.description[0].paragraph_2}
-                      </p>
-                      <p className="py-2">
-                        {selectedProject.description[0].paragraph_3}
-                      </p>
-                    </div>
-                  </div>
+            </div>
+            {/* Main Slideshow Image */}
+            <div className="col-span-3">
+              <div className="relative sm:h-80 md:h-[500px] lg:h-[800px] px-1 overflow-hidden">
+                <img
+                  src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedProject.images[currentIndex]}`}
+                  alt="slide"
+                  className="w-full h-full object-cover object-center shadow-lg overflow-hidden ml-2"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:my-8 lg:my-16">
+            <div className="col-span-2">
+              <div className="sm:mr-0 lg:mr-16 sm:px-4">
+                <h1 className="text-2xl font-semibold text-blue-600 py-4 text-center uppercase">
+                  Project Description
+                </h1>
+                <div className="text-lg text-masala-800 text-left font-roboto">
+                  <p className="py-2">
+                    {selectedProject.description[0].paragraph_1}
+                  </p>
+                  <p className="py-2">
+                    {selectedProject.description[0].paragraph_2}
+                  </p>
+                  <p className="py-2">
+                    {selectedProject.description[0].paragraph_3}
+                  </p>
                 </div>
-                <div className="col-span-1 my-4">
-                  <div className="">
-                    <h1 className="font-semibold text-2xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center">
-                      {selectedProject.project_name}
-                    </h1>
-                  </div>
-                  <div className="container mx-auto my-4">
-                    <div className="flex flex-col gap-4 font-openSans text-lg">
-                      {/* <!-- Table Header --> */}
+              </div>
+            </div>
+            <div className="col-span-1 my-4">
+              <div className="">
+                <h1 className="font-semibold text-2xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center">
+                  {selectedProject.project_name}
+                </h1>
+              </div>
+              <div className="container mx-auto my-4">
+                <div className="flex flex-col gap-4 font-openSans text-lg">
+                  {/* <!-- Table Header --> */}
 
-                      {/* <!-- Table Row --> */}
-                      <div className="flex flex-col sm:flex-row pt-4">
-                        <div className="flex-1 font-semibold text-blue-600">
-                          Client
-                        </div>
-                        <div className="flex-1 mr-2 text-masala-800">
-                          {getClientName(selectedProject.client_id)}
-                        </div>
-                      </div>
-                      <div className="flex flex-col sm:flex-row">
-                        <div className="flex-1 font-semibold text-blue-600">
-                          Location
-                        </div>
-                        <div className="flex-1 mr-2 text-masala-800">
-                          {selectedProject.location}
-                        </div>
-                      </div>
-                      <div className="flex flex-col sm:flex-row">
-                        <div className="flex-1 font-semibold text-blue-600">
-                          Service Type
-                        </div>
-                        <div className="flex-1 mr-2 text-masala-800">
-                          {getServiceName(selectedProject.service_id)}
-                        </div>
-                      </div>
-                      <div className="flex flex-col sm:flex-row">
-                        <div className="flex-1 font-semibold text-blue-600">
-                          Year Completed
-                        </div>
-                        <div className="flex-1 mr-2 text-masala-800">
-                          {selectedProject.year_completed}
-                        </div>
-                      </div>
-
-                      {/* <!-- Add more rows as needed --> */}
+                  {/* <!-- Table Row --> */}
+                  <div className="flex flex-col sm:flex-row pt-4">
+                    <div className="flex-1 font-semibold text-blue-600">
+                      Client
+                    </div>
+                    <div className="flex-1 mr-2 text-masala-800">
+                      {getClientName(selectedProject.client_id)}
                     </div>
                   </div>
+                  <div className="flex flex-col sm:flex-row">
+                    <div className="flex-1 font-semibold text-blue-600">
+                      Location
+                    </div>
+                    <div className="flex-1 mr-2 text-masala-800">
+                      {selectedProject.location}
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:flex-row">
+                    <div className="flex-1 font-semibold text-blue-600">
+                      Service Type
+                    </div>
+                    <div className="flex-1 mr-2 text-masala-800">
+                      {getServiceName(selectedProject.service_id)}
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:flex-row">
+                    <div className="flex-1 font-semibold text-blue-600">
+                      Year Completed
+                    </div>
+                    <div className="flex-1 mr-2 text-masala-800">
+                      {selectedProject.year_completed}
+                    </div>
+                  </div>
+
+                  {/* <!-- Add more rows as needed --> */}
                 </div>
               </div>
             </div>

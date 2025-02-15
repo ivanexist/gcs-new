@@ -52,7 +52,7 @@
       "description": [
         {
           "description_overview": "Pembangunan jalan melibatkan beberapa tahap, seperti perencanaan, pengukuran, pemadatan, pengaspalan, hingga penyelesaian akhir agar jalan aman dan siap digunakan.",
-          "description_service_consultant": "Our team of street construction consultants provides expertise in planning, design, and project management. We work closely with clients to assess project requirements, budget, and timelines, ensuring that every street construction project aligns with safety standards, environmental considerations, and optimal usage. Our consultants are dedicated to delivering sustainable solutions for smooth and resilient roadways.",
+          "description_complete": "Layanan pembangunan jalan mencakup perencanaan, konstruksi, dan perbaikan jalan dengan standar kualitas tinggi untuk memastikan ketahanan dan kenyamanan bagi para pengguna. Prosesnya dimulai dengan survei lokasi, perancangan struktur jalan yang sesuai dengan kondisi tanah, serta pemilihan material terbaik seperti aspal atau beton guna meningkatkan daya tahan terhadap beban dan cuaca ekstrem. Selain itu, pengerjaan dilakukan dengan metode yang efisien, termasuk pengaspalan, pemasangan marka jalan, serta sistem drainase untuk mencegah genangan air yang dapat merusak permukaan jalan. Dengan dukungan tenaga ahli dan peralatan modern, layanan ini bertujuan untuk menciptakan infrastruktur jalan yang aman, kuat, dan berumur panjang.",
           "description_our_services_includes": [{}],
           "description_contact_us": "contact us"
         }
@@ -66,6 +66,7 @@
       "description": [
         {
           "description_overview": "Pembangunan perumahan mencakup kegiatan yang bertujuan untuk membangun perumahan yang layak huni.",
+          "description_complete": "Layanan pembangunan rumah meliputi perancangan, konstruksi, dan penyelesaian hunian sesuai dengan kebutuhan dan preferensi pemiliknya. Setiap proyek dimulai dengan perencanaan desain yang mempertimbangkan aspek estetika, fungsionalitas, serta efisiensi ruang dan energi. Material berkualitas tinggi digunakan untuk memastikan struktur rumah kokoh dan tahan lama, mulai dari pondasi hingga atap. Pengerjaan dilakukan oleh tenaga profesional dengan keahlian di berbagai bidang, seperti arsitektur, sipil, dan mekanikal, sehingga hasil akhir tidak hanya memenuhi standar keamanan dan kenyamanan tetapi juga memiliki nilai estetika yang tinggi.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -80,6 +81,7 @@
       "description": [
         {
           "description_overview": "Pemasangan dan pemeliharaan sistem perpipaan di berbagai jenis bangunan atau infrastruktur.",
+          "description_complete": "Layanan instalasi pipa mencakup pemasangan sistem perpipaan untuk berbagai keperluan, baik untuk kebutuhan rumah tangga, komersial, maupun industri. Proses ini mencakup perancangan jalur pipa yang efisien, pemilihan material pipa yang sesuai dengan kebutuhan—seperti PVC, besi galvanis, atau PPR—serta pemasangan dengan teknik yang tepat untuk memastikan aliran air atau gas berjalan optimal tanpa kebocoran. Selain itu, sistem perpipaan juga dirancang agar tahan terhadap tekanan dan kondisi lingkungan tertentu, seperti suhu tinggi atau zat kimia tertentu. Dengan standar pemasangan yang tinggi, layanan ini menjamin sistem perpipaan yang aman, awet, dan berfungsi secara efisien dalam jangka panjang.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -94,6 +96,7 @@
       "description": [
         {
           "description_overview": "Pembangunan yang melibatkan berbagai aspek yang melibatkan banyak pihak, seperti arsitek, insinyur sipil, mandor, pekerja lapangan.",
+          "description_complete": "Layanan pembangunan gedung mencakup perencanaan, desain, serta konstruksi bangunan untuk berbagai keperluan, seperti perkantoran, pusat perbelanjaan, rumah sakit, dan fasilitas umum lainnya. Proses dimulai dengan analisis kebutuhan dan perencanaan struktur yang mempertimbangkan faktor kekuatan, keamanan, serta efisiensi energi. Dalam setiap tahap pengerjaan, mulai dari pondasi, rangka bangunan, hingga finishing interior dan eksterior, digunakan material berkualitas tinggi yang sesuai dengan standar konstruksi modern. Selain itu, pembangunan juga dilakukan dengan mengedepankan aspek keselamatan kerja serta kepatuhan terhadap regulasi yang berlaku, sehingga gedung yang dihasilkan memiliki kualitas terbaik dan berdaya guna dalam jangka panjang.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -108,6 +111,7 @@
       "description": [
         {
           "description_overview": "Pekerjaan konstruksi baja melibatkan berbagai aktivitas yang terkait dengan fabrikasi, dan pemasangan struktur baja untuk berbagai jenis bangunan dan infrastruktur.",
+          "description_complete": "Layanan konstruksi baja menawarkan solusi pembangunan yang mengandalkan rangka baja sebagai struktur utama untuk berbagai jenis bangunan dan fasilitas. Proses ini mencakup desain dan fabrikasi elemen baja yang disesuaikan dengan kebutuhan proyek, serta pemasangan yang dilakukan dengan metode presisi tinggi guna memastikan kestabilan dan kekuatan struktur. Konstruksi baja sangat cocok untuk bangunan bertingkat, gudang, jembatan, serta fasilitas industri karena memiliki daya tahan tinggi terhadap tekanan dan cuaca ekstrem. Selain itu, keunggulan utama konstruksi baja adalah proses pengerjaannya yang relatif lebih cepat dibandingkan dengan konstruksi berbasis beton, serta fleksibilitas dalam desain yang memungkinkan berbagai inovasi arsitektural.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -122,6 +126,7 @@
       "description": [
         {
           "description_overview": "Pekerjaan ini sangat penting dalam memastikan keberlanjutan lingkungan dan infrastruktur kota atau wilayah, karena drainase yang baik akan membantu mengurangi dampak bencana alam.",
+          "description_complete": "Layanan sistem drainase mencakup perencanaan dan pembangunan saluran air yang berfungsi untuk mengelola aliran air hujan dan limbah agar tidak menimbulkan genangan atau banjir. Proses ini melibatkan analisis kondisi tanah dan lingkungan sekitar, pemilihan jenis drainase yang sesuai, serta pemasangan saluran yang efisien untuk mengalirkan air ke tempat pembuangan yang tepat. Material yang digunakan dalam sistem drainase, seperti beton pracetak atau pipa PVC, dipilih berdasarkan kebutuhan proyek guna memastikan daya tahan yang optimal. Dengan sistem drainase yang dirancang dan dipasang dengan baik, area sekitar dapat terhindar dari risiko kerusakan akibat air berlebih serta meningkatkan keberlanjutan lingkungan.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"
@@ -136,6 +141,7 @@
       "description": [
         {
           "description_overview": "Pekerjaan renovasi adalah proses perbaikan, pemugaran, atau pengubahan struktur dan elemen bangunan untuk meningkatkan fungsionalitas, estetika, keamanan, atau sesuai dengan kebutuhan pengguna yang baru.",
+          "description_complete": "Layanan renovasi mencakup perbaikan, perubahan, atau penyempurnaan bangunan agar lebih fungsional, estetis, dan sesuai dengan kebutuhan pengguna. Proses renovasi dapat mencakup berbagai aspek, mulai dari perombakan struktur utama, peningkatan kualitas material, hingga modernisasi tata ruang dan sistem instalasi seperti listrik dan pipa air. Pekerjaan ini dilakukan dengan mempertimbangkan kondisi bangunan lama serta keinginan pemilik, sehingga hasil akhir tidak hanya memperbaiki tampilan dan kenyamanan, tetapi juga meningkatkan nilai dan ketahanan bangunan dalam jangka panjang. Dengan perencanaan matang dan pengerjaan yang profesional, renovasi dapat mengubah bangunan lama menjadi lebih optimal dan sesuai dengan perkembangan zaman.",
           "description_service_consultant": "testing",
           "description_our_services_includes": "coba",
           "description_contact_us": "contact us"

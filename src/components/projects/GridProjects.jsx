@@ -19,7 +19,6 @@ const GridProjects = ({
         {/* Filters */}
         <div className="col-span-4">
           <div className="grid lg:grid-cols-3 gap-x-1 gap-y-8 sm:grid-cols-1 md:grid-cols-2 xl:gap-x-4 sm:pr-8 lg:pr-0">
-            {/* {console.log(gcsData.Projects)} */}
             {gcsData.Projects.map((project, indexMotion) => (
               <ProjectCard
                 project={project}

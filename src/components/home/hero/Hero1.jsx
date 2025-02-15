@@ -14,7 +14,7 @@ const Hero1 = () => (
         stiffness: 100,
       }}
     >
-      <div className="grid grid-cols-4 gap-4 mx-auto max-w-screen-xl text-white">
+      <div className="grid grid-cols-4 gap-4 mx-auto max-w-screen-xl text-white h-screen">
         <div className="sm:col-span-1 lg:col-span-2 sm:my-20 md:my-60 pr-2">
           <div className="sm:hidden lg:block">
             <motion.div
@@ -61,7 +61,7 @@ const Hero1 = () => (
         <div className="sm:col-span-1 lg:col-span-2">
           <div className="flex sm:justify-center sm:items-center md:justify-end md:items-end">
             <svg
-              className="h-full text-white opacity-10 transform sm:hidden lg:block z-10"
+              className="h-screen text-white opacity-10 transform sm:hidden lg:block z-10"
               viewBox="0 0 100 100"
               fill="currentColor"
               preserveAspectRatio="none slice"

@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { GCSContext } from "../../context/GCSContext";
 import { Button, Dropdown, Menu } from "antd";
 import { useMediaQuery } from "react-responsive";
+import { ReactSVG } from "react-svg";
 
 const ServicesDetailsContent = () => {
   const { serviceId } = useParams();
@@ -33,60 +34,25 @@ const ServicesDetailsContent = () => {
 
   return (
     <section className="flex items-center bg-gray-100">
-      <div className="justify-center flex-1 max-w-7xl py-4 mx-auto lg:py-6">
+      <div className="justify-center flex-1 max-w-7xl sm:py-4 lg:py-0 lg:mb-12 mx-auto">
         <div className="grid sm:grid-cols-1 lg:grid-cols-7  sm:my-0 lg:my-2">
-          <div className="flex justify-between items-start col-span-2 sm:mx-2 lg:mx-0 pb-4">
-            {isMobile ? (
-              <Dropdown
-                overlay={servicesMenu}
-                trigger={["click"]}
-                className="py-6 font-semibold text-base bg-gray-50"
-              >
-                <Button className="w-full">Select Service</Button>
-              </Dropdown>
-            ) : (
-              <div className=" ml-2 px-8 py-4 leading-6 bg-transparent shadow-md rounded-lg">
-                <ul className="list-disc marker:text-atlantis-500">
-                  {gcsData.Services.map((service) => (
-                    <li
-                      key={service.service_id}
-                      className={`text-blue-500 hover:text-blue-600 ${
-                        selectedService?.service_id === service.service_id
-                          ? "text-blue-600 font-semibold text-base"
-                          : " "
-                      } hover:font-semibold py-2`}
-                    >
-                      <Link to={`/services/${service.service_id}`}>
-                        {service.service_name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-
-          <div className="col-span-5 ps-1 ">
+          <div className="col-span-5 ps-1">
             <div className="col-span-3">
-              <div className="lg:flex sm:flex-col lg:flex-row  bg-gray-100">
-                <div className="col-span-2">
-                  <div className=" sm:px-2 lg:px-0 lg:pr-4">
-                    <h1 className="sm:mt-4 lg:mt-0 text-2xl border-b-2 border-b-atlantis-500 pb-4 font-semibold text-blue-600 sm:text-center lg:text-left">
-                      {getServiceName(selectedService.service_id)}
-                    </h1>
-                    <p className="my-4 text-gray-500 font-roboto">
-                      {selectedService.description[0].description_overview}
-                    </p>
-                  </div>
+              <div className="lg:flex sm:flex-col bg-gray-100">
+                <div className="relative sm:h-80 md:h-[300px] lg:h-[500px] px-1 overflow-hidden">
+                  <img
+                    src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedService.service_image}`}
+                    alt=""
+                    className="w-full h-full object-cover object-center shadow-lg overflow-hidden"
+                  />
                 </div>
-                <div className="col-span-1">
-                  <div className="h-64 px-2 sm:w-full lg:w-96 overflow-hidden">
-                    <img
-                      src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedService.service_image}`}
-                      alt=""
-                      className="h-72 w-[580px] object-cover"
-                    />
-                  </div>
+                <div className="pt-8 sm:px-2 lg:px-0 lg:pr-4">
+                  <h1 className="sm:mt-4 lg:mt-0 text-3xl border-b-2 border-b-atlantis-500 pb-4 font-bold text-blue-600 sm:text-center lg:text-left">
+                    {getServiceName(selectedService.service_id)}
+                  </h1>
+                  <p className="my-4 text-gray-500 font-roboto">
+                    {selectedService.description[0].description_complete}
+                  </p>
                 </div>
               </div>
             </div>
@@ -160,6 +126,45 @@ const ServicesDetailsContent = () => {
               </p>
             </div>
             {/* <div className="col-span-2"></div> */}
+          </div>
+          <div className="flex justify-between items-start col-span-2 sm:mx-2 lg:mx-0 pb-4">
+            {isMobile ? (
+              <Dropdown
+                overlay={servicesMenu}
+                trigger={["click"]}
+                className="py-6 font-semibold text-base bg-gray-50"
+              >
+                <Button className="w-full">Select Service</Button>
+              </Dropdown>
+            ) : (
+              <div className="ml-8 leading-6 bg-transparent border-2 shadow-md">
+                <ul className="divide-y divide-blue-300">
+                  {gcsData.Services.map((service) => (
+                    <li
+                      key={service.service_id}
+                      className={`text-blue-500 hover:text-blue-600 ${
+                        selectedService?.service_id === service.service_id
+                          ? "text-blue-600 font-semibold text-base"
+                          : " "
+                      } hover:font-semibold py-4 px-8 `}
+                    >
+                      <div className="flex">
+                        <ReactSVG
+                          className="w-8 h-8 group-hover:text-white text-blue-500 transition-colors duration-300"
+                          src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/${service.service_icon}`}
+                        />
+                        <Link
+                          to={`/services/${service.service_id}`}
+                          className="ml-4 mt-1"
+                        >
+                          {service.service_name}
+                        </Link>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>

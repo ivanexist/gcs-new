@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="mx-6 pt-10 text-center md:text-left">
       <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         {/* TW Elements Section */}
-        <div>
+        <div className="text-lg">
           <h6 className="mb-4 flex items-center font-semibold uppercase justify-start text-blue-600">
             PT Gemilang Cipta Sentosa
           </h6>
@@ -16,7 +16,7 @@ const Footer = () => (
           </p>
         </div>
         <div className="sm:hidden md:inline-block"></div>
-        <div>
+        <div className="text-lg">
           <h6 className="mb-4 flex justify-start font-semibold uppercase text-blue-600">
             Business Hours
           </h6>
@@ -25,7 +25,7 @@ const Footer = () => (
           </div>
         </div>
         {/* Contact Section */}
-        <div>
+        <div className="text-lg">
           <h6 className="flex justify-start font-semibold mb-2 uppercase text-blue-600">
             Contact Us
           </h6>

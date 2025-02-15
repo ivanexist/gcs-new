@@ -73,7 +73,7 @@ const ProjectDetailsCard = () => {
         <h1 className="uppercase font-semibold text-blue-600">
           Project Description
         </h1>
-        <p className="py-2 text-gray-500">
+        <p className="py-2 text-masala-800">
           The ten-storey, 325,000 SF Krembil Discovery Centre provides the
           Toronto Western Hospital with a new research and rehabilitation
           facility. The Integrated Project Delivery contract included the base
@@ -81,7 +81,7 @@ const ProjectDetailsCard = () => {
           fit-up of two floors of the rehab solutions space, two floors of wet
           labs, a single floor vivarium and the associated interstitial floor
         </p>
-        <p className="py-2 text-gray-500">
+        <p className="py-2 text-masala-800">
           From November 2013 to April 2014, EllisDon was awarded an additional
           Lump Sum contract for $5 million. This additional scope of work
           included a lab fit- up on the fourth level of the Krembil Discovery

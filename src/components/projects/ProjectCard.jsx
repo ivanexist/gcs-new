@@ -22,11 +22,10 @@ const ProjectCard = ({ project, projectId }) => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         whileHover={{
-          // scale: 1.05,
           boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
         }}
         viewport={{ once: true, amount: 0.5 }}
-        className="bg-white shadow-lg overflow-hidden lg:my-4 rounded-lg lg:h-[372px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 lg:mx-0 md:mr-8 lg:mr-0"
+        className="bg-white shadow-lg overflow-hidden lg:my-4 lg:h-[372px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 lg:mx-0 md:mr-8 lg:mr-0"
       >
         <div className="h-full flex flex-col">
           <Link
@@ -34,11 +33,13 @@ const ProjectCard = ({ project, projectId }) => {
             to={`/projects/${project.project_id}`}
             onClick={scrollToTop}
           >
-            <img
-              className="w-full h-56 object-cover object-center hover:opacity-90"
-              src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
-              alt="avatar"
-            />
+            <div>
+              <img
+                className="w-full h-56 object-cover object-center hover:opacity-90 hover:scale-105 ease-in duration-150"
+                src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
+                alt="avatar"
+              />
+            </div>
           </Link>
 
           <div className="py-4 px-6 flex-1 flex flex-col justify-between">
@@ -51,7 +52,7 @@ const ProjectCard = ({ project, projectId }) => {
                 {project.project_name}
               </h1>
             </Link>
-            <div className="flex justify-between items-center text-gray-600 gap-4">
+            <div className="flex justify-between items-center text-masala-800 gap-4">
               <div className="flex items-center mt-4 ">
                 <svg
                   className="h-6 w-6 fill-current"
@@ -107,7 +108,7 @@ const ProjectCard = ({ project, projectId }) => {
                   {getServiceName(project.service_id)}
                 </h1>
               </div>
-              <div className="flex items-center mt-4 text-gray-600">
+              <div className="flex items-center mt-4 text-masala-800">
                 <svg
                   className="h-6 w-6"
                   version="1.0"

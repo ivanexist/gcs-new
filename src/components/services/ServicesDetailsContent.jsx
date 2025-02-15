@@ -47,21 +47,21 @@ const ServicesDetailsContent = () => {
                   />
                 </div>
                 <div className="pt-8 sm:px-2 lg:px-0 lg:pr-4">
-                  <h1 className="sm:mt-4 lg:mt-0 text-3xl border-b-2 border-b-atlantis-500 pb-4 font-bold text-blue-600 sm:text-center lg:text-left">
+                  <h1 className="sm:mt-4 lg:mt-0 text-3xl border-b-2 border-b-atlantis-500 pb-4 font-bold text-blue-600 sm:text-center lg:text-left font-PlayfairDisplay">
                     {getServiceName(selectedService.service_id)}
                   </h1>
-                  <p className="my-4 text-gray-500 font-roboto">
+                  <p className="my-4 text-lg leading-8 text-masala-800 font-openSans">
                     {selectedService.description[0].description_complete}
                   </p>
                 </div>
               </div>
             </div>
             <div className="py-4">
-              <h1 className="my-4 font-semibold text-blue-600 text-xl sm:text-center lg:text-left">
+              <h1 className="my-4 font-semibold text-blue-600 text-2xl sm:text-center lg:text-left font-PlayfairDisplay">
                 Perencanaan dan Desain
               </h1>
-              <p className="text-gray-500">
-                <ul className="list-disc mx-4 font-roboto">
+              <p className="text-masala-800">
+                <ul className="list-disc mx-4 font-openSans text-lg">
                   <li className="my-2">
                     Konsultasi mengenai desain struktural dan kebutuhan teknis
                     lainnya
@@ -77,11 +77,11 @@ const ServicesDetailsContent = () => {
               </p>
             </div>
             <div className="py-4">
-              <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-xl">
+              <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-2xl font-PlayfairDisplay">
                 Manajemen Proyek
               </h1>
-              <p className="text-gray-500">
-                <ul className="list-disc mx-4 font-roboto">
+              <p className="text-masala-800">
+                <ul className="list-disc mx-4 font-openSans text-lg">
                   <li className="my-2">
                     Penjadwalan proyek dan estimasi durasi pengerjaan
                   </li>
@@ -96,11 +96,11 @@ const ServicesDetailsContent = () => {
               </p>
             </div>
             <div className="py-4">
-              <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-xl">
+              <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-2xl font-PlayfairDisplay">
                 Evaluasi Kelayakan
               </h1>
-              <p className="text-gray-500">
-                <ul className="list-disc mx-4 font-roboto">
+              <p className="text-masala-800">
+                <ul className="list-disc mx-4 font-openSans text-lg">
                   <li className="my-2">
                     Kajian kelayakan proyek terkait dengan kondisi tanah, cuaca
                     dan aspek lingkungan
@@ -109,11 +109,11 @@ const ServicesDetailsContent = () => {
               </p>
             </div>
             <div className="py-4">
-              <h1 className="mb-4 font-semibold text-blue-600 text-xl sm:text-center lg:text-left">
+              <h1 className="mb-4 font-semibold text-blue-600 text-2xl sm:text-center lg:text-left font-PlayfairDisplay">
                 Biaya dan Anggaran
               </h1>
-              <p className="text-gray-500">
-                <ul className="list-disc mx-4 font-roboto">
+              <p className="text-masala-800">
+                <ul className="list-disc mx-4 font-openSans text-lg">
                   <li className="my-2">
                     Diskusi mengenai estimasi biaya konstruksi dan bagaimana
                     cara mengelola anggaran proyek secara efektif
@@ -125,7 +125,6 @@ const ServicesDetailsContent = () => {
                 </ul>
               </p>
             </div>
-            {/* <div className="col-span-2"></div> */}
           </div>
           <div className="flex justify-between items-start col-span-2 sm:mx-2 lg:mx-0 pb-4">
             {isMobile ? (
@@ -137,30 +136,35 @@ const ServicesDetailsContent = () => {
                 <Button className="w-full">Select Service</Button>
               </Dropdown>
             ) : (
-              <div className="ml-8 leading-6 bg-transparent border-2 shadow-md">
+              <div className="ml-8 leading-6 bg-transparent border-2 shadow">
                 <ul className="divide-y divide-blue-300">
                   {gcsData.Services.map((service) => (
-                    <li
+                    <Link
+                      to={`/services/${service.service_id}`}
                       key={service.service_id}
-                      className={`text-blue-500 hover:text-blue-600 ${
-                        selectedService?.service_id === service.service_id
-                          ? "text-blue-600 font-semibold text-base"
-                          : " "
-                      } hover:font-semibold py-4 px-8 `}
                     >
-                      <div className="flex">
-                        <ReactSVG
-                          className="w-8 h-8 group-hover:text-white text-blue-500 transition-colors duration-300"
-                          src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/${service.service_icon}`}
-                        />
-                        <Link
-                          to={`/services/${service.service_id}`}
-                          className="ml-4 mt-1"
-                        >
-                          {service.service_name}
-                        </Link>
-                      </div>
-                    </li>
+                      <li
+                        className={`text-blue-500 hover:text-white hover:bg-blue-500 hover:cursor-pointer hover:border-l-8 hover:border-l-atlantis-500 border-b border-b-blue-300 ${
+                          selectedService?.service_id === service.service_id
+                            ? "text-white bg-blue-500 font-semibold border-l-8 border-l-atlantis-500"
+                            : " "
+                        } hover:font-semibold py-6 px-8 text-lg group`}
+                      >
+                        <div className="flex">
+                          <ReactSVG
+                            className={`w-8 h-8 group-hover:text-white group-hover:cursor-pointer text-blue-500 transition-colors duration-300 ${
+                              selectedService?.service_id === service.service_id
+                                ? "text-white bg-blue-500 font-semibold"
+                                : " "
+                            }`}
+                            src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/${service.service_icon}`}
+                          />
+                          <span className="ml-4 mt-1">
+                            {service.service_name}
+                          </span>
+                        </div>
+                      </li>
+                    </Link>
                   ))}
                 </ul>
               </div>

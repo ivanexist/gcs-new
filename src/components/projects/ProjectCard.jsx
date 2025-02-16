@@ -25,7 +25,7 @@ const ProjectCard = ({ project, projectId }) => {
           boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
         }}
         viewport={{ once: true, amount: 0.5 }}
-        className="bg-white shadow-lg overflow-hidden lg:my-4 lg:h-[372px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 lg:mx-0 md:mr-8 lg:mr-0"
+        className="bg-white shadow-lg overflow-hidden lg:my-4 lg:h-[440px] lg:w-[412px] sm:h-full sm:w-full sm:mx-4 lg:mx-0 md:mr-8 lg:mr-0"
       >
         <div className="h-full flex flex-col">
           <Link
@@ -35,7 +35,7 @@ const ProjectCard = ({ project, projectId }) => {
           >
             <div>
               <img
-                className="w-full h-56 object-cover object-center hover:opacity-90 hover:scale-105 ease-in duration-150"
+                className="w-full h-72 object-cover object-center hover:opacity-90 hover:scale-105 ease-in duration-150"
                 src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${project.images[0]}`}
                 alt="avatar"
               />
@@ -48,7 +48,7 @@ const ProjectCard = ({ project, projectId }) => {
               to={`/projects/${project.project_id}`}
               onClick={scrollToTop}
             >
-              <h1 className="text-lg text-start font-semibold text-blue-600 hover:text-blue-500">
+              <h1 className="text-lg text-start font-bold text-blue-600 hover:text-blue-500 uppercase">
                 {project.project_name}
               </h1>
             </Link>

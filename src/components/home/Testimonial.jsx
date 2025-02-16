@@ -5,6 +5,49 @@ import "swiper/css/pagination";
 import { motion } from "framer-motion";
 import { Navigation, Pagination } from "swiper/modules";
 
+const clients = [
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg",
+    alt: "TNI AL",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pelindo_energi_log.jpg",
+    alt: "Pelindo Energi Logistik",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pt-terminal-teluk-lamong.jpg",
+    alt: "PT Terminal Teluk Lamong",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/peti_kemas_logo.jpg",
+    alt: "Terminal Peti Kemas Surabaya",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/lamong-energi-logo.jpg",
+    alt: "PT Lamong Energi Indonesia",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/BMS.png",
+    alt: "PT Berlian Manyar Sejahtera",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Disfaslanal.png",
+    alt: "Disfaslanal",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodiklatal.jpg",
+    alt: "Kodiklatal",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodikmar.png",
+    alt: "Kodikmar",
+  },
+  {
+    src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Lantamal V.png",
+    alt: "Lantamal V",
+  },
+];
+
 const Testimonial = () => {
   // Variants for the flipping animation
   const flipVariants = {
@@ -21,10 +64,10 @@ const Testimonial = () => {
   };
   return (
     <>
-      <section className="flex justify-center items-center ">
+      <section className="flex justify-center items-center">
         <div className="flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6 overflow-hidden lg:mb-12">
-          <div className="text-center text-4xl text-blue-600 font-bold sm:mb-8 lg:mb-12 mt-12 uppercase">
-            <p>Our Clients</p>
+          <div className="text-center text-4xl text-blue-600 font-bold sm:mb-8 lg:mb-12 mt-12 uppercase font-PlayfairDisplay">
+            <h1>Our Clients</h1>
           </div>
           <Swiper
             modules={[Navigation, Pagination]}
@@ -38,48 +81,7 @@ const Testimonial = () => {
               1024: { slidesPerView: 5, spaceBetween: 30 },
             }}
           >
-            {[
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/tni-al.jpg",
-                alt: "TNI AL",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pelindo_energi_log.jpg",
-                alt: "Pelindo Energi Logistik",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/pt-terminal-teluk-lamong.jpg",
-                alt: "PT Terminal Teluk Lamong",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/peti_kemas_logo.jpg",
-                alt: "Terminal Peti Kemas Surabaya",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/lamong-energi-logo.jpg",
-                alt: "PT Lamong Energi Indonesia",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/BMS.png",
-                alt: "PT Berlian Manyar Sejahtera",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Disfaslanal.png",
-                alt: "Disfaslanal",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodiklatal.jpg",
-                alt: "Kodiklatal",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Kodikmar.png",
-                alt: "Kodikmar",
-              },
-              {
-                src: "https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/clients/Lantamal V.png",
-                alt: "Lantamal V",
-              },
-            ].map((client, index) => (
+            {clients.map((client, index) => (
               <SwiperSlide
                 key={index}
                 className="flex justify-center items-center self-center pt-4 pb-16"

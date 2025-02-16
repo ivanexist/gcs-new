@@ -35,7 +35,7 @@ const ServicesDetailsContent = () => {
   return (
     <section className="flex items-center bg-gray-100">
       <div className="justify-center flex-1 max-w-7xl sm:py-4 lg:py-0 lg:mb-12 mx-auto">
-        <div className="grid sm:grid-cols-1 lg:grid-cols-7  sm:my-0 lg:my-2">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-7 sm:my-0 lg:my-2">
           <div className="col-span-5 ps-1">
             <div className="col-span-3">
               <div className="lg:flex sm:flex-col bg-gray-100">
@@ -47,7 +47,7 @@ const ServicesDetailsContent = () => {
                   />
                 </div>
                 <div className="pt-8 sm:px-2 lg:px-0 lg:pr-4">
-                  <h1 className="sm:mt-4 lg:mt-0 text-3xl border-b-2 border-b-atlantis-500 pb-4 font-bold text-blue-600 sm:text-center lg:text-left font-PlayfairDisplay">
+                  <h1 className="sm:mt-4 lg:mt-0 text-3xl border-b-2 border-b-atlantis-500 pb-4 mb-6 font-bold text-blue-600 sm:text-center lg:text-left font-PlayfairDisplay w-fit">
                     {getServiceName(selectedService.service_id)}
                   </h1>
                   <p className="my-4 text-lg leading-8 text-masala-800 font-openSans">

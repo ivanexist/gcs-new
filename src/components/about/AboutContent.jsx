@@ -7,15 +7,15 @@ const AboutContent = () => (
         </h1>
       </div>
       <div className="flex sm:flex-col-reverse md:flex-row md:justify-between font-openSans">
-        <div className="sm:w-full lg:w-1/2 lg:mb-0 px-4">
-          <p className="sm:mb-4 md:mb-0 text-lg lg:mr-4 text-masala-800">
+        <div className="sm:w-full lg:w-1/2 lg:mb-0 px-4 text-masala-800 text-lg">
+          <p className="sm:mb-4 md:mb-0  lg:mr-4 ">
             PT.Gemilang Cipta Sentosa adalah Perusahaan yang bergerak dalam
             bidang konstruksi Sipil Bangunan, Jetty/Dermaga, dan Pemasangan
             Instalasi Perpipaan (Pipa Air, Pipa Gas, dan Pipa Hydrant). Kami
             berdiri sejak tahun 2014 dan telah mengerjakan berbagai pekerjaan
             dari skala kecil hingga besar.
           </p>
-          <p className="sm:mb-4 md:mb-0 sm:my-0 md:my-4 text-lg text-masala-800">
+          <p className="sm:mb-4 md:mb-0 sm:my-0 md:my-4">
             Kami telah mengerjakan konstruksi diberbagai Instansi pemerintah
             maupun swasta, baik pada calon pelanggaan industri maupun komersil
             dan rumah tangga. Tenaga kerja kami merupakan tenaga yang terampil

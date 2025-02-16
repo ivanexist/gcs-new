@@ -83,10 +83,10 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
           <div className="grid lg:grid-cols-3 sm:grid-cols-1 sm:my-8 lg:my-16">
             <div className="col-span-2">
               <div className="sm:mr-0 lg:mr-16 sm:px-4">
-                <h1 className="text-2xl font-semibold text-blue-600 py-4 text-center uppercase">
-                  Project Description
+                <h1 className="font-semibold text-2xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center font-PlayfairDisplay mb-4 w-fit">
+                  {selectedProject.project_name}
                 </h1>
-                <div className="text-lg text-masala-800 text-left font-roboto">
+                <div className="text-lg text-masala-800 text-left font-openSans">
                   <p className="py-2">
                     {selectedProject.description[0].paragraph_1}
                   </p>
@@ -100,12 +100,12 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
               </div>
             </div>
             <div className="col-span-1 my-4">
-              <div className="">
-                <h1 className="font-semibold text-2xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center">
+              {/* <div className="">
+                <h1 className="font-semibold text-2xl border-b-2 border-b-atlantis-500 text-blue-600 pb-4 uppercase text-center font-PlayfairDisplay">
                   {selectedProject.project_name}
                 </h1>
-              </div>
-              <div className="container mx-auto my-4">
+              </div> */}
+              <div className="container mx-auto my-10">
                 <div className="flex flex-col gap-4 font-openSans text-lg">
                   {/* <!-- Table Header --> */}
 

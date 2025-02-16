@@ -22,7 +22,7 @@ export default function FeaturedProjects() {
           transition={{ duration: 0.5 }}
           className="flex justify-center items-center"
         >
-          <h1 className="font-bold text-center text-3xl text-blue-600 mb-8">
+          <h1 className="font-bold text-center text-3xl text-blue-600 mb-8 font-PlayfairDisplay">
             FEATURES PROJECTS
           </h1>
         </motion.div>

@@ -66,13 +66,11 @@ const Breadcrumb = () => {
   const breadcrumbs = useBreadcrumbs(routes);
   const location = useLocation();
 
-  const backgroundImages = {};
-  const backgroundImage = [];
   return (
     <section>
       <div className="mx-auto px-4 sm:py-16 lg:py-36 sm:px-6 justify-center sm:justify-center flex sm:h-16 lg:h-36 lg:px-8 bg-[linear-gradient(to_right,rgba(255,255,255,0.5),rgba(255,255,255,0.7)),url('https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?q=80&w=1479&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
         <nav
-          className="flex flex-col justify-center items-center max-w-screen-xl"
+          className="flex flex-col justify-center items-center max-w-screen-xl font-PlayfairDisplay"
           aria-label="Breadcrumb"
         >
           {/* Title page based on Breadcrumb */}
@@ -88,7 +86,7 @@ const Breadcrumb = () => {
       </div>
       <div className="max-w-screen-xl sm:mx-4 md:mx-8 lg:mx-10 my-6">
         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse ">
-          <li className="inline-flex items-center">
+          <li className="inline-flex items-center font-PlayfairDisplay">
             {/* Place code dynamic breadcrumb here */}
             {breadcrumbs.map(({ match, breadcrumb }) => (
               <Link
@@ -106,7 +104,7 @@ const Breadcrumb = () => {
                   </div>
                 ) : (
                   <div className="flex justify-center items-center">
-                    <FaAngleRight className="mr-2 mt-[4px]" />
+                    <FaAngleRight className="mr-2 mt-[2px]" />
                     {breadcrumb}
                   </div>
                 )}

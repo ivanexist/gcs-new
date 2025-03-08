@@ -23,7 +23,7 @@ const BestServiceCard = ({ service, serviceId, indexMotion }) => {
               src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/icon/${service.service_icon}`}
             />
           </div>
-          <h3 className="mt-12 text-xl font-bold text-atlantis-500 group-hover:text-white text-center uppercase font-PlayfairDisplay">
+          <h3 className="mt-12 text-xl font-bold text-malachite-600 group-hover:text-white text-center uppercase font-PlayfairDisplay">
             {service.service_name}
           </h3>
         </div>

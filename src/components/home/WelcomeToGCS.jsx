@@ -118,7 +118,7 @@ const WelcomeToGCS = () => {
                 <div
                   className={`p-4 flex rounded-lg shadow-sm text-lg font-PlayfairDisplay font-bold transition-colors duration-300 ${
                     activeKey.includes(item.key)
-                      ? "bg-blue-500 text-white border-r-atlantis-500 border-r-8"
+                      ? "bg-blue-500 text-white border-r-malachite-600 border-r-8"
                       : "bg-gray-200 text-blue-600"
                   }`}
                 >
@@ -132,7 +132,7 @@ const WelcomeToGCS = () => {
                 </div>
               }
             >
-              <p className="border border-atlantis-400 p-4 text-lg font-openSans">
+              <p className="border border-malachite-500 p-4 text-lg font-openSans">
                 {item.children}
               </p>
             </Collapse.Panel>

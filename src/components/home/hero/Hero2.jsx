@@ -51,7 +51,7 @@ const Hero2 = () => (
               }}
             >
               <div className="lg:w-1/3 cursor-pointer py-3 px-6 my-8 border-2 text-blumine-950 border-blumine-950 text-lg font-semibold  justify-center flex hover:text-white hover:bg-blumine-950 transition duration-300">
-                <Link to="/shop">
+                <Link to="/contact">
                   <p>Contact Us</p>
                 </Link>
               </div>

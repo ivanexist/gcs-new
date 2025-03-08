@@ -21,13 +21,13 @@ export default function Features() {
           className="flex flex-col sm:my-4 lg:my-0"
         >
           <div className="flex justify-center items-center">
-            <div className="sm:p-6 lg:p-8 bg-gray-100 transition ease-in-out duration-500 rounded-full hover:bg-atlantis-500 group">
+            <div className="sm:p-6 lg:p-8 bg-gray-100 transition ease-in-out duration-500 rounded-full hover:bg-malachite-600 group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
                 viewBox="0 0 24 24"
-                className="h-16 w-16 transition duration-300 text-atlantis-500 group-hover:text-white"
+                className="h-16 w-16 transition duration-300 text-malachite-600 group-hover:text-white"
               >
                 <path
                   fill="currentColor"
@@ -58,13 +58,13 @@ export default function Features() {
           className="flex flex-col sm:my-4 lg:my-0"
         >
           <div className="flex justify-center items-center">
-            <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
+            <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-malachite-600 group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
                 viewBox="0 0 24 24"
-                className="h-16 w-16 transition duration-300 text-atlantis-500 group-hover:text-white"
+                className="h-16 w-16 transition duration-300 text-malachite-600 group-hover:text-white"
               >
                 <path
                   fill="currentColor"
@@ -95,13 +95,13 @@ export default function Features() {
           className="flex flex-col sm:my-4 lg:my-0"
         >
           <div className="flex justify-center items-center">
-            <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-atlantis-500 group">
+            <div className="sm:p-6 lg:p-8 bg-gray-100 transition duration-300 rounded-full hover:bg-malachite-600 group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="1em"
                 height="1em"
                 viewBox="0 0 48 48"
-                className="h-16 w-16 transition duration-300 text-atlantis-500 group-hover:text-white"
+                className="h-16 w-16 transition duration-300 text-malachite-600 group-hover:text-white"
               >
                 <g fill="currentColor" fillRule="evenodd" clipRule="evenodd">
                   <path d="M30.492 17.142a1 1 0 0 1 1.213.698a8 8 0 1 1-15.41 0a1 1 0 0 1 1.213-.698c3.722.96 9.262.96 12.984 0M18.04 19.314a6 6 0 1 0 11.923 0c-3.617.73-8.307.73-11.923 0"></path>

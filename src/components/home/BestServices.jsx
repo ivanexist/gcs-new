@@ -33,7 +33,7 @@ export default function BestServices() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="font-medium my-4 mb-8 pb-2 text-blue-600 text-xl font-PlayfairDisplay border-b border-b-atlantis-500 w-fit text-center mx-auto">
+            <h1 className="font-medium my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-500 w-fit text-center mx-auto">
               BEST SERVICES
             </h1>
             <p className="font-bold my-4 mb-12 text-blue-600 text-4xl font-PlayfairDisplay">
@@ -54,7 +54,7 @@ export default function BestServices() {
           </motion.div>
           <div className="flex justify-center items-center my-12">
             <Link to="/services" onClick={scrollToTop}>
-              <button className="py-4 px-8 bg-atlantis-500 hover:bg-atlantis-400 text-white font-semibold text-xl rounded-lg">
+              <button className="py-4 px-8 bg-malachite-600 hover:bg-malachite-500 text-white font-semibold text-xl rounded-lg">
                 All Services
               </button>
             </Link>

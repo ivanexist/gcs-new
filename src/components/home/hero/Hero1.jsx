@@ -15,8 +15,9 @@ const Hero1 = () => (
       }}
     >
       <div className="grid sm:grid-cols-1 lg:grid-cols-4 gap-4 mx-auto max-w-screen-xl text-white h-screen">
-        <div className="sm:col-span-1 lg:col-span-2 sm:my-20 md:my-60 pr-2">
-          <div className="sm:mx-4 md:mx-0">
+        {/* <div className="sm:col-span-1 lg:col-span-2"></div> */}
+        <div className="sm:col-span-1 lg:col-span-2 sm:my-40 md:my-60 pr-2">
+          <div className="sm:mx-4 lg:mx-0">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -50,10 +51,12 @@ const Hero1 = () => (
                 duration: 1,
               }}
             >
-              <div className="lg:w-1/3 cursor-pointer py-3 px-6 my-8 border-2 text-blumine-950 border-blumine-950 text-lg font-semibold  justify-center flex hover:text-white hover:bg-blumine-950 transition duration-300">
-                <Link to="/shop">
-                  <p>Contact Us</p>
-                </Link>
+              <div className="flex justify-center items-center lg:justify-start lg:items-start lg:text-left">
+                <div className="flex w-1/3 cursor-pointer py-3 px-6 my-8 border-2 text-blumine-950 border-blumine-950 text-lg font-semibold  justify-center items-center  hover:text-white hover:bg-blumine-950 transition duration-300">
+                  <Link to="/contact">
+                    <p>Contact Us</p>
+                  </Link>
+                </div>
               </div>
             </motion.div>
           </div>

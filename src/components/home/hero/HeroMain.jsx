@@ -41,7 +41,7 @@ const HeroMain = () => {
     setCurrentIndex(swiper.realIndex);
   };
   return (
-    <div className="swiper-container relative">
+    <div className="swiper-container relative overflow-x-hidden h-screen">
       {/* <div className="flex justify-between absolute bg-transparent">
         <Navbar2 />
       </div> */}

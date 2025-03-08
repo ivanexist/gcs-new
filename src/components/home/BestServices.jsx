@@ -33,8 +33,11 @@ export default function BestServices() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <p className="font-bold my-4 mb-12 text-blue-600 text-3xl font-PlayfairDisplay">
+            <h1 className="font-medium my-4 mb-8 pb-2 text-blue-600 text-xl font-PlayfairDisplay border-b border-b-atlantis-500 w-fit text-center mx-auto">
               BEST SERVICES
+            </h1>
+            <p className="font-bold my-4 mb-12 text-blue-600 text-4xl font-PlayfairDisplay">
+              Build Your Dreams Constructing Excellence Foundation
             </p>
           </motion.div>
         </div>

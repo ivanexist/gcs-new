@@ -26,7 +26,7 @@ const ServiceCard = ({ service, serviceId, indexMotion }) => {
           <h3 className="mt-8 text-xl font-bold text-blue-600 group-hover:text-white uppercase font-PlayfairDisplay">
             {service.service_name}
           </h3>
-          <p className="mt-8 text-lg text-masala-800 group-hover:text-white text-left font-openSans">
+          <p className="mt-8 text-lg font-thin text-masala-600 group-hover:text-white text-left font-openSans">
             {service.description[0].description_overview}
           </p>
         </div>

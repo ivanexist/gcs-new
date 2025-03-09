@@ -47,7 +47,7 @@ const ServicesDetailsContent = () => {
                   />
                 </div>
                 <div className="pt-8 sm:px-2 lg:px-0 lg:pr-4">
-                  <h1 className="sm:mt-4 lg:mt-0 text-3xl border-b-2 border-b-atlantis-500 pb-4 mb-6 font-bold text-blue-600 sm:text-center lg:text-left font-PlayfairDisplay w-fit">
+                  <h1 className="sm:mt-4 lg:mt-0 text-2xl border-b-2 border-b-malachite-600 pb-4 mb-6 font-medium text-blue-600 sm:text-center lg:text-left font-PlayfairDisplay w-fit uppercase">
                     {getServiceName(selectedService.service_id)}
                   </h1>
                   <p className="my-4 text-lg leading-8 text-masala-800 font-openSans">
@@ -144,9 +144,9 @@ const ServicesDetailsContent = () => {
                       key={service.service_id}
                     >
                       <li
-                        className={`text-blue-500 hover:text-white hover:bg-blue-500 hover:cursor-pointer hover:border-l-8 hover:border-l-atlantis-500 border-b border-b-blue-300 ${
+                        className={`text-blue-500 hover:text-white hover:bg-blue-500 hover:cursor-pointer hover:border-l-8 hover:border-l-malachite-600 border-b border-b-blue-300 ${
                           selectedService?.service_id === service.service_id
-                            ? "text-white bg-blue-500 font-semibold border-l-8 border-l-atlantis-500"
+                            ? "text-white bg-blue-500 font-semibold border-l-8 border-l-malachite-600"
                             : " "
                         } hover:font-semibold py-6 px-8 text-lg group`}
                       >

@@ -41,7 +41,9 @@ const AboutContent = () => (
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:gap-8 mb-8 lg:mt-20 sm:px-2 md:px-0">
         <div className="flex flex-col p-2">
           <div className="font-PlayfairDisplay font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
-            Commitment
+            <h1 className="font-medium my-4 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
+              Commitment
+            </h1>
           </div>
           <div className="text-masala-800 font-openSans leading-7 text-lg">
             Seiring dengan program pemerintah tentang pembangunan
@@ -53,7 +55,9 @@ const AboutContent = () => (
         </div>
         <div className="flex flex-col p-2 mx-2">
           <div className="font-semibold text-2xl my-4 font-PlayfairDisplay text-blue-600 uppercase flex justify-center items-center">
-            Our Mission
+            <h1 className="font-medium my-4 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
+              Our Mission
+            </h1>
           </div>
           <div className="text-masala-800 text-lg">
             <ul className="list-disc font-openSans leading-7">
@@ -74,7 +78,9 @@ const AboutContent = () => (
         </div>
         <div className="flex flex-col p-2">
           <div className="font-PlayfairDisplay font-semibold text-2xl my-4 text-blue-600 uppercase text-center">
-            Our Vision
+            <h1 className="font-medium my-4 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
+              Our Vision
+            </h1>
           </div>
           <div className="text-masala-800 font-openSans leading-7 text-lg">
             Menjadi Perusahaan Konstruksi Terkemuka dan Professional di Jawa

@@ -106,8 +106,8 @@ const WelcomeToGCS = () => {
   return (
     <div className="grid sm:grid-cols-1 lg:grid-cols-5 sm:mb-6 lg:mb-20 bg-gray-100 sm:mt-4 lg:mt-16">
       <div className="w-[480px] text-left lg:col-span-2">
-        <h1 className="text-3xl font-PlayfairDisplay font-bold text-center uppercase sm:mt-4 sm:mb-4 lg:mb-8 pb-4 text-blue-600">
-          CORE VALUE
+        <h1 className="font-semibold my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
+          Core Values
         </h1>
         <Collapse activeKey={activeKey} onChange={handleChange} ghost accordion>
           {items.map((item) => (
@@ -132,7 +132,7 @@ const WelcomeToGCS = () => {
                 </div>
               }
             >
-              <p className="border border-malachite-500 p-4 text-lg font-openSans">
+              <p className="border border-malachite-600 p-4 text-lg font-openSans">
                 {item.children}
               </p>
             </Collapse.Panel>
@@ -141,14 +141,6 @@ const WelcomeToGCS = () => {
       </div>
 
       <div className="relative sm:w-full sm:h-full flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mx-auto overflow-hidden lg:col-span-3">
-        <svg
-          className="absolute left-0 hidden opacity-20 text-white transform lg:block z-10"
-          viewBox="0 0 100 100"
-          fill="currentColor"
-          preserveAspectRatio="none slice"
-        >
-          <path d="M50 0H100L50 100H0L50 0Z" />
-        </svg>
         <img
           className="relative sm:p-4 sm:hidden lg:block"
           src="https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/gcs.jpg"

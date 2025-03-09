@@ -78,7 +78,7 @@ const ProjectCard = ({ project, projectId }) => {
                     ></path>{" "}
                     <path
                       d="M5 22H7C9 22 10 21 10 19V17C10 15 9 14 7 14H5C3 14 2 15 2 17V19C2 21 3 22 5 22Z"
-                      stroke="#7edf1d"
+                      stroke="#00cc00"
                       strokeWidth="1.5"
                       strokeMiterlimit="10"
                       strokeLinecap="round"
@@ -87,7 +87,7 @@ const ProjectCard = ({ project, projectId }) => {
                     <path
                       opacity="0.34"
                       d="M6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
-                      stroke="#7edf1d"
+                      stroke="#00cc00"
                       strokeWidth="1.5"
                       strokeMiterlimit="10"
                       strokeLinecap="round"
@@ -96,7 +96,7 @@ const ProjectCard = ({ project, projectId }) => {
                     <path
                       opacity="0.34"
                       d="M18 22C20.2091 22 22 20.2091 22 18C22 15.7909 20.2091 14 18 14C15.7909 14 14 15.7909 14 18C14 20.2091 15.7909 22 18 22Z"
-                      stroke="#7edf1d"
+                      stroke="#00cc00"
                       strokeWidth="1.5"
                       strokeMiterlimit="10"
                       strokeLinecap="round"
@@ -129,7 +129,7 @@ const ProjectCard = ({ project, projectId }) => {
                   <g id="SVGRepo_iconCarrier">
                     {" "}
                     <path
-                      fill="#7edf1d"
+                      fill="#00cc00"
                       d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"
                     ></path>{" "}
                   </g>

@@ -66,8 +66,14 @@ const Testimonial = () => {
     <>
       <section className="flex justify-center items-center">
         <div className="flex-1 max-w-7xl py-4 mx-auto lg:py-6 md:px-6 overflow-hidden lg:mb-12">
-          <div className="text-center text-4xl text-blue-600 font-bold sm:mb-8 lg:mb-12 mt-12 uppercase font-PlayfairDisplay">
-            <h1>Our Clients</h1>
+          <div className="text-center text-4xl text-blue-600 font-bold sm:mb-8 lg:mb-12 mt-12 font-PlayfairDisplay">
+            <h1 className="font-medium my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
+              Our Clients
+            </h1>
+            {/* <p className="font-bold my-4 mb-12 text-blue-700 text-4xl font-PlayfairDisplay">
+              Trusted by residential, commercial, and industrial clients for
+              quality construction
+            </p> */}
           </div>
           <Swiper
             modules={[Navigation, Pagination]}

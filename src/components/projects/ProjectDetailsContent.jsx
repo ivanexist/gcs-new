@@ -44,10 +44,10 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
     <section className="flex items-center bg-inherit">
       <div className="max-w-screen-xl mx-auto">
         <div className="justify-center flex-1 w-screen max-w-7xl mx-auto">
-          <div className="grid grid-cols-4">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
             <div className="col-span-1">
               {/* Thumbnail Selector */}
-              <div className="flex flex-col overflow-x-auto sm:w-96 md:w-full space-y-1 mr-4">
+              <div className="lg:col-span-1 hidden lg:flex flex-col overflow-x-auto sm:w-96 md:w-full space-y-1 mr-4">
                 {selectedProject.images.map((image, index) => (
                   <button
                     key={index}
@@ -69,7 +69,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
               </div>
             </div>
             {/* Main Slideshow Image */}
-            <div className="col-span-3">
+            <div className="lg:col-span-3 relative">
               <div className="relative sm:h-80 md:h-[500px] lg:h-[800px] px-1 overflow-hidden">
                 <img
                   src={`https://raw.githubusercontent.com/ivanexist/gcs-new/refs/heads/master/public/images/${selectedProject.images[currentIndex]}`}

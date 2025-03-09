@@ -22,7 +22,9 @@ const RelatedProjects = ({ selectedProject }) => {
       <div className="text-center font-bold text-lg uppercase text-blue-600">
         {/* {console.log(filterRelatedProductCard.length)} */}
         {filterRelatedProductCard.length > 0 ? (
-          <h1 className="text-2xl mb-4">Related Projects</h1>
+          <h1 className="font-medium my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
+            Related Projects
+          </h1>
         ) : (
           ""
         )}

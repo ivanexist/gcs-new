@@ -42,14 +42,14 @@ export default function BestServices() {
               whileInView="visibleY"
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="font-bold my-4 mb-12 text-blue-700 text-4xl font-PlayfairDisplay"
+              className="font-bold my-4 mb-12 text-blue-700 sm:text-2xl lg:text-4xl font-PlayfairDisplay"
             >
               Build Your Dreams Constructing Excellence Foundation
             </motion.p>
           </motion.div>
         </div>
         <div>
-          <motion.div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <motion.div className="grid sm:grid-cols-1 sm:place-items-center md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Best Quality */}
             {ArraySlice3.slice(0, 3).map((service) => (
               <BestServiceCard

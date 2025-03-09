@@ -56,7 +56,7 @@ const ServicesDetailsContent = () => {
                 </div>
               </div>
             </div>
-            <div className="py-4">
+            <div className="py-4 sm:mx-2 md:mx-0">
               <h1 className="my-4 font-semibold text-blue-600 text-2xl sm:text-center lg:text-left font-PlayfairDisplay">
                 Perencanaan dan Desain
               </h1>
@@ -76,7 +76,7 @@ const ServicesDetailsContent = () => {
                 </ul>
               </p>
             </div>
-            <div className="py-4">
+            <div className="py-4 sm:mx-2 md:mx-0">
               <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-2xl font-PlayfairDisplay">
                 Manajemen Proyek
               </h1>
@@ -95,7 +95,7 @@ const ServicesDetailsContent = () => {
                 </ul>
               </p>
             </div>
-            <div className="py-4">
+            <div className="py-4 sm:mx-2 md:mx-0">
               <h1 className="mb-4 font-semibold sm:text-center lg:text-left text-blue-600 text-2xl font-PlayfairDisplay">
                 Evaluasi Kelayakan
               </h1>
@@ -108,7 +108,7 @@ const ServicesDetailsContent = () => {
                 </ul>
               </p>
             </div>
-            <div className="py-4">
+            <div className="py-4 sm:mx-2 md:mx-0">
               <h1 className="mb-4 font-semibold text-blue-600 text-2xl sm:text-center lg:text-left font-PlayfairDisplay">
                 Biaya dan Anggaran
               </h1>

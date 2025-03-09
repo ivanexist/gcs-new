@@ -19,7 +19,7 @@ const ServicesContent = () => {
           <h1 className="font-medium my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto">
             OUR SERVICES
           </h1>
-          <p className="font-bold my-4 mb-12 text-blue-700 text-4xl font-PlayfairDisplay">
+          <p className="font-bold my-4 mb-12 text-blue-700 sm:text-2xl lg:text-4xl font-PlayfairDisplay">
             Build Your Dreams Constructing Excellence Foundation
           </p>
         </motion.div>

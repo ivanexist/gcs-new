@@ -105,7 +105,7 @@ const WelcomeToGCS = () => {
   };
   return (
     <div className="grid sm:grid-cols-1 lg:grid-cols-5 sm:mb-6 lg:mb-20 bg-gray-100 sm:mt-4 lg:mt-16">
-      <div className="w-[480px] text-left lg:col-span-2">
+      <div className="w-full max-w-[480px] text-left lg:col-span-2">
         <h1 className="font-semibold my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
           Core Values
         </h1>

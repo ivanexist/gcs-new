@@ -1,7 +1,7 @@
 // import { FaBookOpen } from "react-icons/fa";
 
 const Footer = () => (
-  <footer className="text-center text-gray-950  lg:text-left border-t-2 border-t-blue-100 pb-8">
+  <footer className="text-center text-gray-950  lg:text-left border-t border-t-blue-500 pb-8">
     {/* Main container div: holds the entire content of the footer, including four sections (TW ELements, Products, Useful, links, and COntact), with responsive styling and appropriate padding/margins */}
     <div className="mx-6 pt-10 text-center md:text-left">
       <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">

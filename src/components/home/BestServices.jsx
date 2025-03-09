@@ -36,9 +36,16 @@ export default function BestServices() {
             <h1 className="font-medium my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto">
               BEST SERVICES
             </h1>
-            <p className="font-bold my-4 mb-12 text-blue-700 text-4xl font-PlayfairDisplay">
+            <motion.p
+              variants={variantY}
+              initial="hiddenY"
+              whileInView="visibleY"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="font-bold my-4 mb-12 text-blue-700 text-4xl font-PlayfairDisplay"
+            >
               Build Your Dreams Constructing Excellence Foundation
-            </p>
+            </motion.p>
           </motion.div>
         </div>
         <div>

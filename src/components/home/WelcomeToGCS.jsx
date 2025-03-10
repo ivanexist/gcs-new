@@ -1,8 +1,4 @@
-import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
-import { GCSContext } from "../../context/GCSContext";
-import { motion } from "framer-motion";
-import { div } from "framer-motion/client";
+import { useState } from "react";
 import { Collapse } from "antd";
 import { ReactSVG } from "react-svg";
 

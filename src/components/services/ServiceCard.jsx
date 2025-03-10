@@ -15,7 +15,7 @@ const ServiceCard = ({ service, serviceId, indexMotion }) => {
         viewport={{ once: true, amount: 0.5 }}
         className="rounded-lg bg-white hover:bg-blue-500 hover:shadow-xl lg:m-2 p-4 relative z-10 group sm:mx-4 w-96 h-[30rem] mb-4"
       >
-        <div className=" absolute bg-blue-500/50 top-0 left-0 w-24 h-1 z-20 transition-all duration-200 group-hover:bg-white group-hover:w-1/2"></div>
+        <div className="absolute bg-blue-500/50 top-0 left-0 w-24 h-1 z-20 transition-all duration-200 group-hover:bg-white group-hover:w-1/2"></div>
         <div className="py-2 sm:px-4 lg:px-8 relative group">
           <div className="sm:flex sm:justify-center sm:items-center my-2 mt-6">
             <ReactSVG

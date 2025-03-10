@@ -42,8 +42,8 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
   };
   return (
     <section className="flex items-center bg-inherit">
-      <div className="max-w-screen-xl mx-auto">
-        <div className="justify-center flex-1 w-screen max-w-7xl mx-auto overflow-x-hidden">
+      <div className="max-w-screen-xl mx-auto w-screen">
+        <div className="justify-center flex-1  max-w-7xl mx-auto overflow-x-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
             <div className="col-span-1">
               {/* Thumbnail Selector */}

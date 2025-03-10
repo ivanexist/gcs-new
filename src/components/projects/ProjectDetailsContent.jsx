@@ -43,7 +43,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
   return (
     <section className="flex items-center bg-inherit">
       <div className="max-w-screen-xl mx-auto">
-        <div className="justify-center flex-1 w-screen max-w-7xl mx-auto">
+        <div className="justify-center flex-1 w-screen max-w-7xl mx-auto overflow-x-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
             <div className="col-span-1">
               {/* Thumbnail Selector */}
@@ -105,7 +105,7 @@ const ProjectsDetailsContent = ({ selectedProject, selectedProjectId }) => {
                   {selectedProject.project_name}
                 </h1>
               </div> */}
-              <div className="container mx-auto my-10">
+              <div className="container sm:mx-4 lg:mx-auto my-10">
                 <div className="flex flex-col gap-4 font-openSans text-lg">
                   {/* <!-- Table Header --> */}
 

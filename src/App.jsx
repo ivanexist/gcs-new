@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 // import Navbar1 from "./components/Navbar1";
-import Navbar2 from "./components/Navbar2";
 import Routers from "./Routers";
 import GCSProvider from "./context/GCSContext";
 import Index1 from "./json/Index";

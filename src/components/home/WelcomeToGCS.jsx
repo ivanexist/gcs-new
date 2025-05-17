@@ -102,7 +102,7 @@ const WelcomeToGCS = () => {
   return (
     <div className="grid sm:grid-cols-1 lg:grid-cols-5 sm:mb-6 lg:mb-20 bg-gray-100 sm:mt-4 lg:mt-16">
       <div className="w-full max-w-[480px] text-left lg:col-span-2 sm:place-items-center">
-        <h1 className="font-semibold my-4 mb-8 pb-2 text-blue-600 text-2xl font-PlayfairDisplay border-b border-b-malachite-600 w-fit text-center mx-auto uppercase">
+        <h1 className="font-semibold my-4 mb-8 pb-2 text-blue-600 text-4xl font-PlayfairDisplay  w-fit text-center mx-auto uppercase">
           Core Values
         </h1>
         <Collapse activeKey={activeKey} onChange={handleChange} ghost accordion>
@@ -112,7 +112,7 @@ const WelcomeToGCS = () => {
               showArrow={false}
               header={
                 <div
-                  className={`p-4 flex rounded-lg shadow-sm text-lg font-PlayfairDisplay font-bold transition-colors duration-300 ${
+                  className={`p-4 flex rounded-lg shadow-sm text-lg font-PlayfairDisplay font-bold transition-colors duration-300 w-full ${
                     activeKey.includes(item.key)
                       ? "bg-blue-500 text-white border-r-malachite-600 border-r-8"
                       : "bg-gray-200 text-blue-600"

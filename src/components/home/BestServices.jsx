@@ -7,17 +7,9 @@ import ServiceCard from "../services/ServiceCard";
 import BestServiceCard from "../services/BestServiceCard";
 
 export default function BestServices() {
-  const variantX = {
-    hiddenX: { x: 100, opacity: 0 },
-    visibleX: { x: 0, opacity: 1 },
-  };
   const variantY = {
     hiddenY: { y: 100, opacity: 0 },
     visibleY: { y: 0, opacity: 1 },
-  };
-  const variant = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
   };
   const { scrollToTop, gcsData } = useContext(GCSContext);
   const ArraySlice3 = gcsData.Services || [];
